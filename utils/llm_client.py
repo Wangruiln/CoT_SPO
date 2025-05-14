@@ -20,10 +20,11 @@ class SPO_LLM:
         optimize_kwargs: Optional[dict] = None,
         evaluate_kwargs: Optional[dict] = None,
         execute_kwargs: Optional[dict] = None,
+        mode: str = "base_model"
     ) -> None:
         self.evaluate_llm = AsyncLLM(config=self._load_llm_config(evaluate_kwargs))
         self.optimize_llm = AsyncLLM(config=self._load_llm_config(optimize_kwargs))
-        self.execute_llm = AsyncLLM(config=self._load_llm_config(execute_kwargs))
+        self.execute_llm = AsyncLLM(config=self._load_llm_config(execute_kwargs), mode = mode)
 
     def _load_llm_config(self, kwargs: dict) -> Any:
         model = kwargs.get("model")
@@ -63,9 +64,9 @@ class SPO_LLM:
         return response
 
     @classmethod
-    def initialize(cls, optimize_kwargs: dict, evaluate_kwargs: dict, execute_kwargs: dict) -> None:
+    def initialize(cls, optimize_kwargs: dict, evaluate_kwargs: dict, execute_kwargs: dict, mode: str) -> None:
         """Initialize the global instance"""
-        cls._instance = cls(optimize_kwargs, evaluate_kwargs, execute_kwargs)
+        cls._instance = cls(optimize_kwargs, evaluate_kwargs, execute_kwargs, mode)
 
     @classmethod
     def get_instance(cls) -> "SPO_LLM":

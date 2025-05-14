@@ -97,6 +97,10 @@ class ModelPricing:
         "gpt-4o-mini": {"input": 0.00015, "output": 0.0006},
         "gpt-4o-mini-2024-07-18": {"input": 0.00015, "output": 0.0006},
         "claude-3-5-sonnet": {"input": 0.003, "output": 0.015},
+        "claude-3-7-sonnet": {"input": 0.003, "output": 0.015},
+        "deepseek-reasoner": {"input": 0.00055, "output": 0.00219}, 
+        "o3-mini": {"input": 0.0011, "output": 0.0044}
+
     }
 
     @classmethod
@@ -164,7 +168,7 @@ class TokenUsageTracker:
 
 
 class AsyncLLM:
-    def __init__(self, config, system_msg: str = None):
+    def __init__(self, config, system_msg: str = None, mode: str = "base_model"):
         """
         Initialize the AsyncLLM with a configuration
 
@@ -172,6 +176,7 @@ class AsyncLLM:
             config: Either an LLMConfig instance or a string representing the LLM name
                    If a string is provided, it will be looked up in the default configuration
             system_msg: Optional system message to include in all prompts
+            mode: "base_model" or "reasoning_model" for different model behaviors
         """
         # Handle the case where config is a string (LLM name)
         if isinstance(config, str):
@@ -183,6 +188,8 @@ class AsyncLLM:
         self.aclient = AsyncOpenAI(api_key=self.config.key, base_url=self.config.base_url)
         self.sys_msg = system_msg
         self.usage_tracker = TokenUsageTracker()
+        self.mode = mode
+        
 
     async def __call__(self, messages):
 
@@ -204,7 +211,16 @@ class AsyncLLM:
             output_tokens
         )
 
-        ret = response.choices[0].message.content
+        if self.mode == "reasoning_model":
+            try:
+                response.choices[0].message.reasoning_content
+                ret = f"Thought:\n{response.choices[0].message.reasoning_content}\n Answer:\n{response.choices[0].message.content}"
+                print(ret)
+            except AttributeError:
+                print("The 'reasoning content' field is missing from the model. Please check the parameters.")
+                ret = response.choices[0].message.content
+        elif self.mode == "base_model":
+            ret = response.choices[0].message.content
 
         # You can optionally print token usage information
         print(f"Token usage: {input_tokens} input + {output_tokens} output = {input_tokens + output_tokens} total")
