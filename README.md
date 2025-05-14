@@ -50,7 +50,7 @@ A next-generation prompt engineering system implementing **Self-Supervised Promp
 Configure LLM parameters in `config/config2.yaml` (see `examples/spo/config2.example.yaml` for reference)
 ### 2. Define Your Iteration template 📝
 
-Create a Iteration template file `metagpt/ext/spo/settings/task_name.yaml`:
+Create a Iteration template file `settings/task_name.yaml`:
 ```yaml
 prompt: |
   Please solve the following problem.
@@ -78,7 +78,7 @@ Notes:
 - `count`: Target word count for the generated prompt (e.g., 50). Set to None for no limit
 - `faq`: QA pairs used for iteration, can include appropriate number of pairs (typically 3)
   - `question`: Questions from the dataset used for iteration
-  - `answer`: Corresponding answers. Can contain desired thinking patterns or responses instead of actual answers, or can be left empty. See `metagpt/ext/spo/settings/Navigate.yaml` for reference
+  - `answer`: Corresponding answers. Can contain desired thinking patterns or responses instead of actual answers, or can be left empty. See `settings/Navigate.yaml` for reference
 
 ### 3. Implement the PromptOptimizer 🔧
 
@@ -113,7 +113,7 @@ if __name__ == "__main__":
 #### Option 2: Command Line Interface
 
 ```bash
-python -m examples.spo.optimize
+python -m optimize
 ```
 
 Available command line options:
@@ -133,7 +133,7 @@ Available command line options:
 
 For help:
 ```bash
-python -m examples.spo.optimize --help
+python -m optimize --help
 ```
 
 #### Option 3: Streamlit Web Interface
@@ -147,7 +147,7 @@ pip install "streamlit~=1.42.0"
 
 Then run the web interface:
 ```bash 
-python -m streamlit run metagpt/ext/spo/app.py
+python -m streamlit run app.py
 ```
 
 ### 4. View Results
