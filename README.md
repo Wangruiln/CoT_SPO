@@ -95,7 +95,8 @@ if __name__ == "__main__":
   SPO_LLM.initialize(
     optimize_kwargs={"model": "claude-3-5-sonnet-20240620", "temperature": 0.7},
     evaluate_kwargs={"model": "gpt-4o-mini", "temperature": 0.3},
-    execute_kwargs={"model": "gpt-4o-mini", "temperature": 0}
+    execute_kwargs={"model": "gpt-4o-mini", "temperature": 0},
+    mode = "base_model"
   )
 
   # Create and run optimizer
@@ -129,6 +130,7 @@ Available command line options:
 --max-rounds        Maximum number of rounds (default: 10)
 --template          Template file name (default: Poem.yaml)
 --name              Project name (default: Poem)
+--mode              Execution model mode: base_model or reasoning_model (default: base_model)
 ```
 
 For help:
@@ -174,6 +176,44 @@ workspace
 - `results.json`: Stores whether each iteration round was judged successful and other related information
 - `prompt.txt`: The optimized prompt for the corresponding round
 - `answers.txt`: The output results generated using the prompt for the corresponding round
+
+### 4. About Reasoning Model
+You can control the execution model's output mode via the `--mode` parameter (or `mode` argument in Python):
+
+- `base_model`: Only returns the model's main content.
+- `reasoning_model`: If the model supports it, returns both the reasoning process (`reasoning_content`) and the main content. 
+
+**Example:**
+
+```bash
+python -m optimize --mode reasoning_model
+```
+
+Or in Python:
+
+```python
+SPO_LLM.initialize(
+    ...,
+    mode="reasoning_model"
+)
+```
+### our exploration : SPO and Reasoning Models
+
+We investigated how Self-Supervised Prompt Optimization (SPO) impacts different types of Large Language Models, particularly focusing on advanced Reasoning Models versus more general Base Models. Our key findings include:
+
+* Output Refinement vs. Core Logic Change (Reasoning Models): For sophisticated Reasoning Models, SPO excels at refining output structure, style, and adherence to specific formats (e.g., successful in role-playing, MT-Bench formatting). However, it does not fundamentally alter their core "thought paths" or internal reasoning logic. Even with highly structured prompts, the underlying problem-solving approach of these models remains largely consistent.
+
+* Limited Impact on Inherent Reasoning Flaws (Reasoning Models): SPO showed limited ability to correct inherent logical errors or fill knowledge gaps in Reasoning Models for complex tasks like advanced mathematical reasoning (MATH) or deep knowledge QA 
+(GPQA). If a model inherently struggled with a concept, SPO couldn't typically "teach" it to solve the problem correctly.
+
+* Guiding Reasoning (Base Models): In contrast, for Base Models, SPO appears more effective in guiding the actual reasoning process, helping them construct more structured and accurate responses by providing clearer paths.
+
+* Differential Mechanism: This suggests SPO acts more as an "output customizer" and "constraint enforcer" for already capable Reasoning Models, whereas for Base Models, it can serve as a more direct "reasoning guide."
+
+In essence: While SPO is a powerful tool for prompt optimization, its primary benefits and operational mechanisms differ based on the target LLM's existing reasoning capabilities. For Reasoning Models, SPO is highly effective for output control and customization, but less so for fundamentally enhancing their core logical problem-solving abilities if those abilities are already limited.
+(For detailed experimental setups, specific prompt examples, and full result tables, please refer to our [full research notes link - https://bcniea0qxkrv.feishu.cn/wiki/K2lMwya6diDy7ek94ZRcqxa8nsb?from=from_copylink]).
+
+For more details or to discuss further, feel free to reach out [@Rubbisheep](https://github.com/Rubbisheep).
 
 ## Citation
 

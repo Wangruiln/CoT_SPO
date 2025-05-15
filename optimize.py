@@ -21,7 +21,7 @@ def parse_args():
     parser.add_argument("--max-rounds", type=int, default=10, help="Maximum number of rounds")
     parser.add_argument("--template", type=str, default="Poem.yaml", help="Template file name")
     parser.add_argument("--name", type=str, default="Poem", help="Project name")
-
+    parser.add_argument("--mode", type = str, default= "base_model", help="Execution model mode")
     return parser.parse_args()
 
 
@@ -32,6 +32,7 @@ def main():
         optimize_kwargs={"model": args.opt_model, "temperature": args.opt_temp},
         evaluate_kwargs={"model": args.eval_model, "temperature": args.eval_temp},
         execute_kwargs={"model": args.exec_model, "temperature": args.exec_temp},
+        mode = args.mode
     )
 
     optimizer = PromptOptimizer(
@@ -40,6 +41,7 @@ def main():
         max_rounds=args.max_rounds,
         template=args.template,
         name=args.name,
+
     )
 
     optimizer.optimize()
