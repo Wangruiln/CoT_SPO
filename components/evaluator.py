@@ -60,7 +60,10 @@ class QuickEvaluate:
             {
                 "role": "user",
                 "content": EVALUATE_PROMPT.format(
-                    requirement=requirement, sample=samples, new_sample=new_samples, answers=str(qa)
+                    requirement=requirement,
+                    answers=samples.get("answers"),
+                    new_answers=new_samples.get("answers"),
+                    ground_truth=str(qa),
                 ),
             }
         ]

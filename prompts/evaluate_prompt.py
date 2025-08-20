@@ -5,13 +5,13 @@ Based on the original requirements, evaluate the two responses, A and B, and det
 {requirement}
 
 # A
-{sample}
+{answers}
 
 # B
-{new_sample}
+{new_answers}
 
 # Golden answer
-{answers}
+{ground_truth}
 
 Provide your analysis and the choice you believe is better, using XML tags to encapsulate your response.
 
