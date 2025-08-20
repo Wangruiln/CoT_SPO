@@ -42,6 +42,6 @@ def load_meta_data(k: int = SAMPLE_K):
     else:
         count = ""
 
-    random_qa = qa[:min(k, len(qa))]
+    final_qa = qa[:min(k, len(qa))]
 
-    return prompt, requirements, random_qa, count
+    return prompt, requirements, final_qa, count
