@@ -55,9 +55,18 @@ class EvaluationUtils:
 
             logger.info(f"Evaluation Results {evaluation_results}")
 
+            # Count the number of various results
             true_count = evaluation_results.count(True)
             false_count = evaluation_results.count(False)
-            succeed = true_count > false_count
+            none_count = evaluation_results.count(None)
+            
+            # If most evaluations are neutral, maintain current state (no upgrade or downgrade)
+            if none_count > max(true_count, false_count):
+                logger.info(f"Most evaluation results are neutral({none_count}/{len(evaluation_results)}), maintaining current state")
+                succeed = True  # Maintain current state, equivalent to no upgrade or downgrade
+            else:
+                # Otherwise follow the original logic: more True means success
+                succeed = true_count > false_count
 
         new_data = optimizer.data_utils.create_result_data(
             new_samples["round"], new_samples["answers"], new_samples["prompt"], succeed, new_token
