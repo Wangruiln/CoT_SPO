@@ -4,7 +4,7 @@
 # @Desc    : Evaluation for different datasets
 import asyncio
 import random
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 from prompts.evaluate_prompt import EVALUATE_PROMPT
 from utils import load
@@ -47,7 +47,14 @@ class QuickEvaluate:
     def __init__(self):
         self.llm = SPO_LLM.get_instance()
 
-    async def prompt_evaluate(self, samples: dict, new_samples: dict) -> bool:
+    async def prompt_evaluate(self, samples: dict, new_samples: dict) -> Optional[bool]:
+        """
+        Evaluate two samples and return the evaluation result
+        Returns:
+            True: First sample is better
+            False: Second sample is better  
+            None: Neutral/Unable to judge/Evaluation failed
+        """
         _, requirement, qa, _ = load.load_meta_data()
 
         if random.random() < 0.5:
@@ -71,8 +78,25 @@ class QuickEvaluate:
         try:
             response = await self.llm.responser(request_type=RequestType.EVALUATE, messages=messages)
             choose = extract_content(response, "choose")
-            return choose == "A" if is_swapped else choose == "B"
+            
+            # Check if choose is a valid value
+            if choose is None:
+                logger.warning("Unable to extract choose tag from LLM response")
+                return None
+            
+            # Normalize choose value, remove spaces and convert to uppercase
+            choose = choose.strip().upper()
+            
+            # Check if it's A or B
+            if choose == "A":
+                return True if not is_swapped else False
+            elif choose == "B":
+                return False if not is_swapped else True
+            else:
+                # Neither A nor B, return neutral value
+                logger.info(f"LLM returned non-A/B choice: '{choose}', returning neutral value")
+                return None
 
         except Exception as e:
-            logger.error(e)
-            return False
+            logger.error(f"Error occurred during evaluation: {e}")
+            return None
