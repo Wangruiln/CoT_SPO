@@ -20,6 +20,7 @@ app = FastAPI(
 
 class ArticleInput(BaseModel):
     text: str  # 待分析的文章文本
+    extra: Optional[str] = None  
 
 
 class StyleFeatureOutput(BaseModel):
@@ -53,9 +54,9 @@ async def extract_style(input_data: ArticleInput):
                 "CoT": None,
                 "prompt": None
             }
-
+        extra = input_data.extra if input_data.extra else None
         # 调用现有模块的分析方法
-        result = await extractor.analyze_article(input_data.text,local_save=False)
+        result = await extractor.analyze_article(input_data.text, extra, local_save=False)
         result = result["style_features"]
         if not result:
             # 分析失败时返回错误码和信息

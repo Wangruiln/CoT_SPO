@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from typing import Dict, List
+from typing import Dict, List,Optional
 from loguru import logger
 from utils.llm_client import SPO_LLM, RequestType, extract_content
 from .utils import ArticleReader
@@ -30,7 +30,7 @@ class ArticleStyleExtractor:
         self.merged_output_dir.mkdir(parents=True, exist_ok=True)
 
     # 修改单篇分析方法，按原文件名保存
-    async def analyze_article(self, input_source: str, local_save: bool = True) -> Dict[str, any]:
+    async def analyze_article(self, input_source: str, extra: Optional[str] = None, local_save: bool = True) -> Dict[str, any]: 
         """
         核心入口：分析文章，输出文风特征、事实信息、QA对
         :param input_source: 纯文本或文章文件路径
@@ -42,7 +42,7 @@ class ArticleStyleExtractor:
         article_text = self.reader.read_article(input_source)
         logger.info(f"文章读取完成，总长度：{len(article_text)}字")
         # 2. 提取文风特征（语气、句式、修辞、结构）
-        style_features = await self._extract_style_features(article_text)
+        style_features = await self._extract_style_features(article_text,extra)
         logger.info(f"文风特征提取完成")
         if local_save:
             # 生成唯一的 output_name，确保不会覆盖已有文件
@@ -156,8 +156,8 @@ class ArticleStyleExtractor:
             raise RuntimeError("多篇特征整合失败，LLM未返回有效结果")
         integrated_features = json.loads(response)
         return integrated_features
-    
-    async def _extract_style_features(self, article_text: str) -> Dict[str, str]:
+
+    async def _extract_style_features(self, article_text: str, extra: Optional[str] = None) -> Dict[str, str]:
         """提取文风特征（调用LLM生成结构化结果）"""
         prompt = """
         ## 任务背景
@@ -191,7 +191,7 @@ class ArticleStyleExtractor:
         5. 提示词应该是具体和明确的，可以通过规定一步一步的写作流程，用于清楚地指导AI模型的写作。
         6. 文风分析应该避免一些事实实体词的出现，更加关注于风格提取
         7. 事实信息应该尽可能具体，避免模糊和概括性的描述, 明确图文结构信息
-        
+
         ## 输出注意事项（一条条思考）
         1. 注意prompt是通用的写作提示词，风格模版是对文章风格的总结和提炼，尽量避免事实信息的掺杂。
         2. 在生成提示词时，要确保它们具有足够的明确性和具体性。
@@ -262,9 +262,13 @@ class ArticleStyleExtractor:
             "prompt": "模仿写作风格的详细提示词"
         }
         ```"""
+        if extra:
+            usr_prompt += f"文章内容为：{article_text}\n，这篇文章需要关注的额外信息是：{extra}"
+        else:
+            usr_prompt += article_text
         response = await self.llm.responser(
             request_type=RequestType.EXECUTE,
-            messages=[{"role": "system", "content": prompt}, {"role": "user", "content": article_text}],
+            messages=[{"role": "system", "content": prompt}, {"role": "user", "content": usr_prompt}],
         )
         pattern = r'```json\s*([\s\S]*?)```'
         match = re.search(pattern, response)

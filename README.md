@@ -4,6 +4,46 @@
 [![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/XiangJinYu/SPO)
 [![ModelScope](https://img.shields.io/badge/Demo-ModelScope-blue)](https://modelscope.cn/studios/AI-ModelScope/SPO)
 
+---
+思维链提取模块
+---
+## 简介
+文风提取模块是一个专注于文本风格特征分析与整合的工具，能够从单篇或多篇文本中提取文风特征（如语言、结构、叙事、情感等维度），并支持将多篇文本的风格特征融合为通用风格模板，为文本生成提供精准的风格指导。
+
+## 核心功能
+- 单篇文本分析：提取单篇文章的文风特征，包括语言、结构、叙事、情感等多维度信息。
+- 多篇风格融合：整合多篇同类型文本的风格特征，生成更全面的通用风格模板与提示词（prompt）。
+- 自动保存：分析结果自动保存为 JSON 格式，便于后续调用与二次处理。
+
+## 🚀 Quick Start
+### 1. Your API Key ⚙️
+
+Configure LLM parameters in `config/config2.yaml` (see `examples/spo/config2.example.yaml` for reference)
+
+## 2. 使用命令
+
+```bash
+# 提取思维链（mode为single表示提取思维链，merge表示融合模版；input可以接受文本/文件路径/文件夹路径的输入）
+python -m preprocess.run_extractor --input /data/home/rylanwang/SPO/article/ys1.md --mode single
+#命令执行完结果会保存到/dataset/single_articles
+
+# 融合模版
+python -m preprocess.run_extractor --input /data/home/rylanwang/SPO/dataset/single_articles/ --mode merge
+
+# 自动构建yaml，可能还需要自己完善一下
+python -m components.spo_yaml_builder
+
+# 自动优化prompt(template表示选择的qa模版，name表示结果保存目录)
+python -m optimize.py --template /data/home/rylanwang/SPO/settings/auto_generated/auto_spo_xxxx.yaml --name xxx
+```
+
+## 3、http服务
+
+位于/api_server目录下，包括article_feature.py和spo.py，分别单独融合了思维链提取和自动优化prompt功能
+
+---
+原论文介绍
+---
 An automated prompt engineering tool for Large Language Models (LLMs), designed for universal domain adaptation.
 
 A next-generation prompt engineering system implementing **Self-Supervised Prompt Optimization (SPO)**. Achieves state-of-the-art performance with 17.8-90.9× higher cost efficiency than conventional methods. 🚀
