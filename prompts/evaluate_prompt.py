@@ -1,7 +1,7 @@
 EVALUATE_PROMPT = """
-Based on the original requirements, evaluate the two responses, A and B, and determine which one better meets the requirements. If a reference answer is provided, strictly follow the format/content of the reference answer.
+根据原始思维链和需求，评估两个回答 A 和 B，判断哪一个更好地满足了需求。如果提供了参考答案，请严格遵循参考答案的格式和内容。
 
-# Requirement
+# 需求
 {requirement}
 
 # A
@@ -10,11 +10,11 @@ Based on the original requirements, evaluate the two responses, A and B, and det
 # B
 {new_answers}
 
-# Golden answer
+# 标准答案
 {ground_truth}
 
-Provide your analysis and the choice you believe is better, using XML tags to encapsulate your response.
+请给出你的分析，并用 XML 标签包裹你的回答和选择。
 
-<analyse>Some analysis</analyse>
-<choose>A/B (the better answer in your opinion)</choose>
+<analyse>分析内容</analyse>
+<choose>A/B（你认为更好的答案）</choose>
 """

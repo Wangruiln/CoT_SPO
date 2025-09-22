@@ -3,7 +3,7 @@
 # @Author  : Zhaoyang
 # @Desc    :
 
-from openai import AsyncOpenAI
+from openai import AsyncOpenAI,AsyncAzureOpenAI
 
 import yaml
 from pathlib import Path
@@ -37,7 +37,8 @@ class LLMsConfig:
             config_paths = [
                 Path("config/config2.yaml"),
                 Path("config2.yaml"),
-                Path("./config/config2.yaml")
+                Path("./config/config2.yaml"),
+                Path("/data/home/rylanwang/SPO/config/config2..yaml"),
             ]
 
             config_file = None
@@ -185,14 +186,13 @@ class AsyncLLM:
 
         # At this point, config should be an LLMConfig instance
         self.config = config
-        self.aclient = AsyncOpenAI(api_key=self.config.key, base_url=self.config.base_url)
+        self.aclient = AsyncAzureOpenAI(api_key=self.config.key, base_url=self.config.base_url,api_version="2024-12-01-preview") if "azure" in self.config.base_url else AsyncOpenAI(api_key=self.config.key, base_url=self.config.base_url)
         self.sys_msg = system_msg
         self.usage_tracker = TokenUsageTracker()
         self.mode = mode
         
 
     async def __call__(self, messages):
-
         response = await self.aclient.chat.completions.create(
             model=self.config.model,
             messages=messages,
