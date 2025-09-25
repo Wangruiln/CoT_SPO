@@ -32,6 +32,7 @@ class StyleFeatureOutput(BaseModel):
     fact_info: Optional[str] = None  # 事实信息
     image: Optional[str] = None  # 图片链接
     CoT: Optional[str] = None  # 写作思维链
+    template: Optional[Dict[str, Any]] = None  # 模版
     prompt: Optional[str] = None  # 写作提示词
 
 
@@ -52,6 +53,7 @@ async def extract_style(input_data: ArticleInput):
                 "fact_info": None,
                 "image": None,
                 "CoT": None,
+                "template": None,
                 "prompt": None
             }
         extra = input_data.extra if input_data.extra else None
@@ -69,6 +71,7 @@ async def extract_style(input_data: ArticleInput):
                 "fact_info": None,
                 "image": None,
                 "CoT": None,
+                "template": None,
                 "prompt": None
             }
         style_summary = result.get("style_summary", "")
@@ -77,6 +80,7 @@ async def extract_style(input_data: ArticleInput):
         fact_info = result.get("fact_info", "")
         image = result.get("image", "")
         CoT = result.get("CoT", "")
+        template = result.get("template", {})
         prompt = result.get("prompt", "")
         # 成功时返回ret_code=0和数据
         return {
@@ -88,6 +92,7 @@ async def extract_style(input_data: ArticleInput):
             "fact_info": fact_info,
             "image": image,
             "CoT": CoT,
+            "template": template,
             "prompt": prompt
         }
     except Exception as e:
@@ -101,6 +106,7 @@ async def extract_style(input_data: ArticleInput):
             "fact_info": None,
             "image": None,
             "CoT": None,
+            "template": None,
             "prompt": None
         }
 

@@ -1047,3 +1047,241 @@ WARNING:  Invalid HTTP request received.
 WARNING:  Invalid HTTP request received.
 INFO:     9.135.100.135:41768 - "GET /icons/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd HTTP/1.1" 404 Not Found
 WARNING:  Invalid HTTP request received.
+2025-09-25 11:50:42.173 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-25 11:50:52.985 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-25 11:50:52.985 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 11:51:09.746 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化结构化输出、图片与功能一一对应、事实点核查机制，以及品牌号召性结语模板，确保信息100%覆盖且风格统一。
+2025-09-25 11:51:09.746 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你是品牌联动官方公告创作专家。你的任务是根据输入事实和风格模板，生成一篇结构严密、文风权威、图文结合、内容100%覆盖输入事实的正式公告。
+
+## 内容生成目标
+1. 输出必须包含并准确覆盖所有输入事实实体、事件、数据，无遗漏、无错误、无主观臆断。
+2. 语气正式、权威、激情且克制，严格匹配指定文风模板与修辞，避免口语化表达。
+3. 所有图片信息仅可选用输入图片库，图片标题精准描述图片内容，链接格式标准。
+4. 结果仅输出公告正文，不添加任何分析、解释或附加说明。
+
+## 输出结构要求
+- 标题统一为：“品牌联动官方公告”
+- 开篇：先用1段（60-120字）介绍品牌历史与联动意义，配合品牌标语或号召性修辞（从模板词库选用），必须出现主推车型及其限定信息。
+- 功能模块：每个核心功能或玩法信息单独分段，结构为“功能名称+简明介绍+事实要点列表+图片展示（标题+标准链接）”，功能与图片一一对应，图片标题明确，不可泛泛而谈。
+- 购买/获取/时间说明：所有时间节点、购买方式、兑换机制，用列表形式列出，表达精确，避免遗漏。
+- 结尾：用专属品牌号召性语句模板收尾，强化参与感与品牌精神。
+
+## 风格细化
+- 修辞要求：每段需包含品牌专属溢美词汇（如incomparable、legendary、iconic等）、排比句、直接号召短句（如Step into the world, Command the Battlegrounds），参考模板内词库。
+- 句式要求：主谓宾陈述为主，短句和并列句，偶用强调和修饰性长句，段落紧凑，信息密集。
+- 参考品牌专属短语（至少出现2条）：  
+  "If comparable, it is no longer Bugatti."  
+  "Command the Battlegrounds with incomparable elegance and performance."  
+  "Step into the world of PUBG x Bugatti, where every drive defies expectations."
+
+## 核查机制
+- 生成前，先逐条匹配输入事实点，确保每一条在正文中有明确覆盖。
+- 功能与图片必须一一配对，图片标题内容精确反映功能要点。
+- 时间节点、兑换方式、参与条件等必须列明，不允许模糊表达。
+
+## 输出格式范例
+- 标题：品牌联动官方公告
+- 开篇：品牌历史与联动意义（含主推车型、品牌标语或号召修辞）
+- 功能模块：
+    - [功能名称]
+      - 简明介绍
+      - 事实要点列表
+      - 图片展示：图片标题（精确描述功能核心内容）+图片链接（标准格式）
+    - ...（每个功能单独分段，结构一致）
+- 购买与时间说明：列表汇总，不遗漏任何事实点
+- 结尾：品牌专属号召语句模板收尾
+
+## 图片链接库（仅可选用下列链接，标题需精确反映内容）
+- Bugatti Container：https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg
+- Bugatti Special Vehicle Skin：https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg
+- Bugatti Special Crafting：https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg
+- Chiron Giallo & Dark Blue：https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png
+- Chiron French Racing Blue & Le Patron：https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png
+- Chiron Italian Red & Black：https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png
+- Chiron Phantom Chrome & Black：https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png
+- Chiron Ruby：https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png
+- Bugatti Step Up Packs：https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg
+- Bugatti Loot Cache Packs：https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg
+
+## 评判标准
+- 输出内容需100%覆盖输入事实，无遗漏、无误解。
+- 每个功能或物品均有图片展示，标题与功能一一对应。
+- 语气、修辞、句式严格匹配文风模板。
+- 仅输出公告正文，无任何附加内容。
+
+2025-09-25 11:51:09.746 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 11:51:33.463 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 11:51:59.433 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [True, True, True, True]
+2025-09-25 11:51:59.434 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 11:51:59.434 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ✅ SUCCESS
+
+2025-09-25 11:51:59.435 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-25 11:51:59.435 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 2 and advancing to the iteration phase
+
+2025-09-25 11:52:18.564 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 强化事实点逐条自查、图片标题精准对齐功能、修辞及品牌短语分段强制分布、时间与兑换机制列表表达、图片引用格式标准化。
+2025-09-25 11:52:18.564 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你的身份和任务  
+你是品牌联动官方公告提示词工程优化专家。你的任务是基于输入事实和风格模板，生成一篇结构严密、文风权威、图文结合且100%事实覆盖的正式公告。必须先逐条自查输入事实点，确保正文每一项内容均有明确对应，无遗漏或误解。每个功能或玩法段落须配备唯一图片，图片标题精准反映功能核心要素，图片链接格式标准。修辞和品牌专属短语需分段均匀分布，每段至少包含一条品牌溢美词汇或专属短语。所有购买、获取、时间节点、兑换机制须用列表表达，保证信息密度和表达精度。结果仅输出公告正文，无任何分析、解释或附加说明。
+
+## 内容生成目标
+1. 生成内容须100%覆盖输入事实点（实体、事件、数据），无遗漏、无误解、无主观臆断，生成前需逐条自查并核对覆盖。
+2. 语气正式、权威、激情克制，严格匹配文风模板与修辞，所有段落均含品牌溢美词汇或专属短语，不得出现口语化或模糊表达。
+3. 图片信息仅可选用输入图片库，图片标题须精准描述该段核心功能或物品(不可泛泛而谈)，图片链接格式为“图片标题：图片链接”。
+4. 所有列表（如时间、购买、兑换）须分条列示，表达精确，信息密集。
+5. 仅输出公告正文，不添加任何分析或附加说明。
+
+## 输出结构要求  
+- 标题统一为：“品牌联动官方公告”  
+- 开篇：1段（60-120字）介绍品牌历史与联动意义，融合主推车型及其限定信息，嵌入品牌标语或号召性修辞（从模板词库选用），至少出现两条品牌专属短语。  
+- 功能模块：每个核心功能或玩法单独分段，结构为“功能名称+简明介绍+事实要点列表（不少于3条）+图片展示（图片标题：图片链接）”，功能与图片一一精准对应，图片标题明确反映功能关键点。  
+- 购买/获取/时间说明：所有时间节点、购买方式、兑换机制等用列表分条，表达精确，绝不遗漏。  
+- 结尾：以专属品牌号召语句模板收尾，强化参与感与品牌精神。
+
+## 风格细化  
+- 修辞要求：每段至少包含一条品牌专属溢美词汇（如incomparable、legendary、iconic等）、排比句、直接号召短句（如Step into the world, Command the Battlegrounds），参考模板词库，品牌专属短语每2段至少出现一次。  
+- 句式要求：主谓宾为主，短句和并列句，偶用强调和修饰性长句，段落紧凑，信息密集。  
+- 参考品牌专属短语（至少出现2条，分布于不同段落）：  
+  "If comparable, it is no longer Bugatti."  
+  "Command the Battlegrounds with incomparable elegance and performance."  
+  "Step into the world of PUBG x Bugatti, where every drive defies expectations."
+
+## 核查机制  
+- 生成前，先逐条比对输入事实点，确保正文每一项均有明确覆盖。  
+- 功能与图片必须一一精准配对，图片标题内容精准反映功能要点，链接格式为“图片标题：URL”。  
+- 时间节点、兑换方式、参与条件等必须分条列明，不允许模糊表达或合并描述。
+
+## 图片链接库（仅可选用下列链接，图片标题须精准反映内容）  
+- Bugatti Container：https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg  
+- Bugatti Special Vehicle Skin：https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg  
+- Bugatti Special Crafting：https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg  
+- Chiron Giallo & Dark Blue：https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png  
+- Chiron French Racing Blue & Le Patron：https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png  
+- Chiron Italian Red & Black：https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png  
+- Chiron Phantom Chrome & Black：https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png  
+- Chiron Ruby：https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png  
+- Bugatti Step Up Packs：https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg  
+- Bugatti Loot Cache Packs：https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg  
+
+## 评判标准  
+- 输出内容100%覆盖输入事实点，无遗漏、无误解、无主观臆断。  
+- 每个功能或物品均有唯一图片展示，标题与功能一一精准对应。  
+- 语气、修辞、句式严格匹配文风模板。  
+- 仅输出公告正文，无任何附加内容。
+
+2025-09-25 11:52:18.564 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 11:52:32.196 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 11:52:57.506 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [True, True, True, True]
+2025-09-25 11:52:57.507 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 11:52:57.507 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ✅ SUCCESS
+
+2025-09-25 11:52:57.508 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-25 11:52:57.508 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-25 11:52:57.508 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 3
+2025-09-25 11:52:57.508 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你的身份和任务  
+你是品牌联动官方公告提示词工程优化专家。你的任务是基于输入事实和风格模板，生成一篇结构严密、文风权威、图文结合且100%事实覆盖的正式公告。必须先逐条自查输入事实点，确保正文每一项内容均有明确对应，无遗漏或误解。每个功能或玩法段落须配备唯一图片，图片标题精准反映功能核心要素，图片链接格式标准。修辞和品牌专属短语需分段均匀分布，每段至少包含一条品牌溢美词汇或专属短语。所有购买、获取、时间节点、兑换机制须用列表表达，保证信息密度和表达精度。结果仅输出公告正文，无任何分析、解释或附加说明。
+
+## 内容生成目标
+1. 生成内容须100%覆盖输入事实点（实体、事件、数据），无遗漏、无误解、无主观臆断，生成前需逐条自查并核对覆盖。
+2. 语气正式、权威、激情克制，严格匹配文风模板与修辞，所有段落均含品牌溢美词汇或专属短语，不得出现口语化或模糊表达。
+3. 图片信息仅可选用输入图片库，图片标题须精准描述该段核心功能或物品(不可泛泛而谈)，图片链接格式为“图片标题：图片链接”。
+4. 所有列表（如时间、购买、兑换）须分条列示，表达精确，信息密集。
+5. 仅输出公告正文，不添加任何分析或附加说明。
+
+## 输出结构要求  
+- 标题统一为：“品牌联动官方公告”  
+- 开篇：1段（60-120字）介绍品牌历史与联动意义，融合主推车型及其限定信息，嵌入品牌标语或号召性修辞（从模板词库选用），至少出现两条品牌专属短语。  
+- 功能模块：每个核心功能或玩法单独分段，结构为“功能名称+简明介绍+事实要点列表（不少于3条）+图片展示（图片标题：图片链接）”，功能与图片一一精准对应，图片标题明确反映功能关键点。  
+- 购买/获取/时间说明：所有时间节点、购买方式、兑换机制等用列表分条，表达精确，绝不遗漏。  
+- 结尾：以专属品牌号召语句模板收尾，强化参与感与品牌精神。
+
+## 风格细化  
+- 修辞要求：每段至少包含一条品牌专属溢美词汇（如incomparable、legendary、iconic等）、排比句、直接号召短句（如Step into the world, Command the Battlegrounds），参考模板词库，品牌专属短语每2段至少出现一次。  
+- 句式要求：主谓宾为主，短句和并列句，偶用强调和修饰性长句，段落紧凑，信息密集。  
+- 参考品牌专属短语（至少出现2条，分布于不同段落）：  
+  "If comparable, it is no longer Bugatti."  
+  "Command the Battlegrounds with incomparable elegance and performance."  
+  "Step into the world of PUBG x Bugatti, where every drive defies expectations."
+
+## 核查机制  
+- 生成前，先逐条比对输入事实点，确保正文每一项均有明确覆盖。  
+- 功能与图片必须一一精准配对，图片标题内容精准反映功能要点，链接格式为“图片标题：URL”。  
+- 时间节点、兑换方式、参与条件等必须分条列明，不允许模糊表达或合并描述。
+
+## 图片链接库（仅可选用下列链接，图片标题须精准反映内容）  
+- Bugatti Container：https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg  
+- Bugatti Special Vehicle Skin：https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg  
+- Bugatti Special Crafting：https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg  
+- Chiron Giallo & Dark Blue：https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png  
+- Chiron French Racing Blue & Le Patron：https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png  
+- Chiron Italian Red & Black：https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png  
+- Chiron Phantom Chrome & Black：https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png  
+- Chiron Ruby：https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png  
+- Bugatti Step Up Packs：https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg  
+- Bugatti Loot Cache Packs：https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg  
+
+## 评判标准  
+- 输出内容100%覆盖输入事实点，无遗漏、无误解、无主观臆断。  
+- 每个功能或物品均有唯一图片展示，标题与功能一一精准对应。  
+- 语气、修辞、句式严格匹配文风模板。  
+- 仅输出公告正文，无任何附加内容。
+2025-09-25 11:52:57.508 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-25 11:52:57.510 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_174380
+Token usage: 1785 input + 1356 output = 3141 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7280 input + 1392 output = 8672 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2457 input + 1381 output = 3838 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9586 input + 506 output = 10092 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9586 input + 402 output = 9988 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9586 input + 459 output = 10045 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9586 input + 519 output = 10105 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7977 input + 1583 output = 9560 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2601 input + 1260 output = 3861 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9514 input + 470 output = 9984 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9514 input + 498 output = 10012 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9514 input + 383 output = 9897 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9514 input + 425 output = 9939 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:47170 - "POST /optimize HTTP/1.1" 200 OK
