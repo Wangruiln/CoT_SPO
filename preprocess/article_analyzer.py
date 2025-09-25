@@ -187,8 +187,8 @@ class ArticleStyleExtractor:
         1. 根据分析维度提取文本的主要写作风格和事实信息。
         2. 生成能够模仿这种写作风格的提示词，每个维度越清晰的描述越好。
         3. 提示词应该能够用于任何主题的写作,因此要避免和事实信息的融合。
-        4. 提示词应该能够引导AI模型生成与给定文本风格类似的文章。
-        5. 提示词应该是具体和明确的，可以通过规定一步一步的写作流程，用于清楚地指导AI模型的写作。
+        4. 提示词应该是具体和明确的，可以通过规定一步一步的写作流程，用于清楚地指导AI模型的写作。
+        5. 提取写作模版，模版是指文章的写作逻辑，避免加入特殊实体信息，需要通用、高度总结。
         6. 文风分析应该避免一些事实实体词的出现，更加关注于风格提取
         7. 事实信息应该尽可能具体，避免模糊和概括性的描述, 明确图文结构信息
 
@@ -214,7 +214,12 @@ class ArticleStyleExtractor:
                 # 输出格式
                 (模版可以进行扩展和补充)
         7. 文风分析结果每个维度都应该详细分析
-
+        8. 模版应以如下形式进行输出：
+                （模版标题）
+                第一部分：xxx内容
+                第二部分：xxx内容
+                第三部分：xxx内容
+                ...
         ## 输出格式
         以下列结构化格式以代码块输出分析结果：
         ```json
@@ -257,15 +262,16 @@ class ArticleStyleExtractor:
                 },
             },
             "CoT": "模仿写作风格的思维链，需要和prompt中的写作思维链一致",
+            "templete": "提取文章的写作模版",
             "fact_info": "分点提取的文章中的所有事实信息，对于表格数据，请完整提取出来，不允许做出省略，也不需要任何解释说明,输出字符串",
             "image":" 具体的图片链接，只能输出markdown格式![title](url)， 直接提取标题和链接，输出字符串",
             "prompt": "模仿写作风格的详细提示词"
         }
         ```"""
         if extra:
-            usr_prompt += f"文章内容为：{article_text}\n，这篇文章需要关注的额外信息是：{extra}"
+            usr_prompt = f"文章内容为：{article_text}\n，这篇文章需要关注的额外信息是：{extra}"
         else:
-            usr_prompt += article_text
+            usr_prompt = article_text
         response = await self.llm.responser(
             request_type=RequestType.EXECUTE,
             messages=[{"role": "system", "content": prompt}, {"role": "user", "content": usr_prompt}],

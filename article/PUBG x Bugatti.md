@@ -1,0 +1,184 @@
+### PUBG x Bugatti
+
+#### ANNOUNCEMENT
+2025.08.13
+
+**※ All featured items may become available again at a later date via the Workshop, Your Shop, or other in-game features, as well as various events and promotions.**  
+※ The sales periods shown below are subject to change.
+
+---
+
+### Bugatti in PUBG: BATTLEGROUNDS
+
+The hyper sports car that transcends all limits of luxury and performance — the incomparable Bugatti Chiron roars across the Battlegrounds.
+
+Bugatti, designer of hyper sports cars combining elegance and performance, is more than just a car brand. For over a century, it has defined the pinnacle of design, speed, and technology without compromise. Hand-assembled in Molsheim, France, every Bugatti embodies the brand’s ethos of excellence in design and engineering, captivating enthusiasts around the world.
+
+Even in the earliest days of handcrafted automobiles, Bugatti stood out with unmatched precision and innovation. Its legacy is simply incomparable.
+
+Through the PUBG x Bugatti collaboration, players can take the wheel of the Chiron, the ultimate symbol of performance and comfort. A modern reinterpretation of Bugatti’s iconic history, the Chiron pushes boundaries beyond imagination, combining sophisticated design, performance-oriented form, and a whole new dimension of comfort. **With only 500 units ever made, the Chiron’s striking presence and elegance now await you on the Battlegrounds.**
+
+Step into the world of PUBG x Bugatti, where every drive defies expectations — because nothing else compares.
+
+*If comparable, it is no longer Bugatti.*
+
+---
+
+## Collaboration: Bugatti
+
+### Bugatti Container
+
+[![Bugatti Container](https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg)
+
+- An exclusive Bugatti container is available on the starting islands of Erangel, Miramar, Sanhok, Vikendi, Taego, Deston, and Rondo.
+- The container can only be unlocked by players who own Bugatti skins.
+    + If multiple Bugatti skins are concurrently equipped, the system will randomly select one to display.
+- Only the player who unlocks the container and their teammates can operate or ride in the Bugatti vehicle.
+- This feature can be utilized from the start of the match until players board the plane; once they do, the previously positioned container and the Bugatti vehicle will disappear.
+- Available in Normal Match, Ranked, and Casual Mode.
+- The Bugatti containers are available for one month.
+
+---
+
+## Special Vehicle Skins: Bugatti
+[![Bugatti Special Vehicle Skin](https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg)
+
+Details on the Bugatti Special Vehicle skins are as below.
+
+***※ Special Vehicle skins transform the existing vehicles to reflect the designs of the actual vehicles, and these Special Vehicle skins are developed to ensure a faithful representation of the actual vehicle's 3D modeling. Please note that equipping the Bugatti Special Vehicle skins may result in slight alterations to the base vehicle's size and appearance. These alterations are similar to those of the previous Special Vehicle skins.***
+
+#### Common Features
+
+- When equipping a Special Vehicle skin, the following effects will apply:
+    + Vehicle appearance is changed.
+    + Vehicle sounds, such as driving/honking sounds, are changed.
+- Even after equipping the Special Vehicle skin, HP, performance, weight, fuel level, driving method, etc. are maintained based on the condition of the vehicle before equipping the skin.
+- Lobby animations are applied for each skin.
+- The signature number badge is displayed on the front horseshoe grill when certain paint items are applied.
+
+##### Carbon Fiber
+
+- Parts of the vehicle’s rear and engine cover are made of carbon fiber.
+- Carbon fiber is a penetrable material, allowing bullets to pass through and inflict damage upon the player.
+    + If the player is shot through the carbon fiber material, both the vehicle and the player will take damage.
+    + Damage is applied to the vehicle when the bullet penetrates the carbon fiber area, but there is no additional damage caused by the bullet hitting the inside of the vehicle post-penetration.
+- The carbon fiber material can only be penetrated by bullets.
+
+#### "Chiron" Sports Car
+
+- Applicable vehicle: Coupe RB
+- Boost effect is applied.
+
+#### "Chiron (Édition Spéciale)" Sports Car
+
+- Applicable vehicle: Coupe RB
+
+##### Special Features
+
+- Active Rear Wing
+    + The rear spoiler will be activated upon reaching a certain speed.
+    + The function cannot be canceled after activation.
+    + When the rear spoiler is activated, applying the brakes changes its angle.
+- Custom Boost effect
+- Custom Boost sound
+
+---
+
+## Workshop: Bugatti
+
+Want the full PUBG x Bugatti experience? Check out the Workshop to make it yours.
+
+### Loot Cache Fragment
+
+- Collect 10 Bugatti Loot Cache Fragments to craft one Bugatti Loot Cache at Workshop - Regular Crafting.
+- Various events where you can earn Bugatti Loot Cache Fragments are available. Check the **August Special Drops announcement** for all the details!
+
+### Special Crafting
+
+Head to the Workshop → Special Crafting to craft special Bugatti items. Don't miss out on the Special Crafting exclusive items!
+
+- Special Vehicle skins along with exclusive customizable items have been added to the Workshop.
+- A total of 27 items are craftable with Bugatti Tokens at Special Crafting.
+
+[![Bugatti Special Crafting](https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg)
+
+#### Special Crafting Closing Date (UTC)
+
+※ The Special Crafting - Bugatti Crafting tab will be accessible only until the following dates. Make sure to use up your Tokens before the closing date!
+
+- PC: September 15, 00:00
+- Console: September 23, 00:00
+
+#### Craftable Items
+
+***※ The Carbon Wrap paints only affect the vehicle’s color. These paints are purely cosmetic and not related to the penetrable carbon fiber material.***
+
+部分外观展示：
+
+- Chiron (Édition Spéciale) Full Set (Giallo & Dark Blue)
+    [![Chiron Giallo & Dark Blue](https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png)
+- Chiron (Édition Spéciale) Exterior Set (French Racing Blue & Le Patron)
+    [![Chiron French Racing Blue & Le Patron](https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png)
+- Chiron (Édition Spéciale) Exterior Set (Italian Red & Black)
+    [![Chiron Italian Red & Black](https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png)
+- Chiron (Édition Spéciale) Exterior Set (Phantom Chrome & Black)
+    [![Chiron Phantom Chrome & Black](https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png)
+- Chiron Exterior Set (Ruby)
+    [![Chiron Ruby](https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png)
+
+#### Special Disassembly
+
+- Earn Bugatti Tokens through Special Disassembly by disassembling Imprints obtainable from the Bugatti Prime Parcel.
+    + You can choose between Regular Disassembly or Special Disassembly in Workshop - Regular Crafting - Craft tab.
+
+***※ The Chiron (Édition Spéciale) Paint (Black Carbon Wrap) is only obtainable from the Bugatti Prime Parcel.***
+
+---
+
+## Store
+
+Check out the Bugatti Step Up Packs, available at up to 80% off and now featuring 5 sets. Also, don’t forget the Loot Cache Packs!
+
+### Step Up Packs
+[![Bugatti Step Up Packs](https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg)
+
+*Due to legal regulations, the Step Up Packs are not available for purchase in Belgium and the Netherlands.*
+
+***All items in the Step Up Packs can be purchased once per account.***
+
+#### Sales Period (UTC)
+
+- PC: August 13, after live server maintenance - September 10, 00:00
+- Console: August 21, after live server maintenance - September 18, 00:00
+
+### Loot Cache Packs
+[![Bugatti Loot Cache Packs](https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg)
+
+*Due to legal regulations, the Loot Cache Packs are not available for purchase in Belgium and the Netherlands.*
+
+***The Currency Selection feature is available for the Bugatti Loot Cache Pack (x1), allowing you to purchase up to 50 using either G-Coin or BP.***
+
+#### Sales Period (UTC)
+
+- PC: August 13, after live server maintenance - September 10, 00:00
+- Console: August 21, after live server maintenance - September 18, 00:00
+
+#### Bugatti Token Expiry Date (UTC)
+
+※ Expired tokens disappear and cannot be exchanged or refunded.
+- PC: September 15, 00:00
+- Console: September 23, 00:00
+
+#### Preview
+
+- Previews are available for all items included in the Loot Cache Packs.
+- Expiry dates for Bugatti Tokens are displayed in the Store preview.
+
+---
+
+Command the Battlegrounds with incomparable elegance and performance.
+
+Meet PUBG x Bugatti.
+
+作者：PUBG: BATTLEGROUNDS Team  
+发布日期：2025.08.13

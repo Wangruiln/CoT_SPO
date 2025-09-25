@@ -7,7 +7,7 @@ import sys
 import os
 import shutil
 from loguru import logger
-
+import random
 # 路径配置：添加项目根目录到Python路径
 current_dir = Path(__file__).parent
 project_root = current_dir.parent
@@ -119,6 +119,8 @@ def build_qa_pair(request: OptimizationRequest) -> List[dict]:
 @app.post("/optimize", response_model=OptimizationResponse)
 async def optimize_prompt(request: OptimizationRequest):
     # -------------------------- 新增：第一步先做参数完整性校验 --------------------------
+    random_suffix = random.randint(100000, 999999)  # 6位随机数
+    temp_dir = f"{TEMP_DIR}_{random_suffix}"    # 带随机数的临时目录
     is_valid, validate_msg = validate_request_params(request)
     if not is_valid:
         logger.warning(f"参数不完整：{validate_msg}")
@@ -150,7 +152,7 @@ async def optimize_prompt(request: OptimizationRequest):
 
         # 3. 创建优化器实例（指定临时目录）
         optimizer = PromptOptimizer(
-            optimized_path=TEMP_DIR,
+            optimized_path=temp_dir,
             initial_round=1,
             max_rounds=3,  # 3轮迭代：平衡优化效果与耗时
             template="",   # 不使用yaml模板，依赖内存上下文
@@ -166,7 +168,7 @@ async def optimize_prompt(request: OptimizationRequest):
         best_prompt = best_round.get("prompt", "").strip()  # 去除首尾空格，保证整洁
 
         # 6. 清理临时文件
-        delete_temp_folder(TEMP_DIR)
+        delete_temp_folder(temp_dir)
 
         # 7. 返回成功结果
         return OptimizationResponse(
@@ -180,7 +182,7 @@ async def optimize_prompt(request: OptimizationRequest):
         # 系统错误时：清理临时文件 + 返回错误信息
         error_detail = str(e)
         logger.error(f"优化流程系统错误：{error_detail}")
-        delete_temp_folder(TEMP_DIR)
+        delete_temp_folder(temp_dir)
         
         return OptimizationResponse(
             ret_code=1,  # ret_code=1：系统级错误（如LLM调用失败、文件操作异常）
