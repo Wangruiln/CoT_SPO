@@ -4,6 +4,7 @@ from typing import Dict, Any, Optional
 import asyncio
 from pathlib import Path
 import sys
+import json
 # 获取当前文件（main.py）的父目录（fastapi_service）
 current_dir = Path(__file__).parent
 # 获取项目根目录（your_project，即fastapi_service的同级目录）
@@ -81,6 +82,7 @@ async def extract_style(input_data: ArticleInput):
         image = result.get("image", "")
         CoT = result.get("CoT", "")
         template = result.get("template", {})
+        json.dumps(template)  # 测试是否可序列化
         prompt = result.get("prompt", "")
         # 成功时返回ret_code=0和数据
         return {

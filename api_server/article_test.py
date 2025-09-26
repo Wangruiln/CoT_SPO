@@ -61,7 +61,7 @@ class ArticleFeatureClient:
 # ------------------- 示例：如何使用客户端 -------------------
 if __name__ == "__main__":
     # 1. 初始化客户端（默认连接本地8002端口，若服务部署在其他机器，需修改base_url）
-    client = ArticleFeatureClient(base_url="http://localhost:8002")
+    client = ArticleFeatureClient(base_url="http://localhost:7002")
 
     try:
 
