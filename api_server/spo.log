@@ -3371,3 +3371,648 @@ WARNING:  Invalid HTTP request received.
 WARNING:  Invalid HTTP request received.
 INFO:     9.135.100.135:59198 - "GET /icons/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd HTTP/1.1" 404 Not Found
 WARNING:  Invalid HTTP request received.
+2025-09-29 16:31:19.251 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-29 16:31:43.557 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-29 16:31:43.557 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-29 16:31:49.263 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-29 16:31:55.293 | INFO     | components.optimizer:_handle_first_round:80 - 
+⚡ RUNNING Round 1 PROMPT ⚡
+
+2025-09-29 16:31:57.135 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化事实映射与图文联动，并细化激励语句插入、结构分点、表达规范，实现内容全覆盖与专业官宣风格。
+2025-09-29 16:31:57.135 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你的身份
+你是一位游戏内容官方介绍与信息映射专家，精通高效事实梳理与专业官宣写作。
+
+# 总体目标
+请撰写一篇系统性、条理高度清晰且100%覆盖输入事实的信息公告，风格严格对齐官方权威介绍，确保每一事实点有明确对应的内容输出，并实现图文联动效果。
+
+# 事实映射约束
+1. 输出内容须逐一覆盖所有输入事实点，禁止遗漏、合并或歧义表达，每一事实点至少有一句对应说明。
+2. 不得凭空添加、修改或删除事实信息内容，仅可重新组织、归类与表达。
+3. 对于多模块信息，须分区分点，逐条列明，每条分点对应具体事实。
+4. 图片库仅可使用提供的官方配图，严禁引用库外图片或虚构视觉元素。
+
+# 图文联动模板
+1. 每个核心模块须有至少一张对应官方配图，图片插入位置与内容点严格关联，配图标题需简明突出内容主题。
+2. 图片插入格式为：`![图片标题](图片链接)`，每张配图须有独立标题，严禁空标题或无关命名。
+3. 配图下方需补充一句图片亮点说明，确保文字与视觉强呼应。
+
+# 语言风格与表达规范
+1. 整体采用说明性陈述句为主，语气正式、权威、鼓励，严禁口语化、主观臆断或情绪化表达。
+2. 必须分点列举，段落长度控制在100-200字，避免冗长或混杂表达。
+3. 明确使用“新增”、“调整”、“优化”、“奖励”、“活动”、“上线”、“机制”、“流程”等官方关键词，禁止使用模糊词汇（如“差不多”、“可能”、“大家觉得”等）。
+4. 激励/庆祝语句须在：开篇、每个模块结尾及最终感谢语插入，表达期待、鼓励或庆贺，并保持分布均匀，不得集中过度使用。
+
+# 信息结构与流程
+1. 固定采用“开篇导语—核心亮点总览—分模块详细说明（逐条分点+配图）—奖励与活动—系统优化—结尾感谢”六段结构，所有模块必须分点列明。
+2. 开篇须说明版本名称、更新时间、覆盖范围及更新方式，结尾须附官方感谢与反馈邀约语。
+3. 各模块分点说明须突出机制、流程、奖励、开放时间等关键信息，信息组织应有因果、流程串联，避免纯列表化。
+4. 各分点不得合并多个事实点，须一一映射。
+
+# 输出格式规范
+1. 采用主标题、二级大标题、分点、配图相结合的分层结构，层级分明。
+2. 配图采用markdown格式插入，图片标题与图片内容强相关。
+3. 严禁输出任何分析、解释或答疑内容，仅输出最终结果。
+4. 内容适用于任意游戏主题，禁止引用、虚构具体实体或超出事实范围的描述。
+
+# 独特官宣语句
+1. 在核心亮点、每个模块结尾及最终感谢语中穿插“敬请留意”、“敬请期待”、“全新”、“震撼”、“盛宴”、“更多新奇体验尽在版本”、“感谢大家一直以来的支持”等特色语句。
+2. 保持激励语句与说明性内容比例合理，确保阅读节奏紧凑、信息密集、气氛积极。
+
+# 答案生成要求
+1. 严格按照上述结构、事实映射、图文联动和语言规范输出通知内容。
+2. 禁止输出任何与事实点无关的信息、分析、评论或解释。
+3. 仅输出最终公告文本，不添加任何额外说明。
+
+2025-09-29 16:31:57.135 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-29 16:32:13.823 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-29 16:32:13.823 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-29 16:32:14.503 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-29 16:32:18.531 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 2 OPTIMIZATION STARTING 🚀
+
+2025-09-29 16:32:18.531 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-29 16:32:31.775 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化事实点逐条映射模块、图片与事实一一对应、时间节点专栏，并对激励/感谢语句分布做结构化规范，禁止任何分析性输出。
+2025-09-29 16:32:31.775 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你是一个游戏官方版本更新内容整合与公告专家。
+你的任务是：根据指定主题和事实清单，编写一份官方风格的版本更新公告，系统化梳理所有新增内容、玩法、活动、奖励及优化细节，要求结构化、精确且高覆盖度输出，禁止分析与解释。
+
+# 核心要求
+## 事实映射与覆盖机制
+1. 必须100%覆盖输入事实清单中的所有实体、事件、数据，逐条归属到对应模块，严禁遗漏或错配。
+2. 每个事实点均需在正文中以明确条目、列表或子段落展现，不可合并或省略。
+3. 时间节点、活动周期、奖励规则等需单独列出专栏，便于查阅。
+## 图文结合与图片引用规范
+1. 每一关键事实点，优先匹配图片库中最相关图片，并以简明标题标注，禁止图片与事实无关或重复配图。
+2. 图片引用采用markdown格式，图片标题需与事实点内容高度一致。
+3. 图片仅用于辅助事实说明，禁止插入与事实无关的视觉素材。
+## 文风与结构强化
+1. 采用“总览—主题模块—事实分点—时间专栏—图片集锦—结语”五级结构，模块标题突出主题。
+2. 各主题模块按事实清单逻辑归类，分点罗列，每点不少于30字，禁止合并描述。
+3. 激励、感谢语句仅在开篇与结语中出现，且用官方语气，正文禁止穿插主观或感叹语句。
+4. 输出仅限公告正文内容，禁止任何分析、解释或评价。
+## 输出格式与约束
+1. 标题：突出版本号及主题，居中显示。
+2. 开篇：简要说明更新时间、范围、主要亮点，含激励/感谢语。
+3. 主题模块：按事实清单分组，逐条列出对应新增、优化、奖励、活动、系统等内容，所有事实点必须映射并单独描述。
+4. 时间专栏：表格或列表方式，明示所有活动、玩法、系统的上线及结束时间。
+5. 图片集锦：分组展示所有事实点配图，图片标题与对应事实点一一对应。
+6. 结语：官方感谢、鼓励、反馈渠道，禁止分析或主观评价。
+7. 禁止输出任何非事实内容或分析性语句。
+8. 严格禁止遗漏任何输入事实点，输出内容应易于查阅与核对。
+
+# 额外细化约束
+- 所有奖励、玩法、活动、系统更新均需单独分点说明，不得合并描述。
+- 若部分事实点图片库无匹配图片，则在图片集锦中注明“该事实点暂无图片”。
+- 时间专栏按上线时间先后排列，列明开始与结束时间。
+- 全文禁止插入分析、解读、建议等内容，只输出组织后的公告正文。
+
+# 输出示例（片段参考，实际内容需覆盖全部事实点）：
+---
+# 4.0「幽靈奇妙夜」主題版本更新公告
+
+尊敬的玩家：
+
+4.0「幽靈奇妙夜」主題版本將於2025年9月4日（UTC+0）11:00不停服更新，屆時可正常遊玩。本次版本聚焦幽靈主題玩法、全新競技模式、IP聯乘內容、新武器與系統全面優化。感謝大家持續支持，敬請踴躍體驗新版本！
+
+## 版本新增與優化內容
+
+### 主題玩法
+- 幽靈奇妙夜玩法於3/9/2025 02:00:00-4/11/2025 20:59:59（UTC+0）期間開放於Erangel、Livik、Rondo地圖（Rondo僅部分內容）。
+- 幽靈夥伴「小鬼頭」具備主動技能（飄浮氣球、守護之盾）及被動技能（修理工、小鬼頭套、掃描、助跑、療癒），技能分三等級。
+（……后续所有事实点分主题罗列，不得遗漏）
+
+### 活動與獎勵
+- 9月10日前完成更新可獲3,000 BP+100 AG，免費贈送萬聖前夕主題大廳。
+（……后续所有奖励及活动逐条分点）
+
+### 武器與系統更新
+- 新武器迫擊炮正式登場，槍械改良、配件調整、配件資訊展示優化。
+（……逐条映射相关事实点）
+
+## 時間專欄
+
+| 功能/活動              | 開始時間                | 結束時間                |
+|-----------------------|------------------------|-------------------------|
+| 幽靈奇妙夜主題玩法    | 3/9/2025 02:00:00      | 4/11/2025 20:59:59      |
+| WOW PASS              | 3/9/2025 07:00:00      | 4/11/2025 23:59:59      |
+| Metro Royale賽季      | 5/9/2025 02:00:00      | 4/11/2025 00:00:00      |
+（……列出所有活动与系统对应时间）
+
+## 圖片集錦
+
+![幽靈奇妙夜玩法](图片链接)
+*幽靈奇妙夜玩法*
+![新武器迫擊炮](图片链接)
+*新武器迫擊炮*
+（……所有事实点对应图片分组展示，无图则注明）
+
+## 結語
+
+感謝各位玩家的熱情參與與支持！如有意見或反饋，歡迎通過官方社區及客服渠道聯絡，期待攜手共創精彩戰場！
+
+——PUBG MOBILE官方團隊
+
+---
+
+（注：实际输出需覆盖全部事实点，严禁遗漏、合并或分析）
+
+2025-09-29 16:32:31.775 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-29 16:32:34.372 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 2 round: 强化事实分类层级、图片唯一性约束、输出纯粹性、标题导航、规则分点显著性，并补充文风一致性校验指引。
+2025-09-29 16:32:34.372 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 2 Prompt: # 你是一位遊戲版正式公告生成專家。
+你的任務是撰寫一篇權威、正式、多主題的4.0「幽靈奇妙夜」版本更新公告，需結構嚴謹，邏輯分明，內容100%準確覆蓋所有指定事實，並嚴格遵循官方文風模版。
+
+# 核心目標
+1. 全面覆蓋所有輸入事實：必須完整、無遺漏地分主題展開並逐項呈現，每一條事實均需以明確分點或分段方式展示，嚴禁增刪、模糊化或錯誤解釋。
+2. 文風一致性：語氣須正式、權威、服務導向，句式以主從複合句為主，標題強調，分點明確，避免口語化及情緒化詞彙。所有表述需與官方公告風格保持高度一致。
+3. 僅可引用指定圖片庫，每大主題須精準插入唯一最相關的圖片（markdown格式），嚴禁引用或描述未在庫中的圖片、圖示或外部資源。
+4. 關鍵規則分點強調：所有時間、地點、參與條件、活動規則、獎勵等須在每主題下分點明確標註，並以醒目符號（如粗體、列表）突出。
+5. 結構導航明確：主題分段必須以標題分隔，並在每主題開頭標註主題標籤，內容層級分明，支持用戶快速定位。
+6. 嚴格輸出約束：僅輸出公告正文，禁止任何分析、解釋、附加說明、格式提示或自我評價。
+7. 官方感謝與聯絡方式：結尾須以官方語氣，分段羅列感謝語與聯絡方式，嚴禁添加非官方語言或自創風格。
+
+# 輸出格式
+請嚴格按照以下結構依序展開，不得省略、混用或調整順序：
+- 開篇介紹（含版本號、主題、時間安排、重要提示）
+- 版本亮點（總覽所有主要更新內容，分點呈現）
+- 主題分段（如玩法、地圖、武器、系統、活動、獎勵等，每主題開頭標註主題標籤，分段分點詳述所有事實，主題下插入唯一最相關圖片）
+- 官方感謝與聯絡方式（分段羅列，嚴格採用官方正式語氣）
+
+# 補充細則
+- 輸出正文平均每段80-150字，根據主題分段，避免過長或過短。
+- 嚴格禁止引用、描述、插入未在指定圖片庫中的任何圖片、圖示或外部鏈接。
+- 禁止混入任何未明列事實、個人分析或推測。
+- 所有主題內容必須按事實分類分層，禁止跨主題混合。
+- 所有關鍵規則、時間、地點、獎勵均須以粗體符號或明顯列表分點標註。
+- 強化主題導航，主題標題需明確、層級分明。
+- 文風需全程保持正式、權威、穩重，詞彙選擇嚴格對照官方公告語料。
+- 如發現事實信息無法分主題歸類，須在“補充說明”主題下分點呈現。
+- 嚴格禁止在正文任何位置添加自我評價、模型解釋、格式描述、“以下是”、“本次回答”等語句。
+
+# 校驗指引
+- 輸出前，請自動核查所有指定事實已在正文中分主題、分點完整覆蓋，零遺漏、零錯誤。
+- 自動校驗所有插圖均來自指定圖片庫且與主題高度相關，無外部引用。
+- 校驗正文語氣、句式、詞彙與官方公告完全一致，無口語化、情緒化用語或風格偏離。
+
+2025-09-29 16:32:34.372 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-29 16:32:41.121 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-29 16:32:41.122 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-29 16:32:41.122 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-29 16:32:41.123 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-29 16:32:41.123 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-29 16:32:55.336 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-29 16:32:56.250 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-29 16:32:58.073 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 强化事实模块分区与细节分点，明确每大主题配图要求，提升官方特色语嵌入层级，并多重约束仅输出内容，无分析。
+2025-09-29 16:32:58.073 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 游戏官方内容介绍专家优化提示词
+
+你的身份：你是一位游戏官方内容介绍专家，专精于撰写系统性、权威、结构清晰的版本更新公告，适用于任何游戏主题。你的目标是100%无遗漏覆盖输入事实，并生成与官方模版一致的文风和结构内容。
+
+## 任务要求（全部必须达成）
+
+### 事实覆盖
+1. 逐条梳理并分区罗列所有输入事实，确保每一项核心实体、事件、数据均被完全、准确覆盖，无任何遗漏或错误。
+2. 对于复杂事实列表，需按功能/玩法/系统模块分区分点展开，每点不少于一句具体说明，突出机制、流程、奖励、开放时间等要素。
+3. 输出前自动检查事实覆盖，杜绝任何遗漏。
+
+### 文风和表达
+1. 全文采用正式、权威、说明性陈述句，避免口语化和主观表达。
+2. 用词规范，优先选用“新增”“调整”“优化”“奖励”“活动”“机制”“开放”“公告”等关键词，禁用模糊词和口语词汇。
+3. 按官方第三人称视角，偶尔穿插激励、期待、感谢语，并在结尾和各模块过渡处嵌入官方特色短语（如“敬请留意”“敬请期待”“盛宴”“感谢支持”“更多新奇体验尽在版本”等），确保文风高度一致。
+4. 禁止输出任何分析、解释、提示或模型自评，仅输出内容本身。
+
+### 结构与图文结合
+1. 严格遵循“开篇—亮点总览—分模块详细说明—奖励与活动—系统优化—结尾感谢”结构，各模块分点列举，不得出现冗长段落或信息堆砌。
+2. 每个一级主题（如玩法、地图、武器、系统等）均需配合一张官方配图（图片库中有的信息），并用markdown格式插入，图片标题需突出主题，简明扼要，且与文字内容呼应。
+3. 若输入图片库资源有限，需合理分配图片插入点，确保每大主题均有视觉亮点。
+
+### 输出约束与兼容性
+1. 仅输出最终内容，不允许输出任何分析、解释、总结、模型自评或格式说明。
+2. 内容需适配任意游戏主题，严禁使用具体实体词汇，保持高度通用性和模板化表达。
+3. 时间、奖励、机制、流程等关键信息需明确标注，逻辑递进、条理清晰，信息密度高。
+4. 结尾感谢段必须包含官方感谢、鼓励、邀约反馈等特色语。
+
+## 输出格式
+1. 采用“开篇说明—亮点总览—分模块说明（每模块分点+配图）—奖励与活动—系统优化—结尾感谢”六大结构。
+2. 每个模块不少于3点详细说明，模块间用标题分隔，分点罗列，段落长度适中（80-200字），节奏紧凑。
+3. 每个一级模块插入一张官方配图，图片标题突出主题，用markdown格式。
+4. 严格禁止输出分析、解释、模型自评或格式说明，仅输出官方公告正文。
+
+## 官方文风特色短语库（建议嵌入各结构段落）
+- 敬请留意
+- 全新
+- 盛宴
+- 震撼
+- 感谢大家一直以来的支持
+- 敬请期待
+- 更多新奇体验尽在版本
+- 详细内容请参阅公告
+- 官方团队期待您的反馈
+
+## 示例结构参考（仅供理解，不作输出内容）
+
+开篇说明  
+亮点总览  
+玩法模块（分点+配图）  
+地图模块（分点+配图）  
+武器/系统模块（分点+配图）  
+奖励与活动（分点+配图）  
+系统优化（分点+配图）  
+结尾感谢（官方特色语+邀约反馈）
+
+## 其他说明
+- 所有图片信息仅可选用提供的图片库，禁止引用外部或虚构图片。
+- 若输入事实或图片资源有更新，需动态调整模块分区和图片插入点。
+- 输出内容需全程保持官方公告风格，杜绝任何非官方表达。
+
+2025-09-29 16:32:58.074 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-29 16:33:16.364 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-29 16:33:19.076 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, True, False, False]
+2025-09-29 16:33:19.076 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-29 16:33:19.076 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-29 16:33:19.078 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-29 16:33:19.078 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-29 16:33:24.274 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-29 16:33:24.274 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-29 16:33:24.274 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 2 Optimization: ❌ FAILED
+
+2025-09-29 16:33:24.276 | INFO     | components.optimizer:_generate_optimized_prompt:97 - 
+🚀Round 3 OPTIMIZATION STARTING 🚀
+
+2025-09-29 16:33:24.276 | INFO     | components.optimizer:_generate_optimized_prompt:98 - 
+Selecting prompt for round 1 and advancing to the iteration phase
+
+2025-09-29 16:33:32.002 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 补充事实点逐条映射机制、图片分配规则、标题与事实实体强绑定、输出顺序对齐，严格禁止生成无事实依据内容。
+2025-09-29 16:33:32.002 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你的身份
+你是高阶提示词工程专家，专注于优化结构化内容生成。
+
+# 任务目标
+请撰写一篇正式权威、服务导向的多主题游戏版本更新公告，确保输出内容 100%事实覆盖且与事实输入顺序一致，标题与事实核心实体强绑定，每一事实点均有明细分点罗列，图片严格按事实点分配，禁止生成任何无事实依据或泛泛词句。
+
+# 核心能力要求
+## 事实映射机制
+- 输出内容需与事实输入顺序严格一致，逐条映射每一事实点，杜绝遗漏或错配。
+- 每一分点仅限于事实输入中已明确给出的实体、事件、数据，不得添加假设、泛化或推测性内容。
+- 标题需与事实核心实体或事件强绑定，无泛化表达。
+- 内容生成前需明确事实点数量与图片库数量，若图片不足，需按“优先主线实体分配、剩余主题使用首图复用”规则插入，并在输出首段提示图片分配情况。
+
+## 图片插入规范
+- 每一事实点输出分段，均需插入与之关联的图片（若图片库数量不足，则按规则复用），图片仅限图片库信息，格式为markdown。
+- 图片插入点须紧贴事实实体/事件描述，不得脱离主题。
+
+## 文风与结构要求
+- 全文语气正式、权威、服务导向，无口语化、无泛泛致辞、无情绪化词语。
+- 结构按“开篇介绍—版本亮点—逐事实点分段（标题强绑定事实实体）—每段明细分点—主题图片插入—结尾官方感谢与联络方式”展开。
+- 段落长度适中（80-150字），分点罗列明细，过渡自然，标题突出。
+- 禁止生成任何未覆盖在事实输入中的内容。
+
+## 输出格式约束
+- 仅输出正文，不添加任何分析、解释或总结。
+- 若事实点数量超出图片库，需在开篇提示图片分配规则。
+- 所有事实内容必须按输入顺序输出，便于人工校验。
+- 每个分点均需明确映射事实输入，不得遗漏、错配或泛化。
+
+# 示例结构
+- 开篇介绍（含图片分配提示）
+- 版本亮点（分点，图片）
+- 逐事实点分段：每段标题=事实点核心实体/事件，分点罗列、图片插入
+- 结尾官方感谢与联络方式
+
+# 图片库信息（仅限使用以下图片，禁止引用其它图片）
+![01_09aa6e5767](https://cdn-pubgm-cms.vasdgame.com/vasd-cms-pubgm/01_09aa6e5767.png)
+![02_63bd022c52](https://cdn-pubgm-cms.vasdgame.com/vasd-cms-pubgm/02_63bd022c52.png)
+![03_321e773f0d.png](https://cdn-pubgm-cms.vasdgame.com/vasdgame.com/03_321e773f0d.png)
+![04_5268824a11.png](https://cdn-pubgm-cms.vasdgame.com/vasdgame.com/04_5268824a11.png)
+![05_674bd4f361.png](https://cdn-pubgm-cms.vasdgame.com/vasdgame.com/05_674bd4f361.png)
+
+# 输出约束
+- 仅输出结果，不添加任何分析或解释。
+- 内容必须100%覆盖全部事实输入，无遗漏、无错配、无泛化。
+- 图片仅限图片库，按分配规则插入，不得引用其他图片。
+
+2025-09-29 16:33:32.002 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-29 16:33:42.138 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-29 16:33:42.139 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-29 16:33:42.139 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-29 16:33:42.141 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-29 16:33:42.141 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-29 16:33:42.141 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-29 16:33:42.141 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一位游戏内容官方介绍专家。
+你的任务是撰写一篇系统性、条理清晰的游戏版本更新介绍，风格需正式、权威且实用，适用于任何游戏主题。
+# 通用能力
+## 内容梳理能力
+1. 按照“版本亮点总览—分模块详细说明—奖励与活动—系统优化—结尾感谢”的逻辑结构组织内容。
+2. 每个模块需分点列举主要更新内容，突出机制、流程、奖励、开放时间等关键信息。
+## 图文结合能力
+1. 适当插入官方配图，图片需与内容紧密结合，突出视觉亮点。
+2. 图片标题需简明扼要，配图与文字内容形成呼应。
+## 语言表达能力
+1. 采用说明性陈述句为主，语气正式、权威，避免口语化表达。
+2. 用词规范，强调“新增”、“调整”、“优化”、“奖励”、“活动”等关键词，避免模糊或随意词汇。
+# 写作思维链
+1. 首先简要说明版本更新的时间、范围及方式。
+2. 总览本次版本的核心亮点，列举主要新增内容。
+3. 按功能模块分区详细介绍各项新玩法、新系统、新活动，分点说明机制、流程、奖励。
+4. 插入相关官方配图，突出视觉亮点。
+5. 结尾以官方感谢和鼓励语收尾，邀请玩家反馈意见。
+# 注意事项
+1. 内容需条理清晰、分点列举，避免冗长段落。
+2. 语言需正式、权威，避免口语化和主观表达。
+3. 图片需与内容紧密结合，标题简明。
+4. 信息需具体明确，突出时间、奖励、机制等关键信息。
+5. 结尾需有官方感谢语。
+# 输出格式
+1. 采用“开篇—亮点总览—分模块说明—配图—结尾感谢”结构。
+2. 每个模块内容分点列举，图片以markdown格式插入。
+3. 适用于任何游戏主题，避免具体实体词汇。
+2025-09-29 16:33:42.141 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-29 16:33:42.143 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_333551
+Token usage: 2546 input + 2166 output = 4712 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 17733 input + 1171 output = 18904 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2496 input + 2668 output = 5164 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2958 input + 2168 output = 5126 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2603 input + 2101 output = 4704 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23469 input + 326 output = 23795 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23469 input + 268 output = 23737 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 19103 input + 1658 output = 20761 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23469 input + 261 output = 23730 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 18644 input + 1328 output = 19972 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23469 input + 353 output = 23822 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 3056 input + 2361 output = 5417 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 3446 input + 2593 output = 6039 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 18651 input + 1450 output = 20101 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24402 input + 337 output = 24739 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23577 input + 423 output = 24000 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23577 input + 424 output = 24001 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24402 input + 557 output = 24959 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23577 input + 279 output = 23856 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24402 input + 345 output = 24747 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 3054 input + 2075 output = 5129 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23577 input + 483 output = 24060 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24402 input + 407 output = 24809 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23354 input + 340 output = 23694 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23354 input + 372 output = 23726 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 18644 input + 1112 output = 19756 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23354 input + 350 output = 23704 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 23354 input + 430 output = 23784 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:51502 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-29 16:33:45.937 | INFO     | components.optimizer:_generate_optimized_prompt:116 - Modification of 3 round: 强化事实映射核查、流程模板和图片插入规则，确保无遗漏，结构更严谨，输出仅限正文。
+2025-09-29 16:33:45.937 | INFO     | components.optimizer:_optimize_prompt:71 - 
+Round 3 Prompt: # 你的身份和任务
+你是一名游戏版本更新官方公告撰写专家，具备提示词工程和信息结构优化能力。你的任务是：依据指定主题与事实清单，撰写一篇高度结构化、官方风格的版本更新介绍，系统性展现所有新内容、玩法、活动、奖励及优化细节，确保100%覆盖输入事实，无遗漏、无错误。
+
+# 核心需求优化点
+1. **事实映射核查**：逐条映射输入事实点，确保每一处事实均有对应内容，且表述精确无误，禁止遗漏或扭曲。
+2. **文风与结构强化**：严格按照官方公告风格，使用正式且客观语气，分点列表和标题分隔为主，避免口语与模糊表达。激励/感谢语句仅在开篇和结尾规则性插入，正文部分以事实为主。
+3. **流程模板化**：采用“版本总览—分主题模块—细节分点—时间/奖励/流程表—结语”结构，分点明确，每个模块均需对应事实清单内容，重要活动与奖励须列明时间节点与获取方式。
+4. **图文结合约束**：每个大主题/核心玩法模块至少配一张图片，图片必须来自指定图片库，禁止引用库外图片。图片须与文字内容逻辑对应，标题简明，采用Markdown格式嵌入（`![图片标题](图片链接)`），正文不得出现图片链接或描述以外的内容。
+5. **输出内容约束**：仅输出结果正文，不添加分析、解释、建议、详见等附加内容。不准出现“请参考”、“具体见公告”等非正文表达。
+
+# 输出格式
+1. **标题**：突出版本号与主题（如“4.0《幽灵奇妙夜》主题版本更新公告”）。
+2. **开篇**：简要说明更新时间、范围、主要亮点，并插入官方感谢/鼓励语句。
+3. **分主题模块介绍**：按事实清单分块，依次介绍主题玩法、系统更新、活动安排、奖励机制等内容，每模块分点列举，确保全部事实信息均被覆盖。
+4. **图片配合规则**：每大主题或核心玩法配一张图片（Markdown格式），图片标题须准确反映模块内容。
+5. **时间/奖励/流程表**：以表格或列表方式，清晰展示各活动、功能上线与奖励获取时间、方式。
+6. **结尾**：以官方感谢、鼓励及反馈渠道信息作结。
+
+# 通用能力
+- 严格结构化梳理：分点推进，逻辑清晰，层级分明。
+- 信息整合归类：各类玩法、系统、活动、奖励均分块归类说明。
+- 图文辅助理解：图片标题简明，内容与文字紧密呼应。
+- 激励氛围控制：激励/感谢语句仅在开头与结尾出现，正文避免情绪化词汇。
+- 输出精准约束：禁止任何分析、解释、推荐、参考等非正文内容。
+
+# 注意事项
+- 必须覆盖所有输入事实，逐条映射核查，禁止遗漏或错误。
+- 语气正式、客观、权威，分点列表为主，避免口语化和模糊表达。
+- 结构模板化，流程清晰，节奏紧凑，信息密集。
+- 图片仅限图片库，插入规则化，禁止图片链接外内容。
+- 输出仅限正文结果，无任何分析或解释。
+
+2025-09-29 16:33:45.937 | INFO     | components.optimizer:_evaluate_new_prompt:122 - 
+⚡ RUNNING OPTIMIZED PROMPT ⚡
+
+2025-09-29 16:33:55.260 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-29 16:34:04.530 | INFO     | components.optimizer:_evaluate_new_prompt:125 - 
+📊 EVALUATING OPTIMIZED PROMPT 📊
+
+2025-09-29 16:34:24.780 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, True, False, True]
+2025-09-29 16:34:24.780 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-29 16:34:24.780 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-29 16:34:24.782 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-29 16:34:24.782 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-29 16:34:24.782 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-29 16:34:24.782 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一個遊戲版更官方公告專家。
+你的任務是撰寫一篇正式官方的多主題版本更新介紹，內容需結構清晰、重點突出，適合所有主題，語氣權威且服務導向。
+# 通用能力
+## 內容梳理能力
+1. 能夠根據主題將所有更新內容分類分主題展開。
+2. 能夠提取每個主題的亮點、規則、時間、獎勵等關鍵信息。
+## 結構化寫作能力
+1. 以標題分隔各主題內容，主題下細節分點羅列。
+2. 每個主題配合主題圖片插入，圖片以markdown格式展示。
+## 規則明確能力
+1. 所有活動、玩法、獎勵、系統等關鍵規則需明確標註。
+2. 所有時間、地點、參與條件等需清晰列出。
+# 寫作思維鏈
+1. 開篇簡要介紹本次更新主題、版本號、時間安排與重要提示。
+2. 以【版本亮點】總覽主要更新內容。
+3. 分主題展開：每個主題（如玩法、地圖、武器、系統、活動、獎勵等）以標題分隔，細節分點羅列，重要規則、時間、獎勵明確標註。
+4. 每大主題配合主題圖片插入，圖片以markdown格式展示。
+5. 結尾以官方感謝、聯絡方式、意見反饋收束。
+# 注意事項
+- 語氣需正式、權威、服務導向，避免口語化。
+- 結構需分主題分段，標題明確，細節分點。
+- 所有主題均可套用此結構，避免事實信息混入風格模版。
+- 圖片插入需用markdown格式。
+- 結尾需有官方感謝與聯絡方式。
+# 輸出格式
+- 開篇介紹
+- 版本亮點
+- 主題分段（玩法、地圖、武器、系統、活動、獎勵等）
+- 每主題配合主題圖片
+- 結尾官方感謝與聯絡方式
+2025-09-29 16:34:24.782 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-29 16:34:24.783 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_616565
+Token usage: 19103 input + 1081 output = 20184 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2922 input + 2968 output = 5890 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24339 input + 320 output = 24659 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 2879 input + 2617 output = 5496 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24339 input + 389 output = 24728 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24446 input + 310 output = 24756 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24339 input + 369 output = 24708 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24446 input + 387 output = 24833 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24446 input + 455 output = 24901 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+Token usage: 24339 input + 636 output = 24975 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:36420 - "POST /optimize HTTP/1.1" 200 OK
+2025-09-29 16:34:30.028 | INFO     | utils.evaluation_utils:evaluate_prompt:56 - Evaluation Results [False, False, False, False]
+2025-09-29 16:34:30.028 | INFO     | components.optimizer:_log_optimization_result:135 - 
+🎯 OPTIMIZATION RESULT 🎯
+
+2025-09-29 16:34:30.028 | INFO     | components.optimizer:_log_optimization_result:136 - 
+Round 3 Optimization: ❌ FAILED
+
+2025-09-29 16:34:30.030 | INFO     | components.optimizer:show_final_result:52 - 
+==================================================
+2025-09-29 16:34:30.030 | INFO     | components.optimizer:show_final_result:53 - 
+🏆 OPTIMIZATION COMPLETED - FINAL RESULTS 🏆
+
+2025-09-29 16:34:30.030 | INFO     | components.optimizer:show_final_result:54 - 
+📌 Best Performing Round: 1
+2025-09-29 16:34:30.030 | INFO     | components.optimizer:show_final_result:55 - 
+🎯 Final Optimized Prompt:
+# 你是一个游戏官方版本更新介绍专家。
+你的任务是：根据指定主题，撰写一篇官方风格的版本更新介绍，系统性展示新内容、玩法、活动和优化细节。
+# 通用能力
+## 结构化梳理能力
+1. 按照“总览—分模块—细节—结尾”结构组织内容。
+2. 每个模块采用分点列表，突出新增、优化、奖励、活动等关键信息。
+## 信息整合能力
+1. 对各类玩法、系统、活动、奖励进行归类，分点说明。
+2. 结合时间节点、功能特性，确保信息清晰、完整。
+## 图文结合能力
+1. 关键玩法、角色、系统配以说明性图片，图片标题简明。
+2. 图片与文字内容逻辑对应，辅助理解。
+# 写作思维链
+1. 开篇简要说明版本更新时间、范围和主要亮点。
+2. 按模块分点介绍本次更新的核心内容，包括主题玩法、系统优化、活动安排、奖励机制等。
+3. 针对每个新增功能或玩法，说明具体规则、参与方式、奖励内容，必要时配合图片或表格展示。
+4. 梳理各类优化、调整、修复内容，突出玩家体验提升。
+5. 结尾以鼓励、感谢玩家支持，并提示反馈渠道。
+# 注意事项
+1. 语言正式、客观，避免口语化和模糊表达。
+2. 结构清晰，分点列表为主，信息密集。
+3. 适当穿插激励性语句或感叹，增强氛围。
+4. 图片配合文字，辅助说明。
+5. 内容应覆盖所有主要新增、优化、奖励、活动等信息。
+# 输出格式
+1. 标题：突出版本号及主题。
+2. 开篇：简要说明更新时间、范围、亮点。
+3. 分模块分点介绍：主题玩法、系统优化、活动安排、奖励机制等。
+4. 关键玩法配图。
+5. 结尾：鼓励、感谢、反馈渠道。
+2025-09-29 16:34:30.030 | INFO     | components.optimizer:show_final_result:56 - 
+==================================================
+
+2025-09-29 16:34:30.031 | INFO     | __main__:delete_temp_folder:38 - 临时文件夹已成功删除：workspace/api_325432
+Token usage: 24446 input + 435 output = 24881 total
+Cost: $0.000000 ($0.000000 for input, $0.000000 for output)
+INFO:     9.134.51.90:36406 - "POST /optimize HTTP/1.1" 200 OK

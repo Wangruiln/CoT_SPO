@@ -34,7 +34,8 @@ class StyleFeatureOutput(BaseModel):
     fact_info: Optional[str] = None  # 事实信息
     image: Optional[str] = None  # 图片链接
     CoT: Optional[str] = None  # 写作思维链
-    template: Optional[Dict[str, Any]] = None  # 模版
+    template_title: Optional[str] = None  # 模版标题
+    template_part: Optional[list[str]] = None  # 模版内容分部分描述
     template_label: Optional[list[str]] = None  # 模版标签
     prompt: Optional[str] = None  # 写作提示词
 
@@ -57,7 +58,8 @@ async def extract_style(input_data: ArticleInput):
                 "fact_info": None,
                 "image": None,
                 "CoT": None,
-                "template": None,
+                "template_title": None,
+                "template_part": None,
                 "template_label": None,
                 "prompt": None
             }
@@ -77,7 +79,8 @@ async def extract_style(input_data: ArticleInput):
                 "fact_info": None,
                 "image": None,
                 "CoT": None,
-                "template": None,
+                "template_title": None,
+                "template_part": None,
                 "template_label": None,
                 "prompt": None
             }
@@ -88,9 +91,9 @@ async def extract_style(input_data: ArticleInput):
         fact_info = result.get("fact_info", "")
         image = result.get("image", "")
         CoT = result.get("CoT", "")
-        template = result.get("template", {})
-        json.dumps(template)  # 测试是否可序列化
-        template_label = result.get("template_label", "")
+        template_title = result.get("template_title", "")
+        template_part = result.get("template_part", [])
+        template_label = result.get("template_label", [])
         prompt = result.get("prompt", "")
         # 成功时返回ret_code=0和数据
         return {
@@ -103,7 +106,8 @@ async def extract_style(input_data: ArticleInput):
             "fact_info": fact_info,
             "image": image,
             "CoT": CoT,
-            "template": template,
+            "template_title": template_title,
+            "template_part": template_part,
             "template_label": template_label,
             "prompt": prompt
         }
