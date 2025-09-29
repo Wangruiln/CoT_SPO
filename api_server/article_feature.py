@@ -28,12 +28,14 @@ class StyleFeatureOutput(BaseModel):
     ret_code: int = 0  # 0代表成功
     msg: str = ""      # 错误信息
     style_summary: Optional[str] = None  # 风格概括
+    style_category: Optional[str] = None  # 风格分类
     style_label: Optional[list[str]] = None    # 风格标签
     style: Optional[Dict[str, Any]] = None  # 多维度风格特征
     fact_info: Optional[str] = None  # 事实信息
     image: Optional[str] = None  # 图片链接
     CoT: Optional[str] = None  # 写作思维链
     template: Optional[Dict[str, Any]] = None  # 模版
+    template_label: Optional[list[str]] = None  # 模版标签
     prompt: Optional[str] = None  # 写作提示词
 
 
@@ -49,12 +51,14 @@ async def extract_style(input_data: ArticleInput):
                 "ret_code": 1,
                 "msg": "输入文本不能为空",
                 "style_summary": None,
+                "style_category": None,
                 "style_label": None,
                 "style": None,
                 "fact_info": None,
                 "image": None,
                 "CoT": None,
                 "template": None,
+                "template_label": None,
                 "prompt": None
             }
         extra = input_data.extra if input_data.extra else None
@@ -67,34 +71,40 @@ async def extract_style(input_data: ArticleInput):
                 "ret_code": 1,
                 "msg": "文风特征提取失败",
                 "style_summary": None,
+                "style_category": None,
                 "style_label": None,
                 "style": None,
                 "fact_info": None,
                 "image": None,
                 "CoT": None,
                 "template": None,
+                "template_label": None,
                 "prompt": None
             }
         style_summary = result.get("style_summary", "")
-        style_label = result.get("style_label", "") 
+        style_category = result.get("style_category", "")
+        style_label = result.get("style_label", "")
         style = result.get("style", {})
         fact_info = result.get("fact_info", "")
         image = result.get("image", "")
         CoT = result.get("CoT", "")
         template = result.get("template", {})
         json.dumps(template)  # 测试是否可序列化
+        template_label = result.get("template_label", "")
         prompt = result.get("prompt", "")
         # 成功时返回ret_code=0和数据
         return {
             "ret_code": 0,
             "msg": "",
             "style_summary": style_summary,
+            "style_category": style_category,
             "style_label": style_label,
             "style": style,
             "fact_info": fact_info,
             "image": image,
             "CoT": CoT,
             "template": template,
+            "template_label": template_label,
             "prompt": prompt
         }
     except Exception as e:
@@ -103,12 +113,14 @@ async def extract_style(input_data: ArticleInput):
             "ret_code": 1,
             "msg": f"处理失败: {str(e)}",
             "style_summary": None,
+            "style_category": None,
             "style_label": None,
             "style": None,
             "fact_info": None,
             "image": None,
             "CoT": None,
             "template": None,
+            "template_label": None,
             "prompt": None
         }
 
